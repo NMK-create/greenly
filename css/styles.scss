@@ -9,9 +9,17 @@ $link-decoration: none;
 @import "../node_modules/bootstrap/scss/variables-dark";
 
 // 4. Include any default map overrides here
+
+
 $custom-colors: (
-	"farve": $cyan-400,
+				"BNCpri": #074047,
+				"BNCsec": #A8896C,
+				"BNCacc": #4A6C2F,
+				"BNCbg": #F5F7F6,
+
 );
+
+
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
@@ -19,3 +27,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // 5. Du kan lave styling her...
 
+.display {
+	font-family: "merriweather", bold;
+}
