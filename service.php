@@ -30,9 +30,14 @@ require "settings/init.php";
 <body>
 <?php include("includes/navbar.php") ?>
 
-<h1>TEST 🥳</h1>
-<h2>TEST 🥳</h2>
-<p>Test - TEST - test</p>
+
+<main>
+    <div class="container-fluid bg-body-secondary">
+        <h1>TEST 🥳</h1>
+        <h2>TEST 🥳</h2>
+        <p>Test - TEST - test</p>
+    </div>
+</main>
 
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
