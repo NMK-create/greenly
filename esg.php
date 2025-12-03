@@ -43,14 +43,14 @@ require "settings/init.php";
         <div>
             <h1 class="mb-3">ESG</h1>
             <p>
-                ESG står for <strong>Environmental (miljø)</strong>, <strong>Social (sociale forhold)</strong> og <strong>Governance (god selskabsledelse)</strong>. 
+                ESG står for <strong>Environmental (miljø)</strong>, <strong>Social (sociale forhold)</strong> og <strong>Governance (god selskabsledelse)</strong>.
                 ESG er et sæt kriterier, der skaber en ramme for virksomheder, som egner sig til at blive en del af virksomheders strategi. Det måler hvordan en virksomhed skaber værdi for alle organisatoriske interessenter, som medarbejdere, kunder, leverandører og finansfolk.  Samarbejdspartnere og investorer kan vurdere jeres virksomhed ud fra en ESG-optik.
                 Mange steder, så har ESG taget over efter CSR samt suppleret eller erstatter SDG.
             </p>
         </div>
     </section>
 
-    <!--indsæt forklaring omkring ESG og indsæt infografik-->
+    <!--ESG og infografik-->
     <article class="container">
         <section aria-labelledby="environmental/miljø">
             <h2 id="environmental/miljø">Environmental / Miljø</h2>

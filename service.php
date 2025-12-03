@@ -49,13 +49,13 @@ require "settings/init.php";
         </p>
         <div>
            <button type="button" class="btn btn-BNCacc">
-               <i class="fa-solid fa-wheelchair"></i> Webtilgængelighed
+               <i class="fa-solid fa-wheelchair" aria-hidden="true"></i> Webtilgængelighed
            </button>
            <button type="button" class="btn btn-BNCacc">
-               <i class="fa-solid fa-leaf"></i> Bæredygtig kommunikation
+               <i class="fa-solid fa-leaf" aria-hidden="true"></i> Bæredygtig kommunikation
            </button>
            <button type="button" class="btn btn-BNCacc">
-               <i class="fa-solid fa-user-tie"></i> Rådgivning
+               <i class="fa-solid fa-user-tie" aria-hidden="true"></i> Rådgivning
            </button>
         </div>
     </section>
