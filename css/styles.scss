@@ -76,4 +76,15 @@ h3 {
 
 .nav-link {
   padding: 0.5rem;
+  color: #F5F7F6;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #d6f1f3;
+  text-decoration: underline;
+}
+
+.navbar-brand img {
+  height: 80px;
 }

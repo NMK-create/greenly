@@ -29,14 +29,17 @@ require "settings/init.php";
 </head>
 
 <body>
-<?php include("includes/navbar.php") ?>
+<!--indeholder navbar-->
+<header>
+    <?php include("includes/navbar.php") ?>
+</header>
 
 <!--Skip to content-->
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 
 <main tabindex="-1">
     <!--hero H1 med tekst vedr service-->
-    <header class="container my-5">
+    <section class="container my-5">
         <h1>Services</h1>
         <p>
             Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
@@ -55,7 +58,7 @@ require "settings/init.php";
                <i class="fa-solid fa-user-tie"></i> Rådgivning
            </button>
         </div>
-    </header>
+    </section>
 
     <!--hvorfor sektion-->
     <section class="container">
