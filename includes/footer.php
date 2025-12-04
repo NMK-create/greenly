@@ -5,6 +5,7 @@
             <li class="nav-item"><a class="nav-link" href="esg.php">ESG</a></li>
             <li class="nav-item"><a class="nav-link" href="dei.php">DEI</a></li>
         </ul>
+        <div class="container-fluid footer-card"><p class="justify-content-start">&copy; 2025 Greenly.</p></div>
     </nav>
-    <div class="container text-center"><p class="text-center mb-0">&copy; 2025 Greenly.</p></div>
+
 </footer>

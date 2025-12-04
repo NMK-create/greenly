@@ -22,7 +22,7 @@
 
                 <li class="nav-item">
                     <a class="nav-link"
-                       href="omos.php">Om os</a>
+                       href="om-os.php">Om os</a>
                 </li>
 
                 <li class="nav-item">
