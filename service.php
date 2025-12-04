@@ -48,13 +48,13 @@ require "settings/init.php";
             som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.
         </p>
         <div>
-           <button type="button" class="btn btn-BNCacc">
+           <button type="button" class="btn btn-BNCsec">
                <i class="fa-solid fa-wheelchair" aria-hidden="true"></i> Webtilgængelighed
            </button>
-           <button type="button" class="btn btn-BNCacc">
+           <button type="button" class="btn btn-BNCsec">
                <i class="fa-solid fa-leaf" aria-hidden="true"></i> Bæredygtig kommunikation
            </button>
-           <button type="button" class="btn btn-BNCacc">
+           <button type="button" class="btn btn-BNCsec">
                <i class="fa-solid fa-user-tie" aria-hidden="true"></i> Rådgivning
            </button>
         </div>
