@@ -100,43 +100,42 @@ h3 {
   color: #d6f1f3;
 }
 
-//contrast report
-.contrast-report {
-  background-color: #f8f8f8;
-  color: #1a1d20;
-  border-radius: 0.5rem;
-  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.08);
-}
-
-.contrast-report table th,
-.contrast-report table td {
-  vertical-align: middle;
-}
-
-.contrast-report table td {
-  font-size: 0.875rem;
-}
-
 //Her er det dark mode
-[data-theme="dark"] body {
-  background-color: #121212;
-  color: #f5f5f5;
+/* Dark Mode Styles */
+#theme-toggle {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
 }
 
-[data-theme="dark"] .navbar {
+body.dark-mode {
+  background: #0A0A0A;
+  color: #F5F7F6;
+}
+
+
+body.dark-mode .navbar {
+  background-color: #074047;
+  color: #F5F7F6;
+}
+
+
+body.dark-mode .nav-link {
+  color: #F5F7F6;
+}
+
+
+body.dark-mode .footer {
+  background-color: #074047;
+  color: #F5F7F6;
+}
+
+
+body.dark-mode .footer-card {
   background-color: #032223;
-}
-
-[data-theme="dark"] .footer {
-  background-color: #032223;
-  color: #f3f3f3;
-}
-
-[data-theme="dark"] .nav-link {
-  color: #f3f3f3;
-}
-
-[data-theme="dark"] .nav-link:hover,
-[data-theme="dark"] .nav-link:focus {
-  color: #d6f1f3;
+  color: #F5F7F6;
 }
