@@ -64,47 +64,15 @@ require "settings/init.php";
 
     <article>
         <!--de tre sektioner med de forskellige services-->
-        <div>
+        <article>
 
-        </div>
+        </article>
 
         <!--Kundeudtalelser-->
-        <div>
+        <aside>
 
-        </div>
+        </aside>
     </article>
-
-    <section id="contrast-report" aria-labelledby="contrast-report-form"
-             class="contrast-report my-5 p-3 rounded shadow-sm">
-        <h6 id="contrast-report-form">Kontrast rapport</h6>
-        <table class="table table-sm">
-            <tbody>
-            <tr>
-                <th>Element</th>
-                <th>Baggrund</th>
-                <th>Tekst</th>
-                <th>Kontrast</th>
-                <th>Resultat</th>
-            </tr>
-            </tbody>
-            <tbody>
-            <tr>
-                <td>Body tekst</td>
-                <td class="bg-color"></td>
-                <td class="text-color"></td>
-                <td class="contrast"></td>
-                <td class="result"></td>
-            </tr>
-            <tr>
-                <td>Navbar link</td>
-                <td class="bg-color"></td>
-                <td class="text-color"></td>
-                <td class="contrast"></td>
-                <td class="result"></td>
-            </tr>
-            </tbody>
-        </table>
-    </section>
 </main>
 
 <?php include("includes/footer.php") ?>
