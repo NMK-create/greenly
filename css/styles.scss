@@ -92,9 +92,51 @@ h3 {
 .footer {
   background-color: #074047;
   padding: 1rem;
+  width: 100%;
 }
 
 .footer-card {
   background-color: #032223;
+  color: #d6f1f3;
+}
+
+//contrast report
+.contrast-report {
+  background-color: #f8f8f8;
+  color: #1a1d20;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.08);
+}
+
+.contrast-report table th,
+.contrast-report table td {
+  vertical-align: middle;
+}
+
+.contrast-report table td {
+  font-size: 0.875rem;
+}
+
+//Her er det dark mode
+[data-theme="dark"] body {
+  background-color: #121212;
+  color: #f5f5f5;
+}
+
+[data-theme="dark"] .navbar {
+  background-color: #032223;
+}
+
+[data-theme="dark"] .footer {
+  background-color: #032223;
+  color: #f3f3f3;
+}
+
+[data-theme="dark"] .nav-link {
+  color: #f3f3f3;
+}
+
+[data-theme="dark"] .nav-link:hover,
+[data-theme="dark"] .nav-link:focus {
   color: #d6f1f3;
 }

@@ -29,10 +29,7 @@ require "settings/init.php";
 </head>
 
 <body>
-<!--indeholder navbar-->
-<header>
-    <?php include("includes/navbar.php") ?>
-</header>
+<?php include("includes/navbar.php") ?>
 
 <!--Skip to content-->
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
@@ -81,7 +78,7 @@ require "settings/init.php";
              class="contrast-report my-5 p-3 rounded shadow-sm">
         <h6 id="contrast-report-form">Kontrast rapport</h6>
         <table class="table table-sm">
-            <thead>
+            <tbody>
             <tr>
                 <th>Element</th>
                 <th>Baggrund</th>
@@ -89,7 +86,7 @@ require "settings/init.php";
                 <th>Kontrast</th>
                 <th>Resultat</th>
             </tr>
-            </thead>
+            </tbody>
             <tbody>
             <tr>
                 <td>Body tekst</td>
@@ -111,62 +108,6 @@ require "settings/init.php";
 </main>
 
 <?php include("includes/footer.php") ?>
-<script>
-    document.querySelectorAll('input[type="checkbox"]').forEach(box => {
-        box.addEventListener('keydown', (e) => {
-            if (e.key === "Enter") {
-                e.preventDefault();
-                box.checked = !box.checked;
-            }
-        });
-    });
-
-    function luminance(r, g, b) {
-        const a = [r, g, b].map(function (v) {
-            v /= 255;
-            return v <= 0.03928 ? v / 12.92 :
-                Math.pow((v + 0.055) / 1.055, 2.4);
-        });
-        return 0.2126 * a[0] + 0.7152 * a[1] + 0.0722 * a[2];
-    }
-
-    function contrast(rgb1, rgb2) {
-        const L1 = luminance(rgb1[0], rgb1[1], rgb1[2]);
-        const L2 = luminance(rgb2[0], rgb2[1], rgb2[2]);
-        return ((Math.max(L1, L2) + 0.05) /
-            (Math.min(L1, L2) + 0.05)).toFixed(1);
-    }
-
-    function rgbToHex(rgbString) {
-        const rgb = rgbString.match(/\d+/g).map(Number);
-        return "#" + rgb.map(v => v.toString(16).padStart(2, '0')).join('');
-    }
-
-    function updateContrastReport() {
-        const bodyStyles = getComputedStyle(document.body);
-        const navbarLink = document.querySelector('.navbar .nav-link');
-        const bodyBg = bodyStyles.backgroundColor;
-        const bodyColor = bodyStyles.color;
-        const navbarBg = getComputedStyle(navbarLink.parentElement.parentElement).backgroundColor;
-        const navbarColor = getComputedStyle(navbarLink).color;
-
-        const rows = document.querySelectorAll('#contrast-report tbody tr');
-
-        rows[0].querySelector('.bg-color').textContent = rgbToHex(bodyBg);
-        rows[0].querySelector('.text-color').textContent = rgbToHex(bodyColor);
-        const bodyContrast = contrast(bodyBg.match(/\d+/g), bodyColor.match(/\d+/g));
-        rows[0].querySelector('.contrast').textContent = bodyContrast + ':1';
-        rows[0].querySelector('.result').textContent = (bodyContrast >= 4.5) ? '✅ Bestået' : '❌ Ikke bestået';
-
-        rows[1].querySelector('.bg-color').textContent = rgbToHex(navbarBg);
-        rows[1].querySelector('.text-color').textContent = rgbToHex(navbarColor);
-        const navbarContrast = contrast(navbarBg.match(/\d+/g), navbarColor.match(/\d+/g));
-        rows[1].querySelector('.contrast').textContent = navbarContrast + ':1';
-        rows[1].querySelector('.result').textContent = (navbarContrast >= 4.5) ? '✅ Bestået' : '❌ Ikke bestået';
-    }
-
-    updateContrastReport();
-</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
