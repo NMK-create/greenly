@@ -44,22 +44,44 @@ require "settings/init.php";
             hjemmesider,
             som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.
         </p>
-        <div>
-           <button type="button" class="btn btn-BNCsec">
-               <i class="fa-solid fa-wheelchair" aria-hidden="true"></i> Webtilgængelighed
-           </button>
-           <button type="button" class="btn btn-BNCsec">
-               <i class="fa-solid fa-leaf" aria-hidden="true"></i> Bæredygtig kommunikation
-           </button>
-           <button type="button" class="btn btn-BNCsec">
-               <i class="fa-solid fa-user-tie" aria-hidden="true"></i> Rådgivning
-           </button>
-        </div>
+        <section class="btn-group" role="group" aria-label="Basic example">
+            <div class="row gx-5">
+                <button type="button" class="btn btn-BNCsec">
+                    <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
+                </button>
+                <p>Webtilgængelighed</p>
+            </div>
+            <div class="row gx-5">
+                <button type="button" class="btn btn-BNCsec">
+                    <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+                </button>
+                <p>Bæredygtig kommunikation</p>
+            </div>
+            <div class="row gx-5">
+                <button type="button" class="btn btn-BNCsec">
+                    <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
+                </button>
+                <p>Rådgivning</p>
+            </div>
+        </section>
     </section>
 
     <!--hvorfor sektion-->
-    <section class="container">
-
+    <section class="container row" tabindex="-2">
+        <figure class="col-md-6">
+            <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" class="img-fluid" loading="lazy">
+            <figcaption class="text-muted small mt-1">
+                Billede: Billede af kontor.
+                Fotograf: Raj Rana.
+            </figcaption>
+        </figure>
+        <article class="col-md-6" id="hvorfor">
+            <h2>Hvorfor?</h2>
+            <p>
+                I en tid, hvor der er mere og mere opmærksomhed på både vores klima og tilgængelighed,
+                så er det vigtigt for dig, som virksomhed, at du følger med tiden.
+            </p>
+        </article>
     </section>
 
     <article>
