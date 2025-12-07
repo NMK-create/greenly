@@ -85,7 +85,7 @@ h3 {
 }
 
 .navbar-brand img {
-  height: 80px;
+  height: 5rem;
 }
 
 //footer
@@ -144,4 +144,8 @@ body.dark-mode .footer-card {
 
 .btn-group {
   margin: 1rem;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }

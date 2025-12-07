@@ -34,7 +34,7 @@ require "settings/init.php";
 <!--Skip to content-->
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 
-<main tabindex="-1">
+<main id="main" tabindex="-1">
     <!--hero H1 med tekst vedr service-->
     <section class="container my-5">
         <h1>Services</h1>
@@ -44,32 +44,32 @@ require "settings/init.php";
             hjemmesider,
             som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.
         </p>
-        <section class="btn-group" role="group" aria-label="Basic example">
-            <div class="row gx-5">
-                <button type="button" class="btn btn-BNCsec">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <div class="row gx-5 me-2">
+                <button type="button" class="btn btn-BNCsec row">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
+                    Webtilgængelighed
                 </button>
-                <p>Webtilgængelighed</p>
             </div>
-            <div class="row gx-5">
-                <button type="button" class="btn btn-BNCsec">
+            <div class="row gx-5 me-2">
+                <button type="button" class="btn btn-BNCsec row">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
+                    Bæredygtig kommunikation
                 </button>
-                <p>Bæredygtig kommunikation</p>
             </div>
-            <div class="row gx-5">
-                <button type="button" class="btn btn-BNCsec">
+            <div class="row gx-5 me-2">
+                <button type="button" class="btn btn-BNCsec row">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
+                    Rådgivning
                 </button>
-                <p>Rådgivning</p>
             </div>
-        </section>
+        </div>
     </section>
 
     <!--hvorfor sektion-->
-    <section class="container row" tabindex="-2">
+    <section class="container row">
         <figure class="col-md-6">
-            <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" class="img-fluid" loading="lazy">
+            <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" loading="lazy">
             <figcaption class="text-muted small mt-1">
                 Billede: Billede af kontor.
                 Fotograf: Raj Rana.
@@ -84,16 +84,94 @@ require "settings/init.php";
         </article>
     </section>
 
-    <article>
-        <!--de tre sektioner med de forskellige services-->
+    <!--de tre sektioner med de forskellige services-->
+    <section class="container">
         <article>
-
+            <h3>Webtilgængelighed</h3>
+            <p>
+                D. 28. juni 2025 trådte de nye regler fra EU i kraft vedrørende digital tilgængelighed og gælder
+                digitale produkter og tjenesteydelse.
+                Loven kommer til at påvirker både private virksomheder og offentlige udbydere, hvis de bruger følgende
+                produkter eller tjenester:
+            </p>
+            <table class="table table-striped">
+                <tr>
+                    <td>E-handel og websites</td>
+                    <td>Transport og billetkøb</td>
+                </tr>
+                <tr>
+                    <td>Selvbetjeningsautomater</td>
+                    <td>E-bøger og medieindhold</td>
+                </tr>
+                <tr>
+                    <td>Bank, betaling og forsikring</td>
+                    <td>Computere, smartphones og OS</td>
+                </tr>
+            </table>
         </article>
 
-        <!--Kundeudtalelser-->
-        <aside>
+        <img src="img/webtilgaengelighed.png" class="img-fluid rounded" alt="Screenreader" loading="lazy">
+        <figcaption class="text-muted small mt-1">
+            Billede: Billede af en screenreader.
+            Fotograf: Jonathan Richard.
+        </figcaption>
+    </section>
 
-        </aside>
+    <section>
+        <article>
+            <h3>Bæredygtig kommunikation</h3>
+            <p>Når vi snakker bæredygtig kommunikation, så handler det om at sørger for at man som virksomhed har styr
+                hvor man står henne, når det kommer til bæredygtighed.</p>
+            <p>Det hjælper ikke længere at skrive ”Vi er bæredygtige” eller ”Vi er CO2-neutrale”. Når vi leverer et
+                produkt i dag, så skal vi også have papirerne og dokumentationen
+                på, at der bliver gjort det vi siger, der bliver gjort. Det gælder i bund og grund om at tage ansvar,
+                for de påstande, der bliver lavet.</p>
+            <p>Hos Greenly hjælper vi dig på vej ved at guide dig igennem processen om at blive mere bæredygtig.</p>
+        </article>
+        <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
+        <figcaption class="text-muted small mt-1">
+            Billede: Et billede af tre vindmøller. Fotograf: Vidar Nordii-Mathisen.
+        </figcaption>
+    </section>
+
+    <section>
+        <article>
+            <h3>Rådgivning</h3>
+            <p>Hos Greenly sidder der dygtige designere og marketingsfolk, som har en masse erfaring med at designe,
+                redesigne og rådgive privat- og offentlige virksomheder.
+                De vil hjælpe dig med dataindsamling, markedsanalyse og hjælpe dig med at lave en målrettet digital
+                strategi, så du kan finde det næste skridt for din virksomhed.</p>
+            <p>Book en tid hos os og hør nærmere om hvad vi kan gøre for dig.</p>
+        </article>
+        <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
+        <figcaption>
+            Billede: To kvinder, der sidder og snakker. Fotograf: Amy Hirschi.
+        </figcaption>
+    </section>
+
+    <!--Kundeudtalelser-->
+    <aside>
+        <div class="row">
+            <div class="col-sm-6 mb-3 mb-sm-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
     </article>
 </main>
 
