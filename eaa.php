@@ -59,7 +59,7 @@ require "settings/init.php";
                         Tilgængelighedsloven gælder for en lang række digitale produkter samt tjenesteydelser,
                         dette gælder især dem der retter sig mod forbruger.
                         Dette indebær både private virksomheder og offentlige udbydere
-                        hvis de tilbyder følgende typer produkter og eller tjenester
+                        hvis de tilbyder følgende typer produkter og eller tjenester:
                     </p>
                 </section>
                 <br>
