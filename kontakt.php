@@ -35,7 +35,7 @@ require "settings/init.php";
     <h1>Fortæl os om din virksomhed</h1>
     <p>Udfyld formularen nedenfor, så vender vi tilbage hurtigst muligt, dog indenfor 24 timer.</p>
 </header>
-
+<main id="main" tabindex="-1" class="container">
 <section aria-labelledby="kontakt-formular" class="contact-section">
     <h2 id="kontakt-formular" class="visually-hidden">Kontaktformular</h2>
 
@@ -61,13 +61,67 @@ require "settings/init.php";
             <input id="company" name="company" type="text" autocomplete="organization" class="form-control" placeholder="Dit firmanavn">
         </div>
 
+        <fieldset class="col-12">
+            <legend class="form-label">Hvad ønsker du hjælp til?</legend>
+            <div class="form-check">
+                <input type="checkbox" id="webapp" name="services[]" value="webapp" class="form-check-input"/>
+                <label for="webapp" class="form-check-label">Hjemmeside</label>
+            </div>
 
+            <div class="form-check">
+                <input type="checkbox" id="webshop" name="services[]" value="webshop" class="form-check-input"/>
+                <label for="webshop" class="form-check-label">Webshop</label>
+            </div>
 
+            <div class="form-check">
+                <input type="checkbox" id="accessibility" name="services[]" value="accessibility" class="form-check-input"/>
+                <label for="accessibility" class="form-check-label">Tilgængelighed</label>
+            </div>
 
+            <div class="form-check">
+                <input type="checkbox" id="marketing" name="services[]" value="marketing" class="form-check-input"/>
+                <label for="marketing" class="form-check-label">Markedsføring</label>
+            </div>
+
+            <div class="form-check">
+                <input type="checkbox" id="other" name="services[]" value="other" class="form-check-input"/>
+                <label for="other" class="form-check-label">Andet, beskriv nedenfor</label>
+            </div>
+        </fieldset>
+
+        <div class="col-12">
+            <label for="message" class="form-label">Besked</label>
+            <textarea id="message" name="message" rows="5" class="form-control" placeholder="Fortæl om dit projekt, mål og eventuelle specifikke behov.."></textarea>
+        </div>
+
+        <div class="col-12">
+            <button class="btn btn-BNCsec text-light" type="submit">Send forespørgsel</button>
+        </div>
     </form>
 </section>
 
-<main id="main" tabindex="-1" class="container">
+    <aside class="contact-info" aria-labelledby="contact-info-title">
+        <h2 id="contact-info-title" class="visually-hidden">Kontaktinformation</h2>
+
+        <div class="info-box">
+            <ul class="list-unstyled">
+                <li class="mt-5"><strong>Email</strong> <br> kontakt@greenly.dk</li>
+                <li class="mt-3"><strong>Telefon</strong> <br> +45 52 52 44 35 <br> Man-Fre 08:00 - 18:00</li>
+                <li class="mt-3"><strong>Adresse</strong> <br> Kommunikationsvej 123 <br> 4200 Slagelse</li>
+            </ul>
+        </div>
+    </aside>
+
+    <aside class="process-box" aria-labelledby="process-box">
+        <h2>Hvordan foregår processen?</h2>
+        <ul class="list-unstyled">
+            <li class="mt-3">Vi gennemgår din forespørgsel</li>
+            <li class="mt-3">Vi kontakter dig <br> - Med eventuelt opfølgende spørgsmål</li>
+            <li class="mt-3">Du modtager et tilbud <br> - Pris, leveringstid og detaljer</li>
+        </ul>
+
+    </aside>
+</main>
 
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
