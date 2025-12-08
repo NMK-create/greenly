@@ -146,7 +146,35 @@ body.dark-mode .footer-card {
   display: flex;
 }
 
+#testimonialCarousel .carousel-item {
+  min-height: 20rem;
+}
 
+#testimonialCarousel {
+  max-width: 28rem;
+  font-style: italic;
+  margin: 0 auto;
+}
+
+.testimonial-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rounded-circle {
+  vertical-align: middle;
+  border-radius: 50%;
+  width: 3.125rem;
+  height: 3.125rem;
+  max-width: 3.125rem;
+}
+
+.stars{
+  font-size: 1.5rem;
+  letter-spacing: 0.125rem;
+}
 
 // Kontakt //
 .contact-info {
