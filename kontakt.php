@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>Kontakt os - Greenly</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -29,8 +29,45 @@ require "settings/init.php";
 
 <body>
 <?php include("includes/navbar.php") ?>
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 
-<h1>TEST 🥳</h1>
+<header class="container">
+    <h1>Fortæl os om din virksomhed</h1>
+    <p>Udfyld formularen nedenfor, så vender vi tilbage hurtigst muligt, dog indenfor 24 timer.</p>
+</header>
+
+<section aria-labelledby="kontakt-formular" class="contact-section">
+    <h2 id="kontakt-formular" class="visually-hidden">Kontaktformular</h2>
+
+    <form class="row g-4" action="#" method="post" novalidate>
+
+        <div class="col-md-6">
+            <label for="name" class="form-label">Navn *</label>
+            <input id="name" name="name" type="text" autocomplete="name" required class="form-control" placeholder="Dit fuldenavn">
+        </div>
+
+        <div class="col-md-6">
+            <label for="email" class="form-label">E-mail *</label>
+            <input id="email" name="email" type="email" autocomplete="email" required class="form-control" placeholder="din@email.dk">
+        </div>
+
+        <div class="col-md-6">
+            <label for="phone" class="form-label">Telefon</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" class="form-control" placeholder="+45 52 52 44 35">
+        </div>
+
+        <div class="col-md-6">
+            <label for="company" class="form-label">Virksomhed</label>
+            <input id="company" name="company" type="text" autocomplete="organization" class="form-control" placeholder="Dit firmanavn">
+        </div>
+
+
+
+
+    </form>
+</section>
+
+<main id="main" tabindex="-1" class="container">
 
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
