@@ -12,14 +12,10 @@ $link-decoration: none;
 
 
 $custom-colors: (
-				"BNCpri": #074047,
-				"BNCsec": #A8896C,
-				"BNCbg": #F5F7F6,
-
+        "BNCpri": #074047,
+        "BNCsec": #A8896C,
+        "BNCbg": #F5F7F6,
 );
-
-
-
 
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
@@ -162,4 +158,22 @@ body.dark-mode .footer-card {
   color: #F5F7F6;
   border-radius: 0.5rem;
   padding: 1.5rem;
+}
+
+.accordion-item {
+  margin-bottom: 0.5rem;
+}
+
+.accordion-button {
+  background-color: #A8896C;
+  color: #F5F7F6;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #A8896C;
+  color: #F5F7F6;
+}
+
+.accordion-button::after {
+  filter: invert(1); /* gør pilen hvid */
 }
