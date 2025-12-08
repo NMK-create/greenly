@@ -36,7 +36,7 @@ require "settings/init.php";
 
 <main id="main" tabindex="-1">
     <!--hero H1 med tekst vedr service-->
-    <section class="container my-5">
+    <section>
         <h1>Services</h1>
         <p>
             Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
@@ -45,19 +45,19 @@ require "settings/init.php";
             som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.
         </p>
         <div class="btn-group" role="group" aria-label="Basic example">
-            <div class="row gx-5 me-2">
+            <div class="row gx-5 me-2 bnc-icon">
                 <button type="button" class="btn btn-BNCsec row">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
                     Webtilgængelighed
                 </button>
             </div>
-            <div class="row gx-5 me-2">
+            <div class="row gx-5 me-2 bnc-icon">
                 <button type="button" class="btn btn-BNCsec row">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
                     Bæredygtig kommunikation
                 </button>
             </div>
-            <div class="row gx-5 me-2">
+            <div class="row gx-5 me-2 bnc-icon">
                 <button type="button" class="btn btn-BNCsec row">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
                     Rådgivning
@@ -67,11 +67,11 @@ require "settings/init.php";
     </section>
 
     <!--hvorfor sektion-->
-    <section class="container row">
+    <section class="container-fluid row">
         <figure class="col-md-6">
             <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" loading="lazy">
             <figcaption class="text-muted small mt-1">
-                Billede: Billede af kontor.
+                Billede: Kontor.
                 Fotograf: Raj Rana.
             </figcaption>
         </figure>
@@ -85,8 +85,8 @@ require "settings/init.php";
     </section>
 
     <!--de tre sektioner med de forskellige services-->
-    <section class="container">
-        <article>
+    <section class="container-fluid row">
+        <article class="col-md-6">
             <h3>Webtilgængelighed</h3>
             <p>
                 D. 28. juni 2025 trådte de nye regler fra EU i kraft vedrørende digital tilgængelighed og gælder
@@ -108,17 +108,21 @@ require "settings/init.php";
                     <td>Computere, smartphones og OS</td>
                 </tr>
             </table>
+            <p>Derfor hjælper vi dig i gang med at optimere din hjemmesider, så den bliver mere tilgængelig og
+                brugervenlig for dine brugere og kunder.</p>
         </article>
 
-        <img src="img/webtilgaengelighed.png" class="img-fluid rounded" alt="Screenreader" loading="lazy">
-        <figcaption class="text-muted small mt-1">
-            Billede: Billede af en screenreader.
-            Fotograf: Jonathan Richard.
-        </figcaption>
+        <figure class="col-md-6">
+            <img src="img/webtilgaengelighed.png" class="img-fluid rounded" alt="Screenreader" loading="lazy">
+            <figcaption class="text-muted small mt-1">
+                Billede: En person der sidder ved en screen reader.
+                Fotograf: Jonathan Richard.
+            </figcaption>
+        </figure>
     </section>
 
-    <section>
-        <article>
+    <section class="container-fluid row">
+        <article class="col-md-6">
             <h3>Bæredygtig kommunikation</h3>
             <p>Når vi snakker bæredygtig kommunikation, så handler det om at sørger for at man som virksomhed har styr
                 hvor man står henne, når det kommer til bæredygtighed.</p>
@@ -128,14 +132,16 @@ require "settings/init.php";
                 for de påstande, der bliver lavet.</p>
             <p>Hos Greenly hjælper vi dig på vej ved at guide dig igennem processen om at blive mere bæredygtig.</p>
         </article>
-        <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
-        <figcaption class="text-muted small mt-1">
-            Billede: Et billede af tre vindmøller. Fotograf: Vidar Nordii-Mathisen.
-        </figcaption>
+        <figure class="col-md-6">
+            <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
+            <figcaption class="text-muted small mt-1">
+                Billede: Tre vindmøller. Fotograf: Vidar Nordii-Mathisen.
+            </figcaption>
+        </figure>
     </section>
 
-    <section>
-        <article>
+    <section class="container-fluid row">
+        <article class="col-md-6">
             <h3>Rådgivning</h3>
             <p>Hos Greenly sidder der dygtige designere og marketingsfolk, som har en masse erfaring med at designe,
                 redesigne og rådgive privat- og offentlige virksomheder.
@@ -143,10 +149,12 @@ require "settings/init.php";
                 strategi, så du kan finde det næste skridt for din virksomhed.</p>
             <p>Book en tid hos os og hør nærmere om hvad vi kan gøre for dig.</p>
         </article>
-        <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
-        <figcaption>
-            Billede: To kvinder, der sidder og snakker. Fotograf: Amy Hirschi.
-        </figcaption>
+        <figure class="col-md-6 order-md-1">
+            <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
+            <figcaption class="text-muted small mt-1">
+                Billede: To kvinder, der sidder og snakker. Fotograf: Amy Hirschi.
+            </figcaption>
+        </figure>
     </section>
 
     <!--Kundeudtalelser-->
