@@ -61,6 +61,23 @@ h3 {
   line-height: 1.425rem;
 }
 
+h4 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.1rem;
+}
+h6 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
 @media (max-width: 992px) {
   main {
     margin: 2rem 3rem;
@@ -74,6 +91,15 @@ h3 {
   }
   h3 {
     font-size: 1.15rem;
+  }
+  h4 {
+    font-size: 0.95rem;
+  }
+  h5 {
+    font-size: 0.825rem;
+  }
+  h6 {
+    font-size: 0.7rem;
   }
 }
 
@@ -91,6 +117,15 @@ h3 {
   }
   h3 {
     font-size: 1rem;
+  }
+  h4 {
+    font-size: 0.9rem;
+  }
+  h5 {
+    font-size: 0.8rem;
+  }
+  h6 {
+    font-size: 0.7rem;
   }
 
   .btn-group {
@@ -121,9 +156,17 @@ h3 {
   h3 {
     font-size: 0.9rem;
   }
+  h4 {
+    font-size: 0.85rem;
+  }
+  h5 {
+    font-size: 0.75rem;
+  }
+  h6 {
+    font-size: 0.65rem;
+  }
 
-  .btntrio
-  {
+  .btntrio {
     width: 32px;
     height: 32px;
   }

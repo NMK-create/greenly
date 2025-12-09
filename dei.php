@@ -184,65 +184,103 @@ require "settings/init.php";
     </div>
 </section>
 
-<div class="col-lg-8">
-    <section aria-labelledby="model-info" class="model-info content-wrapper">
-        <h2 id="model-info" class="visually-hidden">Mere information om den Sociale Handicapmodel</h2>
+<section class="container" aria-labelledby="model-info-title">
+    <div class="row g-5">
+        <div class="col-lg-8">
+            <section aria-labelledby="model-info" class="model-info content-wrapper">
+                <h2 id="model-info" class="visually-hidden">Mere information om den Sociale Handicapmodel</h2>
 
-        <article class="mb-5">
-            <h3 class="h3">Vi anvender den Sociale Handicapmodel, når vi udvikler digitale løsninger</h3>
-            <p>Hos Greenly Digital Bureau skaber vi digitale løsninger uden barrierer. Den Sociale Handicapmodel er en central del af vores tilgang til tilgængelighed — fordi vi tror på, at godt digitalt design skal være inkluderende og brugbart for alle.
-                Modellen hjælper os med at forstå, at handicap ikke stammer fra personen selv, men fra de barrierer, samfundet og omgivelserne skaber. På den måde kan vi fokusere på at tilpasse omgivelser, systemer og teknologi frem for at tilpasse mennesket</p>
-        </article>
+                <article class="mb-5">
+                    <h3>Vi anvender den Sociale Handicapmodel, når vi udvikler digitale løsninger</h3>
+                    <p>
+                        Hos Greenly Digital Bureau skaber vi digitale løsninger uden barrierer.
+                        Den Sociale Handicapmodel er en central del af vores tilgang til tilgængelighed —
+                        fordi vi tror på, at godt digitalt design skal være inkluderende og brugbart for alle.
+                    </p>
+                    <p>
+                        Modellen hjælper os med at forstå, at handicap ikke stammer fra personen selv, men
+                        fra de barrierer, som samfundet og omgivelserne skaber. Derfor fokuserer vi på at
+                        tilpasse omgivelser, systemer og teknologi — frem for at tilpasse mennesket.
+                    </p>
+                </article>
 
-        <article class="mb-5">
-            <h3 class="h3">Hvad er modellen?</h3>
-            <p>Den Sociale Handicapmodel forklarer, at handicap ikke skyldes en persons funktionsnedsættelse, men de barrierer, som omgivelserne, holdningerne og strukturerne skaber:
-                Omgivelser
-                Utilgængelig infrastruktur eller teknologi (fx trapper uden ramper, websteder uden skærmlæserstøtte)
-                Manglende tjenester og ressourcer (fx support, vejledninger eller tilgængelige funktioner)
-                Dårlig kommunikation eller information, der ikke er forståelig for alle
+                <article class="mb-5">
+                    <h3>Hvad er modellen?</h3>
+                    <p>
+                        Den Sociale Handicapmodel forklarer, at handicap ikke skyldes en persons
+                        funktionsnedsættelse, men de barrierer, som omgivelser, holdninger og
+                        strukturer skaber:
+                    </p>
 
-                Holdninger
-                Negative stereotyper og fordomme
-                Manglende forståelse for forskellighed og behov
-                Social isolation som følge af udelukkelse eller misforståelser
+                    <h3>Omgivelser</h3>
+                    <ul>
+                        <li>Utilgængelig infrastruktur eller teknologi (fx trapper uden ramper, manglende
+                            skærmlæserstøtte)
+                        </li>
+                        <li>Manglende tjenester og ressourcer</li>
+                        <li>Dårlig kommunikation eller uforståelig information</li>
+                    </ul>
 
-                Strukturer
-                Begrænsede beskæftigelses- og uddannelsesmuligheder
-                Ekskluderende regler, procedurer eller lovgivning
-                Systemer, der ubevidst udelukker visse grupper
+                    <h3>Holdninger</h3>
+                    <ul>
+                        <li>Negative stereotyper og fordomme</li>
+                        <li>Manglende forståelse for forskellige behov</li>
+                        <li>Social isolation som følge af misforståelser eller udelukkelse</li>
+                    </ul>
 
-                På den måde hjælper modellen os med at identificere, hvor barrierer opstår, og hvordan vi kan fjerne dem.
-            </p>
-        </article>
+                    <h3>Strukturer</h3>
+                    <ul>
+                        <li>Begrænsede beskæftigelses- og uddannelsesmuligheder</li>
+                        <li>Ekskluderende regler, procedurer eller lovgivning</li>
+                        <li>Systemer, der ubevidst udelukker visse grupper</li>
+                    </ul>
 
-        <article class="mb-5">
-            <h3 class="h3">Hvad bruges modellen til?</h3>
-            <p>Modellen bruges til at:
-                Identificere og fjerne barrierer, så alle kan deltage på lige vilkår
-                Udvikle digitale løsninger, der fungerer for alle brugere, uanset deres forudsætninger
-                Hjælpe virksomheder og organisationer med at arbejde mere inkluderende
-                Skabe bedre oplevelser for både brugere, kunder og medarbejdere
-                Ved at arbejde med omgivelser, holdninger og strukturer sikrer vi, at løsningerne ikke udelukker nogen, men inkluderer alle.
-            </p>
-        </article>
+                    <p>
+                        På den måde hjælper modellen os med at identificere, hvor barrierer opstår,
+                        og hvordan de kan fjernes.
+                    </p>
+                </article>
 
-        <article class="mb-5">
-            <h3 class="h3">Hvordan bruger vi modellen hos Greenly Digital Bureau?</h3>
-            <p>Vi designer digitale løsninger med fokus på at fjerne barrierer — ikke tilpasse mennesker til dem. Det betyder konkret, at vi arbejder med:
-                Tilgængelige webdesigns baseret på WCAG og EAA-krav
-                Brugervenlig struktur & navigation, der fungerer for alle, også brugere med særlige behov
-                Teknisk og visuel tilgængelighed (fx kontrast, tekststørrelser, alt-tekst og responsivt design)
-                Inkluderende sprog og kommunikation, der respekterer alle brugere
-                Test og feedback fra rigtige brugere, som hjælper os med at opdage og rette barrierer i både omgivelser, holdninger og strukturer
+                <article class="mb-5">
+                    <h3 class="h3">Hvad bruges modellen til?</h3>
+                    <p>Modellen bruges til at:</p>
+                    <ul>
+                        <li>Identificere og fjerne barrierer, så alle kan deltage på lige vilkår</li>
+                        <li>Udvikle digitale løsninger, der fungerer for alle brugere</li>
+                        <li>Hjælpe virksomheder og organisationer med at arbejde inkluderende</li>
+                        <li>Skabe bedre oplevelser for brugere, kunder og medarbejdere</li>
+                    </ul>
+                    <p>
+                        Ved at arbejde med omgivelser, holdninger og strukturer sikrer vi, at løsningerne
+                        ikke udelukker nogen, men inkluderer alle.
+                    </p>
+                </article>
 
-                Målet er digital ligestilling — hvor alle kan deltage, bidrage og navigere uden begrænsninger.</p>
-        </article>
-    </section>
-</div>
+                <article class="mb-5">
+                    <h3 class="h3">Hvordan bruger vi modellen hos Greenly Digital Bureau?</h3>
+                    <p>Vi designer digitale løsninger med fokus på at fjerne barrierer — ikke tilpasse mennesker til
+                        dem. Det betyder konkret, at vi arbejder med:</p>
+
+                    <ul>
+                        <li>Tilgængelige webdesigns baseret på WCAG og EAA-krav</li>
+                        <li>Brugervenlig struktur og navigation, der fungerer for alle</li>
+                        <li>Teknisk og visuel tilgængelighed (kontrast, tekststørrelser, alt-tekst, responsivt design)
+                        </li>
+                        <li>Inkluderende sprog og kommunikation</li>
+                        <li>Test og feedback fra rigtige brugere for at opdage og fjerne barrierer</li>
+                    </ul>
+
+                    <p>
+                        Målet er digital ligestilling — hvor alle kan deltage, bidrage og navigere uden begrænsninger.
+                    </p>
+                </article>
+            </section>
+        </div>
+    </div>
+</section>
 
 
-<?php include("includes/footer.php") ?>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <?php include("includes/footer.php") ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
