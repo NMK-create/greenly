@@ -26,10 +26,10 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <body class="bg-white">
 <?php include("includes/navbar.php") ?>
-<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
+
 <main tabindex="-1">
     <br>
     <br>

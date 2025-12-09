@@ -29,10 +29,9 @@ require "settings/init.php";
 </head>
 
 <body>
-<?php include("includes/navbar.php") ?>
-
 <!--Skip to content-->
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
+<?php include("includes/navbar.php") ?>
 
 <main id="main" tabindex="-1">
     <!--hero H1 med tekst vedr service-->

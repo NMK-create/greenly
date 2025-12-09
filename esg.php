@@ -28,14 +28,13 @@ require "settings/init.php";
 </head>
 
 <body>
+<!--Skip to content-->
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 
 <!--indeholder navbar-->
 <header>
     <?php include("includes/navbar.php") ?>
 </header>
-
-<!--Skip to content-->
-<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 
 <main tabindex="-1">
     <!--H1 med tekst vedr ESG-->

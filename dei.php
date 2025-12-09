@@ -212,7 +212,7 @@ require "settings/init.php";
                         strukturer skaber:
                     </p>
 
-                    <h3>Omgivelser</h3>
+                    <h4>Omgivelser</h4>
                     <ul>
                         <li>Utilgængelig infrastruktur eller teknologi (fx trapper uden ramper, manglende
                             skærmlæserstøtte)
@@ -221,14 +221,14 @@ require "settings/init.php";
                         <li>Dårlig kommunikation eller uforståelig information</li>
                     </ul>
 
-                    <h3>Holdninger</h3>
+                    <h4>Holdninger</h4>
                     <ul>
                         <li>Negative stereotyper og fordomme</li>
                         <li>Manglende forståelse for forskellige behov</li>
                         <li>Social isolation som følge af misforståelser eller udelukkelse</li>
                     </ul>
 
-                    <h3>Strukturer</h3>
+                    <h4>Strukturer</h4>
                     <ul>
                         <li>Begrænsede beskæftigelses- og uddannelsesmuligheder</li>
                         <li>Ekskluderende regler, procedurer eller lovgivning</li>
@@ -257,7 +257,7 @@ require "settings/init.php";
                 </article>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvordan bruger vi modellen hos Greenly Digital Bureau?</h3>
+                    <h3>Hvordan bruger vi modellen hos Greenly Digital Bureau?</h3>
                     <p>Vi designer digitale løsninger med fokus på at fjerne barrierer — ikke tilpasse mennesker til
                         dem. Det betyder konkret, at vi arbejder med:</p>
 
