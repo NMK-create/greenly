@@ -1,10 +1,10 @@
-<nav class="navbar navbar-expand-lg d-flex justify-content-center py-3 mb-4" role="navigation"
+<nav class="navbar navbar-expand-lg d-flex justify-content-center py-3" role="navigation"
      aria-label="Hovednavigation">
     <div class="container-fluid">
 
 
-        <a class="navbar-brand" href="index.php" aria-label="Til forsiden">
-            <img src="img/websitelogo.png" alt="Logo som fører til forside" class="d-inline-block align-text-top">
+        <a class="navbar-brand" href="/index.php" aria-label="Til forsiden">
+            <img src="/img/websitelogo.png" alt="Logo som fører til forside" class="d-inline-block align-text-top">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -17,19 +17,19 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="service.php">Service</a>
+                    <a class="nav-link px-3" href="/service.php">Service</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="om-os.php">Om os</a>
+                    <a class="nav-link px-3" href="/om-os.php">Om os</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link px-3" href="kontakt.php">Kontakt</a>
+                    <a class="nav-link px-3" href="/kontakt.php">Kontakt</a>
                 </li>
             </ul>
 
-            <a class="btn btn-BNCsec px-3 ms-3" href="kontakt.php">Få tilbud</a>
+            <a class="btn btn-BNCsec px-3 ms-3" href="/kontakt.php">Få tilbud</a>
 
             <button id="theme-toggle" class="btn btn-BNCsec px-3 ms-3" aria-label="Skift til mørk tilstand"
                     data-bs-toggle="tooltip" data-bs-placement="left" title="Skift tema">
