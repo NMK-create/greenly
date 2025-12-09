@@ -305,3 +305,12 @@ body.dark-mode .footer-card {
 .accordion-button::after {
   filter: invert(1); // Hvid pil /
 }
+
+// DEI //
+.content-wrapper {
+  max-width: 42rem;
+}
+
+.content-wrapper article { // Afstand mellem artiklerne //
+  margin-bottom: 3rem;
+}

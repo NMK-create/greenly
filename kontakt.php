@@ -33,14 +33,13 @@ require "settings/init.php";
 <?php include("includes/navbar.php") ?>
 
 <header class="container">
-    <h1 class="mt-5">Fortæl os om din virksomhed</h1>
+    <h1>Fortæl os om din virksomhed</h1>
     <p>Udfyld formularen nedenfor, så vender vi tilbage hurtigst muligt, dog indenfor 24 timer.</p>
 </header>
 
 <main id="main" tabindex="-1" class="container">
 
     <div class="row g-5">
-
         <!-- Venstre -->
         <div class="col-lg-8">
             <section aria-labelledby="kontakt-formular" class="contact-section">

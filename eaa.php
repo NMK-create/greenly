@@ -27,9 +27,9 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body class="bg-white">
 <?php include("includes/navbar.php") ?>
-
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <main tabindex="-1">
     <br>
     <br>
@@ -97,6 +97,7 @@ require "settings/init.php";
                         <li> Robust</li>
                     </ol>
                     <br>
+
                     <p>
                         Disse principper vurderes dernæst efter succeskriterier,
                         som er inddelt i tre niveauer A, AA og AAA.
@@ -164,7 +165,7 @@ require "settings/init.php";
 
                 <section>
                     <figure class="figure">
-                        <img src="img/EAA6.png" class="figure-img img-fluid rounded" style="border-radius: 20px" alt="Billede">
+                        <img src="img/cirkler2.png" class="figure-img img-fluid rounded" style="border-radius: 20px" alt="Billede">
                         <figcaption class="figure-caption" >Cirkel 1 lever op til AA succeskriterierne
                             for en god kontrast mellem brødtekst og baggrund, det gør cirkel 2 ikke</figcaption>
                     </figure>
