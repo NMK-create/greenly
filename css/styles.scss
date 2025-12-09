@@ -146,6 +146,32 @@ body.dark-mode .footer-card {
   display: flex;
 }
 
+.bnc-icon.icon-trio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+
+.btn-trio {
+  border: none;
+  border-radius: 50%;
+  width: 4.5rem;
+  height: 4.5rem;
+  padding: 1rem !important;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 1.75rem;
+}
+
+.icon-trio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 1.5rem;
+}
+
 #testimonialCarousel .carousel-item {
   min-height: 20rem;
 }

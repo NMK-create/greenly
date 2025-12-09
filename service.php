@@ -38,30 +38,31 @@ require "settings/init.php";
     <!--hero H1 med tekst vedr service-->
     <section>
         <h1>Services</h1>
-        <p>
-            Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
+        <p>Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
             og virksomheder, som gerne vil følge med tiden og sørger for at der bliver designet og redesignet
             hjemmesider,
-            som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.
-        </p>
+            som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
+
         <div class="btn-group" role="group" aria-label="Basic example">
-            <div class="row gx-5 me-2 bnc-icon">
-                <button type="button" class="btn btn-BNCsec row">
+            <div class="gx-5 me-2 bnc-icon icon-trio">
+                <button type="button" class="btn btn-BNCsec btn-trio">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
-                    Webtilgængelighed
                 </button>
+                <p class="fw-bolder">Webtilgængelighed</p>
             </div>
-            <div class="row gx-5 me-2 bnc-icon">
-                <button type="button" class="btn btn-BNCsec row">
+
+            <div class="gx-5 me-2 bnc-icon icon-trio">
+                <button type="button" class="btn btn-BNCsec btn-trio">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
-                    Bæredygtig kommunikation
                 </button>
+                <p class="fw-bolder"> Bæredygtig kommunikation</p>
             </div>
-            <div class="row gx-5 me-2 bnc-icon">
-                <button type="button" class="btn btn-BNCsec row">
+
+            <div class="gx-5 me-2 bnc-icon icon-trio">
+                <button type="button" class="btn btn-BNCsec btn-trio">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
-                    Rådgivning
                 </button>
+                <p class="fw-bolder">Rådgivning</p>
             </div>
         </div>
     </section>
