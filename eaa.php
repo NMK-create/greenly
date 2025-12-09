@@ -97,6 +97,7 @@ require "settings/init.php";
                         <li> Robust</li>
                     </ol>
                     <br>
+
                     <p>
                         Disse principper vurderes dernæst efter succeskriterier,
                         som er inddelt i tre niveauer A, AA og AAA.
