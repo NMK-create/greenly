@@ -140,8 +140,54 @@ require "settings/init.php";
 
             </aside>
         </div>
-
     </div>
+</main>
+
+<!-- Sektion: Den Sociale Handicapmodel -->
+<section class="container my-5" aria-labelledby="handicapmodel-title">
+    <h2 id="handicapmodel-title" class="h2 mb-4">
+        Den Sociale Handicapmodel i vores arbejde
+    </h2>
+
+    <div class="row g-4 align-items-center">
+        <!-- Illustration -->
+        <div class="col-lg-6 text-center">
+            <figure>
+                <img src="img/Handicapmodel-Sort.png" alt="Illustration af den Sociale Handicapmodel med fokus på omgivelser, strukturer og holdninger som barrierer i samfundet" class="img-fluid" />
+                <figcaption class="visually-hidden">Diagram, der viser hvordan omgivelser, strukturer og holdninger skaber barrierer i samfundet.</figcaption>
+            </figure>
+        </div>
+
+        <!-- Tekstpunkter -->
+        <div class="col-lg-6">
+            <ul class="mb-4">
+                <li>Utilgængelig infrastruktur</li>
+                <li>Mangel på tjenester</li>
+                <li>Dårlig kommunikation</li>
+            </ul>
+
+            <ul class="mb-4">
+                <li>Mangel på beskæftigelsesmuligheder</li>
+                <li>Ekskluderende lovgivning, regler og procedurer</li>
+                <li>Mangel på uddannelsesmuligheder</li>
+            </ul>
+
+            <ul>
+                <li>Negative stereotyper</li>
+                <li>Manglende forståelse</li>
+                <li>Øget social isolation</li>
+            </ul>
+        </div>
+    </div>
+
+    <p class="mt-4 content-wrapper">
+        Vi anvender den Sociale Handicapmodel, når vi udvikler digitale løsninger. Modellen hjælper os med
+        at forstå, at handicap ikke stammer fra personen selv, men fra de barrierer, samfundet og omgivelserne skaber.
+        På den måde kan vi fokusere på at tilpasse omgivelser, systemer og teknologi frem for at tilpasse mennesket.
+    </p>
+</section>
+
+
     <?php include("includes/footer.php") ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
