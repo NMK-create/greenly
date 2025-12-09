@@ -32,6 +32,46 @@ require "settings/init.php";
 
 <h1>TEST 🥳</h1>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+<div>
+<h3 class="text-center">Få tips, guides og ny viden om digial udvikling</h3>
+    <p class="text-center">Tilmeld dig, og få nyttig viden om digital udvikling,
+    trends, cases og konkrete værktøjer, du kan bruge i dit arbejde</p>
+<form class="row g-3 ">
+    <div class="col-auto">
+        <label for="staticEmail2" class="visually-hidden">Email</label>
+    </div>
+    <div class="col-auto text-center">
+        <label for="inputPassword2" class="visually-hidden">Email</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Din Email">
+    </div>
+    <div class="col-auto">
+        <button type="submit" class="btn btn-BNCsec mb-3 text-BNCbg">Tilmeld</button>
+    </div>
+</form>
+</div>
+</section>
+
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
