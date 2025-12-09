@@ -45,21 +45,21 @@ require "settings/init.php";
 
         <div class="btn-group" role="group" aria-label="Basic example">
             <div class="gx-5 me-2 bnc-icon icon-trio">
-                <button type="button" class="btn btn-BNCsec btn-trio">
+                <button type="button" class="btn btn-BNCsec btntrio px-3 ms-3">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
                 </button>
                 <p class="fw-bolder">Webtilgængelighed</p>
             </div>
 
             <div class="gx-5 me-2 bnc-icon icon-trio">
-                <button type="button" class="btn btn-BNCsec btn-trio">
+                <button type="button" class="btn btntrio btn-BNCsec px-3 ms-3">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
                 </button>
                 <p class="fw-bolder"> Bæredygtig kommunikation</p>
             </div>
 
             <div class="gx-5 me-2 bnc-icon icon-trio">
-                <button type="button" class="btn btn-BNCsec btn-trio">
+                <button type="button" class="btn btntrio btn-BNCsec px-3 ms-3">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
                 </button>
                 <p class="fw-bolder">Rådgivning</p>
