@@ -40,6 +40,7 @@ require "settings/init.php";
 <main id="main" tabindex="-1" class="container">
 
     <div class="row g-5">
+
         <!-- Venstre -->
         <div class="col-lg-8">
             <section aria-labelledby="dei-info" class="dei-info content-wrapper">
