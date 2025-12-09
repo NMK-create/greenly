@@ -28,10 +28,17 @@ require "settings/init.php";
 </head>
 
 <body>
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <?php include("includes/navbar.php") ?>
 
-<h1>TEST 🥳</h1>
+<header class="container">
+    <h1 class="mt-5">Fortæl os om din virksomhed</h1>
+    <p>Udfyld formularen nedenfor, så vender vi tilbage hurtigst muligt, dog indenfor 24 timer.</p>
+</header>
 
+
+
+<main id="main" tabindex="-1" class="container">
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>

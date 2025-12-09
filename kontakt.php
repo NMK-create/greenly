@@ -32,7 +32,7 @@ require "settings/init.php";
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <?php include("includes/navbar.php") ?>
 
-<header class="container mb-5">
+<header class="container">
     <h1 class="mt-5">Fortæl os om din virksomhed</h1>
     <p>Udfyld formularen nedenfor, så vender vi tilbage hurtigst muligt, dog indenfor 24 timer.</p>
 </header>
