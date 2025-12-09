@@ -43,22 +43,22 @@ require "settings/init.php";
             hjemmesider,
             som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
 
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <div class="gx-5 me-2 bnc-icon icon-trio">
+        <div class="container btn-group" role="group" aria-label="Basic example">
+            <div class="gx-5 me-2 bnc-icon icon-trio text-center">
                 <button type="button" class="btn btn-BNCsec btntrio px-3 ms-3">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
                 </button>
                 <p class="fw-bolder">Webtilgængelighed</p>
             </div>
 
-            <div class="gx-5 me-2 bnc-icon icon-trio">
+            <div class="gx-5 me-2 bnc-icon icon-trio text-center">
                 <button type="button" class="btn btntrio btn-BNCsec px-3 ms-3">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
                 </button>
                 <p class="fw-bolder"> Bæredygtig kommunikation</p>
             </div>
 
-            <div class="gx-5 me-2 bnc-icon icon-trio">
+            <div class="gx-5 me-2 bnc-icon icon-trio text-center">
                 <button type="button" class="btn btntrio btn-BNCsec px-3 ms-3">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
                 </button>
@@ -68,8 +68,8 @@ require "settings/init.php";
     </section>
 
     <!--hvorfor sektion-->
-    <section class="container g-5">
-        <div class="row">
+    <section class="container g-5 ">
+        <div class="row gx-5">
             <figure class="col-md-6">
                 <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" loading="lazy">
                 <figcaption class="text-muted small mt-1">
@@ -89,7 +89,7 @@ require "settings/init.php";
 
     <!--de tre sektioner med de forskellige services-->
     <section class="container g-5">
-        <div class="row">
+        <div class="row gx-5">
             <article class="col-md-6">
                 <h3>Webtilgængelighed</h3>
                 <p>
@@ -128,7 +128,7 @@ require "settings/init.php";
     </section>
 
     <section class="container g-5">
-        <div class="row">
+        <div class="row gx-5">
             <article class="col-md-6">
                 <h3>Bæredygtig kommunikation</h3>
                 <p>Når vi snakker bæredygtig kommunikation, så handler det om at sørger for at man som virksomhed har
@@ -151,7 +151,7 @@ require "settings/init.php";
     </section>
 
     <section class="container g-5">
-        <div class="row">
+        <div class="row gx-5">
             <article class="col-md-6">
                 <h3>Rådgivning</h3>
                 <p>Hos Greenly sidder der dygtige designere og marketingsfolk, som har en masse erfaring med at designe,
@@ -161,8 +161,7 @@ require "settings/init.php";
                 <p>Book en tid hos os og hør nærmere om hvad vi kan gøre for dig.</p>
             </article>
             <figure class="col-md-6 order-md-1">
-                <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy"
-                     class="img-fluid rounded">
+                <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
                 <figcaption class="text-muted small mt-1">
                     Billede: To kvinder, der sidder og snakker. Fotograf: Amy Hirschi.
                 </figcaption>
@@ -172,6 +171,7 @@ require "settings/init.php";
 
     <!--Kundeudtalelser-->
     <article id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+        <h4 class="h3 text-center">Det siger vores kunder</h4>
         <div class="carousel-inner">
 
             <div class="carousel-item active">
@@ -180,10 +180,8 @@ require "settings/init.php";
                     <div class="stars mt-2 mb-3">
                         ★★★★★
                     </div>
-                    <p class="lead mt-3">Fra første møde mærkede vi en ægte interesse i at forstå vores behov og
-                        mål.</p>
-                    <p class="lead mt-3">Resultatet blev en ny hjemmeside og kommunikationen omkring</p>
-                    <p class="lead mt-3">vores bæredygtighedsarbejde, der har løftet vores brand markant.</p>
+                    <p class="lead mt-3">Fra første møde mærkede vi en ægte interesse i at forstå vores behov og mål.</p>
+                    <p class="lead mt-3">Resultatet blev en ny hjemmeside og kommunikationen omkring vores bæredygtighedsarbejde, der har løftet vores brand markant.</p>
                     <p class="lead mt-3">Processen var tryg, professionel og fuld af god sparring.</p>
                     <h6 class="mt-3 fw-bold">— Mia Nygaard, NordiskSolutions</h6>
                 </div>
@@ -195,8 +193,7 @@ require "settings/init.php";
                     <div class="stars mt-2 mb-3">
                         ★★★★★
                     </div>
-                    <p class="lead mt-3">Greenly formåede at kombinere kreativt design med en skarp teknisk løsning,</p>
-                    <p class="lead mt-3">og samtidig sikre fuld tilgængelighed og SEO-optimering.</p>
+                    <p class="lead mt-3">Greenly formåede at kombinere kreativt design med en skarp teknisk løsning, og samtidig sikre fuld tilgængelighed og SEO-optimering.</p>
                     <p class="lead mt-3">Vi har allerede oplevet en tydelig vækst i trafik og henvendelser.</p>
                     <p class="lead mt-3">De er kompetente, lyttende og meget behagelige at arbejde sammen med.</p>
                     <h6 class="mt-3 fw-bold">— Martin Lykke, FjordSecurity</h6>
@@ -209,10 +206,8 @@ require "settings/init.php";
                     <div class="stars mt-2 mb-3">
                         ★★★★★
                     </div>
-                    <p class="lead mt-3">Greenly har hjulpet os med webshops, SoMe-indhold og en samlet digital
-                        strategi.</p>
-                    <p class="lead mt-3">De arbejder effektivt, er nemme at kommunikere med</p>
-                    <p class="lead mt-3">og formår altid at omsætte komplekse idéer til konkrete resultater.</p>
+                    <p class="lead mt-3">Greenly har hjulpet os med webshops, SoMe-indhold og en samlet digital strategi.</p>
+                    <p class="lead mt-3">De arbejder effektivt, er nemme at kommunikere med og formår altid at omsætte komplekse idéer til konkrete resultater.</p>
                     <p class="lead mt-3">Vi føler os set, hørt og prioriteret.</p>
                     <h6 class="mt-3 fw-bold">— Yasmin Flint, LivingStudio</h6>
                 </div>
