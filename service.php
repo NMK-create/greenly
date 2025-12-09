@@ -35,40 +35,40 @@ require "settings/init.php";
 
 <main id="main" tabindex="-1">
     <!--hero H1 med tekst vedr service-->
-    <article class="container g-5">
-        <h1>Services</h1>
+    <section class="container g-5 py-3 my-3" aria-labelledby="service-intro">
+        <h1 id="service-intro">Services</h1>
         <p class="col-md-6">Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
             og virksomheder, som gerne vil følge med tiden og sørger for at der bliver designet og redesignet
             hjemmesider,
             som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
 
-        <div class="container btn-group" role="group" aria-label="Basic example">
-
-            <div class="gx-5 me-2 bnc-icon icon-trio text-center">
-                <a href="#webtilgængelighed" class="btn btn-BNCsec btntrio px-3 ms-3">
+        <nav class="flex-wrap btn-group" aria-label="Services">
+            <div class="bnc-icon icon-trio text-center">
+                <a href="#webtilgaengelighed" class="btn btn-BNCsec btntrio" aria-label="Gå til webtilgængelighed">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
                 </a>
-                <p class="fw-bolder">Webtilgængelighed</p>
+                <p id="label-webtilgaengelighed" class="fw-bolder">Webtilgængelighed</p>
             </div>
 
-            <div class="gx-5 me-2 bnc-icon icon-trio text-center">
-                <a href="#bæredygtig kommunikation" class="btn btntrio btn-BNCsec px-3 ms-3">
+            <div class="bnc-icon icon-trio text-center">
+
+                <a href="#baeredygtig-kommunikation" class="btn btntrio btn-BNCsec" aria-label="Gå til bæredygtig kommunikation">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
                 </a>
-                <p class="fw-bolder">Bæredygtig kommunikation</p>
+                <p id="label-baeredygtig-kommunikation" class="fw-bolder">Bæredygtig kommunikation</p>
             </div>
 
-            <div class="gx-5 me-2 bnc-icon icon-trio text-center">
-                <a href="#rådgivning" class="btn btntrio btn-BNCsec px-3 ms-3">
+            <div class="bnc-icon icon-trio text-center">
+                <a href="#raadgivning" class="btn btntrio btn-BNCsec" aria-label="Gå til rådgivning">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
                 </a>
-                <p class="fw-bolder">Rådgivning</p>
+                <p id="label-raadgivning" class="fw-bolder">Rådgivning</p>
             </div>
-        </div>
-    </article>
+        </nav>
+    </section>
 
     <!--hvorfor sektion-->
-    <article class="container g-5 ">
+    <section class="container g-5 py-5 my-5" aria-label="hvorfor-sektion">
         <div class="row gx-5">
             <figure class="col-md-6">
                 <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" loading="lazy">
@@ -78,20 +78,20 @@ require "settings/init.php";
                 </figcaption>
             </figure>
             <article class="col-md-6" id="hvorfor">
-                <h2>Hvorfor?</h2>
+                <h2 id="hvorfor-overskrift">Hvorfor?</h2>
                 <p>
                     I en tid, hvor der er mere og mere opmærksomhed på både vores klima og tilgængelighed,
                     så er det vigtigt for dig, som virksomhed, at du følger med tiden.
                 </p>
             </article>
         </div>
-    </article>
+    </section>
 
     <!--de tre sektioner med de forskellige services-->
-    <article class="container g-5">
+    <section class="container section-spacing" aria-labelledby="webtilgaengelighed-heading">
         <div class="row gx-5">
-            <article id="webtilgængelighed" class="col-md-6">
-                <h3>Webtilgængelighed</h3>
+            <div id="webtilgaengelighed" class="col-md-6">
+                <h3 id="webtilgaengelighed-heading">Webtilgængelighed</h3>
                 <p>
                     D. 28. juni 2025 trådte de nye regler fra EU i kraft vedrørende digital tilgængelighed og gælder
                     digitale produkter og tjenesteydelse.
@@ -99,24 +99,20 @@ require "settings/init.php";
                     følgende
                     produkter eller tjenester:
                 </p>
-                <table class="table table-striped col-md-6">
-                    <tr>
-                        <td>E-handel og websites</td>
-                        <td>Transport og billetkøb</td>
-                    </tr>
-                    <tr>
-                        <td>Selvbetjeningsautomater</td>
-                        <td>E-bøger og medieindhold</td>
-                    </tr>
-                    <tr>
-                        <td>Bank, betaling og forsikring</td>
-                        <td>Computere, smartphones og OS</td>
-                    </tr>
-                </table>
+                <div class="row py-3 my-3">
+                    <ul class="col list-unstyled service-list" role="list">
+                        <li class="my-2">E-handel og websites</li>
+                        <li class="my-2">Selvbetjeningsautomater</li>
+                        <li class="my-2">Bank, betaling og forsikring</li>
+                        <li class="my-2">Transport og billetkøb</li>
+                        <li class="my-2">E-bøger og medieindhold</li>
+                        <li class="my-2">Computere, smartphones og OS</li>
+                    </ul>
+                </div>
                 <p>Derfor hjælper vi dig i gang med at optimere din hjemmesider, så den bliver mere tilgængelig og
                     brugervenlig for dine brugere og kunder.</p>
-                <a href="kontakt.php" class="btn btn-BNCsec">Book tid for at høre mere</a>
-            </article>
+                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</a>
+            </div>
 
             <figure class="col-md-6">
                 <img src="img/webtilgaengelighed.png" class="img-fluid rounded" alt="Screenreader" loading="lazy">
@@ -126,12 +122,12 @@ require "settings/init.php";
                 </figcaption>
             </figure>
         </div>
-    </article>
+    </section>
 
-    <article class="container g-5">
+    <section class="container section-spacing" aria-labelledby="baeredygtig-kommunikation-heading">
         <div class="row gx-5">
-            <article id="bæredygtig kommunikation" class="col-md-6">
-                <h3>Bæredygtig kommunikation</h3>
+            <div id="baeredygtig-kommunikation" class="col-md-6">
+                <h3 id="baeredygtig-kommunikation-heading">Bæredygtig kommunikation</h3>
                 <p>Når vi snakker bæredygtig kommunikation, så handler det om at sørger for at man som virksomhed har
                     styr
                     hvor man står henne, når det kommer til bæredygtighed.</p>
@@ -141,8 +137,8 @@ require "settings/init.php";
                     ansvar,
                     for de påstande, der bliver lavet.</p>
                 <p>Hos Greenly hjælper vi dig på vej ved at guide dig igennem processen om at blive mere bæredygtig.</p>
-                <a href="kontakt.php" class="btn btn-BNCsec">Book tid for at høre mere</a>
-            </article>
+                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</a>
+            </div>
             <figure class="col-md-6">
                 <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
                 <figcaption class="text-muted small mt-1">
@@ -150,19 +146,19 @@ require "settings/init.php";
                 </figcaption>
             </figure>
         </div>
-    </article>
+    </section>
 
-    <article class="container g-5">
-        <div id="rådgivning" class="row gx-5">
-            <article class="col-md-6">
-                <h3>Rådgivning</h3>
+    <section class="container section-spacing" aria-labelledby="raadgivning-heading">
+        <div id="raadgivning" class="row gx-5">
+            <div class="col-md-6">
+                <h3 id="raadgivning-heading">Rådgivning</h3>
                 <p>Hos Greenly sidder der dygtige designere og marketingsfolk, som har en masse erfaring med at designe,
                     redesigne og rådgive privat- og offentlige virksomheder.
                     De vil hjælpe dig med dataindsamling, markedsanalyse og hjælpe dig med at lave en målrettet digital
                     strategi, så du kan finde det næste skridt for din virksomhed.</p>
                 <p>Book en tid hos os og hør nærmere om hvad vi kan gøre for dig.</p>
-                <a href="kontakt.php" class="btn btn-BNCsec">Book tid for at høre mere</a>
-            </article>
+                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</a>
+            </div>
 
             <figure class="col-md-6 order-md-1">
                 <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
@@ -171,7 +167,7 @@ require "settings/init.php";
                 </figcaption>
             </figure>
         </div>
-    </article>
+    </section>
 
     <?php include_once 'includes/kundeudtalelser.php'; ?>
 </main>
