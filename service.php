@@ -38,33 +38,36 @@ require "settings/init.php";
     <!--hero H1 med tekst vedr service-->
     <section class="container g-5">
         <h1>Services</h1>
-        <p>Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
+        <p class="col-md-6">Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
             og virksomheder, som gerne vil følge med tiden og sørger for at der bliver designet og redesignet
             hjemmesider,
             som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
 
         <div class="container btn-group" role="group" aria-label="Basic example">
+
             <div class="gx-5 me-2 bnc-icon icon-trio text-center">
-                <button type="button" class="btn btn-BNCsec btntrio px-3 ms-3">
+                <a href="#webtilgængelighed" class="btn btn-BNCsec btntrio px-3 ms-3">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
-                </button>
+                </a>
                 <p class="fw-bolder">Webtilgængelighed</p>
             </div>
 
             <div class="gx-5 me-2 bnc-icon icon-trio text-center">
-                <button type="button" class="btn btntrio btn-BNCsec px-3 ms-3">
+                <a href="#bæredygtig kommunikation" class="btn btntrio btn-BNCsec px-3 ms-3">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
-                </button>
-                <p class="fw-bolder"> Bæredygtig kommunikation</p>
+                </a>
+                <p class="fw-bolder">Bæredygtig kommunikation</p>
             </div>
 
             <div class="gx-5 me-2 bnc-icon icon-trio text-center">
-                <button type="button" class="btn btntrio btn-BNCsec px-3 ms-3">
+                <a href="#rådgivning" class="btn btntrio btn-BNCsec px-3 ms-3">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
-                </button>
+                </a>
                 <p class="fw-bolder">Rådgivning</p>
             </div>
+
         </div>
+
     </section>
 
     <!--hvorfor sektion-->
@@ -90,7 +93,7 @@ require "settings/init.php";
     <!--de tre sektioner med de forskellige services-->
     <section class="container g-5">
         <div class="row gx-5">
-            <article class="col-md-6">
+            <article id="webtilgængelighed" class="col-md-6">
                 <h3>Webtilgængelighed</h3>
                 <p>
                     D. 28. juni 2025 trådte de nye regler fra EU i kraft vedrørende digital tilgængelighed og gælder
@@ -99,7 +102,7 @@ require "settings/init.php";
                     følgende
                     produkter eller tjenester:
                 </p>
-                <table class="table table-striped">
+                <table class="table table-striped col-md-6">
                     <tr>
                         <td>E-handel og websites</td>
                         <td>Transport og billetkøb</td>
@@ -115,6 +118,7 @@ require "settings/init.php";
                 </table>
                 <p>Derfor hjælper vi dig i gang med at optimere din hjemmesider, så den bliver mere tilgængelig og
                     brugervenlig for dine brugere og kunder.</p>
+                <a href="kontakt.php" class="btn btn-BNCsec">Book tid for at høre mere</a>
             </article>
 
             <figure class="col-md-6">
@@ -129,7 +133,7 @@ require "settings/init.php";
 
     <section class="container g-5">
         <div class="row gx-5">
-            <article class="col-md-6">
+            <article id="bæredygtig kommunikation" class="col-md-6">
                 <h3>Bæredygtig kommunikation</h3>
                 <p>Når vi snakker bæredygtig kommunikation, så handler det om at sørger for at man som virksomhed har
                     styr
@@ -140,6 +144,7 @@ require "settings/init.php";
                     ansvar,
                     for de påstande, der bliver lavet.</p>
                 <p>Hos Greenly hjælper vi dig på vej ved at guide dig igennem processen om at blive mere bæredygtig.</p>
+                <a href="kontakt.php" class="btn btn-BNCsec">Book tid for at høre mere</a>
             </article>
             <figure class="col-md-6">
                 <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
@@ -151,7 +156,7 @@ require "settings/init.php";
     </section>
 
     <section class="container g-5">
-        <div class="row gx-5">
+        <div id="rådgivning" class="row gx-5">
             <article class="col-md-6">
                 <h3>Rådgivning</h3>
                 <p>Hos Greenly sidder der dygtige designere og marketingsfolk, som har en masse erfaring med at designe,
@@ -159,7 +164,9 @@ require "settings/init.php";
                     De vil hjælpe dig med dataindsamling, markedsanalyse og hjælpe dig med at lave en målrettet digital
                     strategi, så du kan finde det næste skridt for din virksomhed.</p>
                 <p>Book en tid hos os og hør nærmere om hvad vi kan gøre for dig.</p>
+                <a href="kontakt.php" class="btn btn-BNCsec">Book tid for at høre mere</a>
             </article>
+
             <figure class="col-md-6 order-md-1">
                 <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
                 <figcaption class="text-muted small mt-1">
