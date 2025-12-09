@@ -31,11 +31,15 @@ body {
   color: #0A0A0A;
   font-size: 1rem;
   font-family: "Noto Sans", sans-serif;
-  line-height: 1.5rem;
+  line-height: 1.5;
 }
 
 main {
   margin: 3rem 6rem;
+}
+
+.section-spacing {
+  margin-block: 5rem;
 }
 
 
@@ -46,45 +50,45 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 2.625rem;
+  line-height: 2.625;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  line-height: 1.875rem;
+  line-height: 1.875;
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.425rem;
+  line-height: 1.425;
 }
 
 h4 {
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.2rem;
+  line-height: 1.2;
 }
 
 h5 {
   font-size: 0.875rem;
   font-weight: 500;
-  line-height: 1.1rem;
+  line-height: 1.1;
 }
 h6 {
   font-size: 0.75rem;
   font-weight: 500;
-  line-height: 1rem;
+  line-height: 1;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 62rem) {
   main {
     margin: 2rem 3rem;
   }
   h1 {
     font-size: 2.25rem;
-    line-height: 2.5rem;
+    line-height: 2.5;
   }
   h2 {
     font-size: 1.35rem;
@@ -103,14 +107,14 @@ h6 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 48rem) {
   main {
     margin: 2rem 1rem;
   }
 
   h1 {
     font-size: 2rem;
-    line-height: 2.25rem;
+    line-height: 2.25;
   }
   h2 {
     font-size: 1.2rem;
@@ -142,13 +146,13 @@ h6 {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 36rem) {
   main {
     margin: 1rem 0.5rem;
   }
   h1 {
     font-size: 1.5rem;
-    line-height: 1.75rem;
+    line-height: 1.75;
   }
   h2 {
     font-size: 1rem;
@@ -167,8 +171,8 @@ h6 {
   }
 
   .btntrio {
-    width: 32px;
-    height: 32px;
+    width: 2rem;
+    height: 2rem;
   }
 
   .icon-trio p{
@@ -261,8 +265,8 @@ body.dark-mode .footer-card {
 //service
 .btntrio {
   border-radius: 50%;
-  width: 48px;
-  height: 48px;
+  width: 3rem;
+  height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,7 +274,6 @@ body.dark-mode .footer-card {
 }
 
 .btn-group {
-  margin: 1rem;
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
@@ -287,6 +290,14 @@ body.dark-mode .footer-card {
 
 .icon-trio {
   margin: 0 1.5rem;
+}
+
+.service-list{
+  column-count: 2;
+  column-gap: 3rem;
+  list-style: none;
+  padding-left: 0;
+  margin: 0 1rem;
 }
 
 #testimonialCarousel .carousel-item {

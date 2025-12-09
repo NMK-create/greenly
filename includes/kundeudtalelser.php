@@ -1,7 +1,7 @@
 <!--Kundeudtalelser-->
 <section id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
     <h4 class="h3 text-center">Det siger vores kunder</h4>
-    <div class="carousel-inner">
+    <div class="carousel-inner" role="region" aria-label="Kundeudtalelser">
 
         <div class="carousel-item active">
             <div class="testimonial-slidet text-center p-4">
@@ -43,12 +43,12 @@
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
-                data-bs-slide="prev">
+                data-bs-slide="prev" aria-label="Tidligere">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Tidligere</span>
         </button>
         <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
-                data-bs-slide="next">
+                data-bs-slide="next" aria-label="Næste">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Næste</span>
         </button>
