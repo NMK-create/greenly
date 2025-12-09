@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
     
-    <title>Sigende titel</title>
+    <title>Greenly - Forside</title>
     
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -31,13 +31,144 @@ require "settings/init.php";
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <?php include("includes/navbar.php") ?>
 
+<section class="hero-section position-relative">
+    <img src="img/Wallpaper-hero.jpg" class="hero-img" alt="" aria-hidden="true">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content container text-center">
+        <h1 class="display-5 fw-bold">
+            Digitale løsninger uden barrierer<br>
+            – tilgængeligt, inkluderende og brugervenligt
+        </h1>
+
+        <p class="lead mt-3">
+            Et digitalt bureau, der hjælper virksomheder med design og webudvikling. <br>
+            Vi skaber digitale løsninger, der er tilgængelige for alle<br>
+            – uanset baggrund, erfaring eller funktionsevne.
+        </p>
+
+        <div class="mt-4">
+            <a href="kontakt.php" class="btn btn-BNCpri btn-lg me-2">Få et tilbud</a>
+            <a href="service.php" class="btn btn-BNCsec btn-lg">Se services</a>
+        </div>
+    </div>
+</section>
+
+
 <main id="main" tabindex="-1">
+    <section class="services-section py-5" aria-labelledby="services-heading">
+        <div class="container">
+
+            <h2 id="services-heading" class="text-center fw-bold mb-5">
+                Hvad kan vi hjælpe dig med?
+            </h2>
+
+            <div class="row g-4">
+
+                <!-- Hjemmeside -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-desktop service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">Hjemmeside</h3>
+                        <p class="service-divider"></p>
+                        <p>Udvikling af brugervenlige og tilgængelige websites, custom kodet eller WordPress.</p>
+                    </div>
+                </div>
+
+                <!-- Webshop -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-store service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">Webshop</h3>
+                        <p class="service-divider"></p>
+                        <p>Design og opsætning af skalerbare og konverteringsoptimerede webshops.</p>
+                    </div>
+                </div>
+
+                <!-- Markedsføring -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-chart-line service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">Markedsføring</h3>
+                        <p class="service-divider"></p>
+                        <p>Datadrevet digital-markedsføring med fokus på synlighed, engagement og målbare resultater.</p>
+                    </div>
+                </div>
+
+                <!-- SoMe -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-bullhorn service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">SoMe Content</h3>
+                        <p class="service-divider"></p>
+                        <p>Kreativt indhold til sociale medier, opslag og videoer.</p>
+                    </div>
+                </div>
+
+                <!-- SEO -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-magnifying-glass-chart service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">SEO</h3>
+                        <p class="service-divider"></p>
+                        <p>Optimering der forbedrer organiske placeringer og øger trafikken.</p>
+                    </div>
+                </div>
+
+                <!-- Nyhedsbrev -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-envelope-open-text service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">Nyhedsbrev</h3>
+                        <p class="service-divider"></p>
+                        <p>Opsætning af professionelle nyhedsbreve, der styrker jeres relation til kunder.</p>
+                    </div>
+                </div>
+
+                <!-- Klimakommunikation -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-earth-europe service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">Klimakommunikation</h3>
+                        <p class="service-divider"></p>
+                        <p>Fokus på grøn kommunikation baseret på fakta og dokumentation.</p>
+                    </div>
+                </div>
+
+                <!-- Tilgængelighed -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-universal-access service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">Tilgængelighed</h3>
+                        <p class="service-divider"></p>
+                        <p>Implementering af WCAG- og EAA-standarder, så alle kan bruge jeres digitale løsninger.</p>
+                    </div>
+                </div>
+
+                <!-- Grafisk Design -->
+                <div class="col-md-4 d-flex align-items-start">
+                    <i class="fa-solid fa-palette service-icon" aria-hidden="true"></i>
+                    <div class="ms-3">
+                        <h3 class="h5 fw-bold">Grafisk Design</h3>
+                        <p class="service-divider"></p>
+                        <p>Visuel identitet, logo og grafiske materialer, der styrker jeres brand.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<div class="divider">
+    <div class="divider-fade mb-5"></div>
+</div>
 
 <!--Nye regler om webtilgængelighed-->
 <article class="container">
     <h2 class="text-center">Nye regler om webtilgængelighed</h2>
     <p class="text-center">Webtilgængelighed blev et lovkrav i 2025,</p>
-    <p class="text-center">derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.</p>
+    <p class="text-center">Derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.</p>
     <div class="container d-flex row">
         <div class="col-md-6">
             <i class="fa-solid fa-scale-balanced"></i>
@@ -71,9 +202,7 @@ require "settings/init.php";
         </div>
     </div>
 </article>
-
-    <?php include_once 'includes/kundeudtalelser.php'; ?>
-
+<?php include_once 'includes/kundeudtalelser.php'; ?>
 <section>
 <div>
 <h3 class="text-center">Få tips, guides og ny viden om digial udvikling</h3>
@@ -93,7 +222,6 @@ require "settings/init.php";
 </form>
 </div>
 </section>
-</main>
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
