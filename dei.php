@@ -143,52 +143,106 @@ require "settings/init.php";
     </div>
 </main>
 
-<!-- Sektion: Den Sociale Handicapmodel -->
-<section class="container my-5" aria-labelledby="handicapmodel-title">
-    <h2 id="handicapmodel-title" class="h2 mb-4">
-        Den Sociale Handicapmodel i vores arbejde
+<!-- Den Sociale Handicapmodel -->
+<section class="container" aria-labelledby="handicapmodel-title">
+    <h2 id="handicapmodel-title" class="text-center">
+        Vi anvender den Sociale Handicapmodel i vores arbejde
     </h2>
 
-    <div class="row g-4 align-items-center">
-        <!-- Illustration -->
-        <div class="col-lg-6 text-center">
-            <figure>
-                <img src="img/Handicapmodel-Sort.png" alt="Illustration af den Sociale Handicapmodel med fokus på omgivelser, strukturer og holdninger som barrierer i samfundet" class="img-fluid" />
-                <figcaption class="visually-hidden">Diagram, der viser hvordan omgivelser, strukturer og holdninger skaber barrierer i samfundet.</figcaption>
+    <div class="row">
+        <div class="col-12 d-flex justify-content-center">
+            <figure class="d-flex flex-column align-items-center mt-3">
+                <img src="img/Handicapmodel-Sort.png" alt="Illustration af den Sociale Handicapmodel"
+                     class="img-fluid"/>
+                <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
             </figure>
-        </div>
-
-        <!-- Tekstpunkter -->
-        <div class="col-lg-6">
-            <ul class="mb-4">
-                <li>Utilgængelig infrastruktur</li>
-                <li>Mangel på tjenester</li>
-                <li>Dårlig kommunikation</li>
-            </ul>
-
-            <ul class="mb-4">
-                <li>Mangel på beskæftigelsesmuligheder</li>
-                <li>Ekskluderende lovgivning, regler og procedurer</li>
-                <li>Mangel på uddannelsesmuligheder</li>
-            </ul>
-
-            <ul>
-                <li>Negative stereotyper</li>
-                <li>Manglende forståelse</li>
-                <li>Øget social isolation</li>
-            </ul>
         </div>
     </div>
 
-    <p class="mt-4 content-wrapper">
-        Vi anvender den Sociale Handicapmodel, når vi udvikler digitale løsninger. Modellen hjælper os med
-        at forstå, at handicap ikke stammer fra personen selv, men fra de barrierer, samfundet og omgivelserne skaber.
-        På den måde kan vi fokusere på at tilpasse omgivelser, systemer og teknologi frem for at tilpasse mennesket.
-    </p>
+    <!-- Visually-hidden tekst til skærmlæsere -->
+    <div class="visually-hidden" aria-label="Uddybende beskrivelse af den Sociale Handicapmodel">
+        <h3>Omgivelser</h3>
+        <ul>
+            <li>Utilgængelig infrastruktur</li>
+            <li>Mangel på tjenester</li>
+            <li>Dårlig kommunikation</li>
+        </ul>
+
+        <h3>Strukturer</h3>
+        <ul>
+            <li>Mangel på beskæftigelsesmuligheder</li>
+            <li>Ekskluderende lovgivning, regler og procedurer</li>
+            <li>Mangel på uddannelsesmuligheder</li>
+        </ul>
+
+        <h3>Holdninger</h3>
+        <ul>
+            <li>Negative stereotyper</li>
+            <li>Manglende forståelse</li>
+            <li>Øget social isolation</li>
+        </ul>
+    </div>
 </section>
 
+<div class="col-lg-8">
+    <section aria-labelledby="model-info" class="model-info content-wrapper">
+        <h2 id="model-info" class="visually-hidden">Mere information om den Sociale Handicapmodel</h2>
 
-    <?php include("includes/footer.php") ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <article class="mb-5">
+            <h3 class="h3">Vi anvender den Sociale Handicapmodel, når vi udvikler digitale løsninger</h3>
+            <p>Hos Greenly Digital Bureau skaber vi digitale løsninger uden barrierer. Den Sociale Handicapmodel er en central del af vores tilgang til tilgængelighed — fordi vi tror på, at godt digitalt design skal være inkluderende og brugbart for alle.
+                Modellen hjælper os med at forstå, at handicap ikke stammer fra personen selv, men fra de barrierer, samfundet og omgivelserne skaber. På den måde kan vi fokusere på at tilpasse omgivelser, systemer og teknologi frem for at tilpasse mennesket</p>
+        </article>
+
+        <article class="mb-5">
+            <h3 class="h3">Hvad er modellen?</h3>
+            <p>Den Sociale Handicapmodel forklarer, at handicap ikke skyldes en persons funktionsnedsættelse, men de barrierer, som omgivelserne, holdningerne og strukturerne skaber:
+                Omgivelser
+                Utilgængelig infrastruktur eller teknologi (fx trapper uden ramper, websteder uden skærmlæserstøtte)
+                Manglende tjenester og ressourcer (fx support, vejledninger eller tilgængelige funktioner)
+                Dårlig kommunikation eller information, der ikke er forståelig for alle
+
+                Holdninger
+                Negative stereotyper og fordomme
+                Manglende forståelse for forskellighed og behov
+                Social isolation som følge af udelukkelse eller misforståelser
+
+                Strukturer
+                Begrænsede beskæftigelses- og uddannelsesmuligheder
+                Ekskluderende regler, procedurer eller lovgivning
+                Systemer, der ubevidst udelukker visse grupper
+
+                På den måde hjælper modellen os med at identificere, hvor barrierer opstår, og hvordan vi kan fjerne dem.
+            </p>
+        </article>
+
+        <article class="mb-5">
+            <h3 class="h3">Hvad bruges modellen til?</h3>
+            <p>Modellen bruges til at:
+                Identificere og fjerne barrierer, så alle kan deltage på lige vilkår
+                Udvikle digitale løsninger, der fungerer for alle brugere, uanset deres forudsætninger
+                Hjælpe virksomheder og organisationer med at arbejde mere inkluderende
+                Skabe bedre oplevelser for både brugere, kunder og medarbejdere
+                Ved at arbejde med omgivelser, holdninger og strukturer sikrer vi, at løsningerne ikke udelukker nogen, men inkluderer alle.
+            </p>
+        </article>
+
+        <article class="mb-5">
+            <h3 class="h3">Hvordan bruger vi modellen hos Greenly Digital Bureau?</h3>
+            <p>Vi designer digitale løsninger med fokus på at fjerne barrierer — ikke tilpasse mennesker til dem. Det betyder konkret, at vi arbejder med:
+                Tilgængelige webdesigns baseret på WCAG og EAA-krav
+                Brugervenlig struktur & navigation, der fungerer for alle, også brugere med særlige behov
+                Teknisk og visuel tilgængelighed (fx kontrast, tekststørrelser, alt-tekst og responsivt design)
+                Inkluderende sprog og kommunikation, der respekterer alle brugere
+                Test og feedback fra rigtige brugere, som hjælper os med at opdage og rette barrierer i både omgivelser, holdninger og strukturer
+
+                Målet er digital ligestilling — hvor alle kan deltage, bidrage og navigere uden begrænsninger.</p>
+        </article>
+    </section>
+</div>
+
+
+<?php include("includes/footer.php") ?>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
