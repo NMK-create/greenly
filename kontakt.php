@@ -72,7 +72,7 @@ require "settings/init.php";
                                class="form-control" placeholder="Dit firmanavn">
                     </div>
 
-                    <fieldset class="col-12">
+                    <fieldset class="col-12 mt-3">
                         <legend class="form-label">Hvad ønsker du hjælp til?</legend>
 
                         <div class="form-check">
@@ -108,7 +108,7 @@ require "settings/init.php";
 
                     <div class="col-12">
                         <label for="message" class="form-label">Beskriv projekt</label>
-                        <textarea id="message" name="message" rows="5"
+                        <textarea id="message" name="message" rows="7"
                                   class="form-control"
                                   placeholder="Fortæl om dit projekt, mål og eventuelle specifikke behov.."></textarea>
                     </div>
@@ -129,27 +129,18 @@ require "settings/init.php";
                 <h2 id="contact-info-title" class="visually-hidden">Kontaktinformation</h2>
 
                 <ul class="list-unstyled">
-                    <li class="mt-4"><strong><i class="fa-solid fa-envelope me-3"></i>Email</strong><br>info@greenly.dk
-                    </li>
-                    <li class="mt-4"><strong><i class="fa-solid fa-phone me-3"></i>Telefon</strong><br> +45 52 52 44
-                        35<br>Man–Fre 08:00 – 18:00
-                    </li>
-                    <li class="mt-4"><strong><i class="fa-solid fa-location-dot me-3"></i>Adresse</strong><br>Kommunikationsvej
-                        123<br>4200 Slagelse
-                    </li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-envelope me-3" aria-hidden="true"></i>Email</strong><br>info@greenly.dk</li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-phone me-3" aria-hidden="true"></i>Telefon</strong><br> +45 52 52 44 35<br>Man–Fre 08:00 – 18:00</li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-location-dot me-3" aria-hidden="true"></i>Adresse</strong><br>Kommunikationsvej 123<br>4200 Slagelse</li>
                 </ul>
             </aside>
 
             <aside class="process-box" aria-labelledby="process-title">
                 <h2 id="process-title">Hvordan foregår processen?</h2>
                 <ul class="list-unstyled">
-                    <li class="mt-3"><i class="fa-solid fa-1 me-3"></i>Vi gennemgår din forespørgsel</li>
-                    <li class="mt-3"><i class="fa-solid fa-2 me-3"></i>Vi kontakter dig<br>- Med eventuelt opfølgende
-                        spørgsmål
-                    </li>
-                    <li class="mt-3"><i class="fa-solid fa-3 me-3"></i>Du modtager et tilbud<br>- Pris, leveringstid og
-                        detaljer
-                    </li>
+                    <li class="mt-3"><i class="fa-solid fa-1 me-3" aria-hidden="true"></i>Vi gennemgår din forespørgsel</li>
+                    <li class="mt-3"><i class="fa-solid fa-2 me-3" aria-hidden="true"></i>Vi kontakter dig<br>- Med eventuelt opfølgende spørgsmål</li>
+                    <li class="mt-3"><i class="fa-solid fa-3 me-3" aria-hidden="true"></i>Du modtager et tilbud<br>- Pris, leveringstid og detaljer</li>
                 </ul>
             </aside>
         </div>
