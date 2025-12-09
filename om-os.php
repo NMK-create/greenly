@@ -27,11 +27,12 @@ require "settings/init.php";
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
-<body>
+<body class="bg-white">
 <?php include("includes/navbar.php") ?>
 
 <br>
 <br>
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <main tabindex="-1">
     <div class="container">
         <div class="row">
@@ -102,7 +103,7 @@ require "settings/init.php";
 
                 <section>
                     <figure class="figure">
-                        <img src="img/omos3.png" class="figure-img img-fluid rounded" style="border-radius: 20px" alt="Billede">
+                        <img src="img/cirkler.png" class="figure-img img-fluid rounded" style="border-radius: 20px" alt="Billede">
                         <figcaption class="figure-caption"></figcaption>
                     </figure>
                 </section>
