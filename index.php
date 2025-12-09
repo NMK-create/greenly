@@ -30,27 +30,51 @@ require "settings/init.php";
 <body>
 <?php include("includes/navbar.php") ?>
 
-<h1>TEST 🥳</h1>
+<!--Skip to content-->
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 
+<main id="main" tabindex="-1">
 
+<!--Nye regler om webtilgængelighed-->
+<article class="container">
+    <h2 class="text-center">Nye regler om webtilgængelighed</h2>
+    <p class="text-center">Webtilgængelighed blev et lovkrav i 2025,</p>
+    <p class="text-center">derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.</p>
+    <div class="container d-flex row">
+        <div class="col-md-6">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <h3>Lovkrav</h3>
+            <p>Mange virksomheder skal nu opfylde EAA og WCAG 2.1 AA for digitale løsninger. Kravene skærpes fra 2025 og omfatter både offentlige og private aktører.</p>
+        </div>
+        <div class="col-md-6">
+            <i class="fa-solid fa-users-viewfinder"></i>
+            <h3>Målgruppe</h3>
+            <p>Ca. 15-20% af befolkningen lever med en form for funktionsnedsættelse. Tilgængelighed betyder, at ingen kunder tabes.</p>
+        </div>
+        <div class="col-md-6">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <h3>SEO</h3>
+            <p>God struktur, semantisk HTML og korrekt brug af alt-tekster forbedrer søgeplaceringer. Tilgængelighed og SEO går hånd i hånd og styrker synlighed</p>
+        </div>
+        <div class="col-md-6">
+            <i class="fa-solid fa-heart"></i>
+            <h3>Brandimage</h3>
+            <p>Inkluderende virksomheder opfattes som ansvarlige, moderne og troværdige. Det styrker omdømmet og differentierer fra konkurrence.</p>
+        </div>
+        <div class="col-md-6">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Brugeroplevelse</h3>
+            <p>Tilgængelige websites er nemmere at navigere for alle - i alle situationer og på alle enheder. Det øger tilfredshed, engagement og konverteringer.</p>
+        </div>
+        <div class="col-md-6">
+            <i class="fa-solid fa-circle-check"></i>
+            <h3>Undgå bøder</h3>
+            <p>Manglende overholdelse kan føre til klager, påbud og økonomiske sanktioner. At handle i tide er billigere end at rette bagud.</p>
+        </div>
+    </div>
+</article>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <?php include_once 'includes/kundeudtalelser.php'; ?>
 
 <section>
 <div>
@@ -71,7 +95,7 @@ require "settings/init.php";
 </form>
 </div>
 </section>
-
+</main>
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
