@@ -150,18 +150,17 @@ body.dark-mode .footer-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 0.5rem;
 }
 
 .btn-trio {
   border: none;
-  border-radius: 50%;
+  border-radius: 50% !important;
   width: 4.5rem;
   height: 4.5rem;
   padding: 1rem !important;
-  justify-content: center;
-  align-items: center;
-  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+  display: flex !important;
   font-size: 1.75rem;
 }
 
