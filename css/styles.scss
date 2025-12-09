@@ -197,7 +197,7 @@ body.dark-mode .footer-card {
   max-width: 3.125rem;
 }
 
-.stars{
+.stars {
   font-size: 1.5rem;
   letter-spacing: 0.125rem;
 }
@@ -229,5 +229,5 @@ body.dark-mode .footer-card {
 }
 
 .accordion-button::after {
-  filter: invert(1); /* gør pilen hvid */
+  filter: invert(1); // Hvid pil /
 }

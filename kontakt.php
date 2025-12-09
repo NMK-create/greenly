@@ -33,7 +33,7 @@ require "settings/init.php";
 <?php include("includes/navbar.php") ?>
 
 <header class="container mb-5">
-    <h1>Fortæl os om din virksomhed</h1>
+    <h1 class="mt-5">Fortæl os om din virksomhed</h1>
     <p>Udfyld formularen nedenfor, så vender vi tilbage hurtigst muligt, dog indenfor 24 timer.</p>
 </header>
 
@@ -129,18 +129,27 @@ require "settings/init.php";
                 <h2 id="contact-info-title" class="visually-hidden">Kontaktinformation</h2>
 
                 <ul class="list-unstyled">
-                    <li class="mt-4"><strong>Email</strong><br> info@greenly.dk</li>
-                    <li class="mt-4"><strong>Telefon</strong><br> +45 52 52 44 35<br>Man–Fre 08:00 – 18:00</li>
-                    <li class="mt-4"><strong>Adresse</strong><br>Kommunikationsvej 123<br>4200 Slagelse</li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-envelope me-3"></i>Email</strong><br>info@greenly.dk
+                    </li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-phone me-3"></i>Telefon</strong><br> +45 52 52 44
+                        35<br>Man–Fre 08:00 – 18:00
+                    </li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-location-dot me-3"></i>Adresse</strong><br>Kommunikationsvej
+                        123<br>4200 Slagelse
+                    </li>
                 </ul>
             </aside>
 
             <aside class="process-box" aria-labelledby="process-title">
                 <h2 id="process-title">Hvordan foregår processen?</h2>
                 <ul class="list-unstyled">
-                    <li class="mt-3">Vi gennemgår din forespørgsel</li>
-                    <li class="mt-3">Vi kontakter dig<br>- Med eventuelt opfølgende spørgsmål</li>
-                    <li class="mt-3">Du modtager et tilbud<br>- Pris, leveringstid og detaljer</li>
+                    <li class="mt-3"><i class="fa-solid fa-1 me-3"></i>Vi gennemgår din forespørgsel</li>
+                    <li class="mt-3"><i class="fa-solid fa-2 me-3"></i>Vi kontakter dig<br>- Med eventuelt opfølgende
+                        spørgsmål
+                    </li>
+                    <li class="mt-3"><i class="fa-solid fa-3 me-3"></i>Du modtager et tilbud<br>- Pris, leveringstid og
+                        detaljer
+                    </li>
                 </ul>
             </aside>
         </div>
@@ -149,8 +158,8 @@ require "settings/init.php";
 </main>
 
 <!-- FAQ Accordion -->
-<section class="faq-section" id="faq" aria-labelledby="faq-title">
-    <h2 class="text-center" id="faq-title">Ofte stillede spørgsmål</h2>
+<section class="faq-section container-md" id="faq" aria-labelledby="faq-title">
+    <h2 class="text-center mb-4" id="faq-title"><strong>Ofte stillede spørgsmål</strong></h2>
 
     <div class="accordion" id="faqAccordion">
 
