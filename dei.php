@@ -10,7 +10,7 @@ require "settings/init.php";
 <head>
     <meta charset="utf-8">
 
-    <title>Sigende titel</title>
+    <title>DEI - Diversitet, Equity & Inclusion</title>
 
     <meta name="robots" content="All">
     <meta name="author" content="Udgiver">
@@ -33,7 +33,7 @@ require "settings/init.php";
 <?php include("includes/navbar.php") ?>
 
 <header class="container">
-    <h1>DEI - Diversity, Inclusion & Equity</h1>
+    <h1>DEI - Diversity, Equity & Inclusion</h1>
     <p>Diversitet, Lighed & Inklusion</p>
 </header>
 
@@ -46,22 +46,22 @@ require "settings/init.php";
                 <h2 id="dei-info" class="visually-hidden">Information om DEI</h2>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvad er DEI?</h3>
+                    <h3>Hvad er DEI?</h3>
                     <p>DEI handler om at skabe miljøer, hvor alle mennesker – uanset baggrund, erfaring eller
-                        funktionsevne – føler sig set, respekteret og har lige mulighed for at deltage og udvikle sig.
+                        funktionsevne føler sig set, respekteret og har lige mulighed for at deltage og udvikle sig.
                         Det er en strategisk tilgang, hvor organisationer aktivt anerkender forskelligheder og fjerner
                         barrierer, så alle kan bidrage på lige vilkår.</p>
                 </article>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvad bruges DEI til?</h3>
+                    <h3>Hvad bruges DEI til?</h3>
                     <p>Det hjælper med at skabe inkluderende og retfærdige arbejdsmiljøer, der styrker innovation,
                         kreativitet og samarbejde. DEI øger trivsel, tryghed og engagement blandt medarbejdere og
                         forbedrer virksomheders omdømme og sociale ansvar.</p>
                 </article>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvorfor er DEI vigtigt?</h3>
+                    <h3>Hvorfor er DEI vigtigt?</h3>
                     <p>Organisationer fungerer bedre, når alle føler sig hørt og respekteret. Mangfoldige teams træffer
                         bedre beslutninger, performer bedre og bidrager til mere innovative løsninger. Samtidig
                         forventer kunder, samarbejdspartnere og samfundet ansvarlighed og etik, og DEI sikrer, at disse
@@ -69,45 +69,54 @@ require "settings/init.php";
                 </article>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvordan implementerer vi DEI i vores virksomhed og hos vores kunder?</h3>
+                    <h3>Hvordan implementerer vi DEI i vores virksomhed og hos vores kunder?</h3>
                     <p>Vi arbejder med at integrere DEI-principper i både design, processer og kultur:
 
-                        Tilgængelige digitale løsninger: Vi følger WCAG og EAA-standarder for at sikre, at vores
-                        websites og digitale service kan bruges af alle. 
-                        Inkluderende team- og organisationsdesign: Vi sikrer diversitet og repræsentation på tværs af
-                        teams og projekter. 
-                        Proces- og kulturvurdering: Vi analyserer og justerer procedurer, praksisser og kultur for at
-                        fjerne barrierer.
-                    </p>
+                    <h4>Tilgængelige digitale løsninger:</h4>
+                    <ul>
+                        <li>Vi følger WCAG og EAA-standarder for at sikre, at vores websites og digitale service kan bruges af alle.</li>
+                    </ul>
+
+                    <h4>Inkluderende team- og organisationsdesign:</h4>
+                    <ul>
+                        <li>Vi sikrer diversitet og repræsentation på tværs af teams og projekter.</li>
+                    </ul>
+
+                    <h4>Proces- og kulturvurdering:</h4>
+                    <ul>
+                        <li>Vi analyserer og justerer procedurer, praksisser og kultur for at fjerne barrierer.</li>
+                    </ul>
                 </article>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvad gør vi for at sikre inklusion?</h3>
-                    <p>Vi skaber miljøer, hvor alle kan bidrage og føler sig trygge og værdsatte. Det betyder:
-                        Lytning og anerkendelse af forskellige perspektiver
-                        Fjernelse af barrierer, der kan ekskludere nogen
-                        Sikring af repræsentation i alle beslutningsprocesser
-                    </p>
+                    <h3>Hvad gør vi for at sikre inklusion?</h3>
+                    <p>Vi skaber miljøer, hvor alle kan bidrage og føler sig trygge og værdsatte. Det betyder:</p>
+                    <ul>
+                        <li>Lytning og anerkendelse af forskellige perspektiver</li>
+                        <li>Fjernelse af barrierer, der kan ekskludere nogen</li>
+                        <li>Sikring af repræsentation i alle beslutningsprocesser</li>
+                    </ul>
                 </article>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvad er målet med DEI i design?</h3>
+                    <h3>Hvad er målet med DEI i design?</h3>
                     <p>Målet er digitale løsninger, der er tilgængelige og brugbare for alle, uanset baggrund, erfaring
-                        eller funktionsevne.
-                        Det inkluderer:
-                        Tilgængelige websites og apps i overensstemmelse med WCAG og EAA
-                        Inkluderende sprog og kommunikation
-                        Navigation og struktur, der fungerer for alle brugere
-                    </p>
+                        eller funktionsevne. Det inkluderer:</p>
+                        <ul>
+                            <li>Tilgængelige websites og apps i overensstemmelse med WCAG og EAA</li>
+                            <li>Inkluderende sprog og kommunikation</li>
+                            <li>Navigation og struktur, der fungerer for alle brugere</li>
+                        </ul>
                 </article>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvad begrænser DEI?</h3>
-                    <p>DEI kan begrænses af:
-                        Bias: Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af mennesker 
-                        Fastlåste strukturer og vaner: Indgroede processer, der ekskluderer visse grupper
-                        Manglende ressourcer eller ledelsesopbakning: Uden engagement fra topledelsen kan indsatsen
-                        mislykkes</p>
+                    <h3>Hvad begrænser DEI?</h3>
+                    <p>DEI kan begrænses af:</p>
+                        <ul>
+                            <li>Bias:<br>Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af mennesker.</li>
+                            <li>Fastlåste strukturer og vaner:<br>Indgroede processer, der ekskluderer visse grupper.</li>
+                            <li>Manglende ressourcer eller ledelsesopbakning:<br>Uden engagement fra topledelsen kan indsatsen mislykkes.</li>
+                        </ul>
                 </article>
 
 
