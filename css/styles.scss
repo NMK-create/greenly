@@ -220,16 +220,58 @@ h6 {
 }
 
 // Footer
+/* Farver */
 .footer {
-  background-color: #074047;
-  padding: 1rem;
-  width: 100%;
+  color: white;
 }
 
-.footer-card {
-  background-color: #032223;
-  color: #d6f1f3;
+.footer-top {
+  background-color: #053b45; /* øverste del */
 }
+
+.footer-bottom {
+  background-color: #00282e; /* nederste mørke bar */
+  font-size: 0.9rem;
+}
+
+/* Titel */
+.footer-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+/* Menu links */
+.footer-menu .nav-link {
+  color: white;
+  padding-left: 0;
+  padding-right: 1.2rem;
+}
+
+.footer-menu .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Ikoner */
+.social-icons a {
+  font-size: 1.6rem;
+  color: white;
+  margin-left: 0.7rem;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+/* Bundlinje links */
+.footer-bottom-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom-link:hover {
+  text-decoration: underline;
+}
+
 
 // Dark mode
 // Dark Mode Styles
