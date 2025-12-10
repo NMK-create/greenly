@@ -271,26 +271,34 @@ require "settings/init.php";
 <div class="divider">
     <div class="divider-fade mb-5"></div>
 </div>
+<!-- Nyhedsbrev -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h3>Få tips, guides og ny viden om digital udvikling</h3>
+            <p>Tilmeld dig, og få nyttig viden om digital udvikling, trends, cases og konkrete værktøjer, du kan bruge i dit arbejde.</p>
+        </div>
 
-<section>
-    <div>
-        <h3 class="text-center">Få tips, guides og ny viden om digial udvikling</h3>
-        <p class="text-center">Tilmeld dig, og få nyttig viden om digital udvikling,
-            trends, cases og konkrete værktøjer, du kan bruge i dit arbejde</p>
-        <form class="row g-3 ">
-            <div class="col-auto">
-                <label for="staticEmail2" class="visually-hidden">Email</label>
+        <form class="row g-3 justify-content-center align-items-center" novalidate>
+            <!-- Email input -->
+            <div class="col-md-6 col-sm-8">
+                <label for="inputEmail" class="visually-hidden">Email</label>
+                <input type="email"
+                       class="form-control"
+                       id="inputEmail"
+                       placeholder="Din Email"
+                       required
+                       aria-label="Email til nyhedsbrev">
             </div>
-            <div class="col-auto text-center">
-                <label for="inputPassword2" class="visually-hidden">Email</label>
-                <input type="password" class="form-control" id="inputPassword2" placeholder="Din Email">
-            </div>
+
+            <!-- Submit button -->
             <div class="col-auto">
-                <button type="submit" class="btn btn-BNCsec mb-3 text-BNCbg">Tilmeld</button>
+                <button type="submit" class="btn btn-BNCsec">Tilmeld</button>
             </div>
         </form>
     </div>
 </section>
+
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
