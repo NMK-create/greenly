@@ -53,7 +53,6 @@ require "settings/init.php";
             </div>
 
             <div class="bnc-icon icon-trio text-center">
-
                 <a href="#baeredygtig-kommunikation" class="btn btntrio btn-BNCsec" aria-label="Gå til bæredygtig kommunikation">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
                 </a>

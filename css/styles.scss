@@ -338,6 +338,10 @@ body.dark-mode .dei-dark {
   display: block;
 }
 
+body.dark-mode #testimonialCarousel .carousel-control-prev-icon,
+body.dark-mode #testimonialCarousel .carousel-control-next-icon {
+  filter: invert(1) brightness(2);
+}
 
 // Service
 .btntrio {
@@ -377,34 +381,112 @@ body.dark-mode .dei-dark {
   margin: 0 1rem;
 }
 
+//kundeudtalelser
 #testimonialCarousel .carousel-item {
-  min-height: 20rem;
+  min-height: 32rem;
 }
 
 #testimonialCarousel {
-  max-width: 28rem;
-  font-style: italic;
+  max-width: 32rem;
   margin: 0 auto;
+  font-style: italic;
 }
 
 .testimonial-slide {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
-.rounded-circle {
-  vertical-align: middle;
+.testimonial-img {
+  width: 4rem;
+  height: 4rem;
   border-radius: 50%;
-  width: 3.125rem;
-  height: 3.125rem;
-  max-width: 3.125rem;
 }
 
 .stars {
-  font-size: 1.5rem;
-  letter-spacing: 0.125rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.15rem;
+}
+
+#testimonialCarousel .carousel-control-prev-icon,
+#testimonialCarousel .carousel-control-next-icon {
+  filter: invert(1);
+}
+
+#testimonialCarousel .carousel-control-prev,
+#testimonialCarousel .carousel-control-next {
+  width: 3.5rem;
+}
+
+#testimonialCarousel .carousel-control-prev {
+  left: -3rem;
+}
+
+#testimonialCarousel .carousel-control-next {
+  right: -3rem;
+}
+
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+  #testimonialCarousel {
+    max-width: 38rem;
+    padding: 0 2rem;
+  }
+
+  .testimonial-img {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  #testimonialCarousel p.lead {
+    font-size: 1.15rem;
+  }
+
+  #testimonialCarousel .carousel-control-prev {
+    left: -1rem;
+  }
+
+  #testimonialCarousel .carousel-control-next {
+    right: -1rem;
+  }
+}
+
+@media (max-width: 576px) {
+
+  #testimonialCarousel {
+    width: 100%;
+    max-width: 100%;
+    height: 32rem;
+    padding: 0 0.5rem;
+  }
+
+  #testimonialCarousel .carousel-item {
+    min-height: auto;
+    padding: 1rem 0;
+  }
+
+  .testimonial-img {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .stars {
+    font-size: 1.1rem;
+  }
+
+  #testimonialCarousel p.lead {
+    font-size: 1rem;
+  }
+
+  #testimonialCarousel .carousel-control-prev {
+    left: 0.5rem;
+  }
+
+  #testimonialCarousel .carousel-control-next {
+    right: 0.5rem;
+  }
 }
 
 // Kontakt //
