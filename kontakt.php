@@ -45,18 +45,23 @@ require "settings/init.php";
             <section aria-labelledby="kontakt-formular" class="contact-section">
                 <h2 id="kontakt-formular" class="visually-hidden">Kontaktformular</h2>
 
-                <form class="row g-4" action="#" method="post" novalidate>
+                <form class="row g-4" action="#" method="post" novalidate id="contactForm">
 
                     <div class="col-md-6">
                         <label for="name" class="form-label">Navn *</label>
                         <input id="name" name="name" type="text" autocomplete="name" required
-                               class="form-control" placeholder="Dit fulde navn">
+                               class="form-control" placeholder="Dit fulde navn"
+                               aria-describedby="nameErr" aria-invalid="false">
+                        <small id="nameErr" class="text-danger visually-hidden" role="alert">Angiv dit navn</small>
                     </div>
 
                     <div class="col-md-6">
                         <label for="email" class="form-label">E-mail *</label>
                         <input id="email" name="email" type="email" autocomplete="email" required
-                               class="form-control" placeholder="din@email.dk">
+                               class="form-control" placeholder="din@email.dk"
+                               aria-describedby="emailErr" aria-invalid="false">
+                        <small id="emailErr" class="text-danger visually-hidden" role="alert">Angiv en gyldig
+                            email</small>
                     </div>
 
                     <div class="col-md-6">
@@ -72,36 +77,39 @@ require "settings/init.php";
                     </div>
 
                     <fieldset class="col-12 mt-3">
+                        <small id="serviceHelp" class="visually-hidden">Vælg en eller flere typer af assistance.</small>
                         <legend class="form-label">Hvad ønsker du hjælp til?</legend>
 
-                        <div class="form-check">
-                            <input type="checkbox" id="accessibility" name="services[]" value="accessibility"
-                                   class="form-check-input">
-                            <label for="accessibility" class="form-check-label">Tilgængelighedsoptimering</label>
-                        </div>
+                        <div class="d-flex flex-column gap-2">
+                            <div class="form-check">
+                                <input type="checkbox" id="accessibility" name="services[]" value="accessibility"
+                                       class="form-check-input" aria-describedby="serviceHelp">
+                                <label for="accessibility" class="form-check-label">Tilgængelighedsoptimering</label>
+                            </div>
 
-                        <div class="form-check">
-                            <input type="checkbox" id="climate" name="services[]" value="climate"
-                                   class="form-check-input">
-                            <label for="climate" class="form-check-label">Digital klimakommunikation</label>
-                        </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="climate" name="services[]" value="climate"
+                                       class="form-check-input" aria-describedby="serviceHelp">
+                                <label for="climate" class="form-check-label">Digital klimakommunikation</label>
+                            </div>
 
-                        <div class="form-check">
-                            <input type="checkbox" id="some" name="services[]" value="some"
-                                   class="form-check-input">
-                            <label for="some" class="form-check-label">SoMe & Videoproduktion</label>
-                        </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="some" name="services[]" value="some"
+                                       class="form-check-input" aria-describedby="serviceHelp">
+                                <label for="some" class="form-check-label">SoMe & Videoproduktion</label>
+                            </div>
 
-                        <div class="form-check">
-                            <input type="checkbox" id="support" name="services[]" value="support"
-                                   class="form-check-input">
-                            <label for="support" class="form-check-label">Support & vedligeholdelse</label>
-                        </div>
+                            <div class="form-check">
+                                <input type="checkbox" id="support" name="services[]" value="support"
+                                       class="form-check-input" aria-describedby="serviceHelp">
+                                <label for="support" class="form-check-label">Support & vedligeholdelse</label>
+                            </div>
 
-                        <div class="form-check">
-                            <input type="checkbox" id="other" name="services[]" value="other"
-                                   class="form-check-input">
-                            <label for="other" class="form-check-label">Andet</label>
+                            <div class="form-check">
+                                <input type="checkbox" id="other" name="services[]" value="other"
+                                       class="form-check-input" aria-describedby="serviceHelp">
+                                <label for="other" class="form-check-label">Andet</label>
+                            </div>
                         </div>
                     </fieldset>
 
@@ -128,18 +136,31 @@ require "settings/init.php";
                 <h2 id="contact-info-title" class="visually-hidden">Kontaktinformation</h2>
 
                 <ul class="list-unstyled">
-                    <li class="mt-4"><strong><i class="fa-solid fa-envelope me-3" aria-hidden="true"></i>Email</strong><br>info@greenly.dk</li>
-                    <li class="mt-4"><strong><i class="fa-solid fa-phone me-3" aria-hidden="true"></i>Telefon</strong><br> +45 52 52 44 35<br>Man–Fre 08:00 – 18:00</li>
-                    <li class="mt-4"><strong><i class="fa-solid fa-location-dot me-3" aria-hidden="true"></i>Adresse</strong><br>Kommunikationsvej 123<br>4200 Slagelse</li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-envelope me-3"
+                                                aria-hidden="true"></i>Email</strong><br>info@greenly.dk
+                    </li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-phone me-3"
+                                                aria-hidden="true"></i>Telefon</strong><br> +45 52 52 44 35<br>Man–Fre
+                        08:00 – 18:00
+                    </li>
+                    <li class="mt-4"><strong><i class="fa-solid fa-location-dot me-3"
+                                                aria-hidden="true"></i>Adresse</strong><br>Kommunikationsvej 123<br>4200
+                        Slagelse
+                    </li>
                 </ul>
             </aside>
 
             <aside class="process-box" aria-labelledby="process-title">
                 <h2 id="process-title">Hvordan foregår processen?</h2>
                 <ul class="list-unstyled">
-                    <li class="mt-3"><i class="fa-solid fa-1 me-3" aria-hidden="true"></i>Vi gennemgår din forespørgsel</li>
-                    <li class="mt-3"><i class="fa-solid fa-2 me-3" aria-hidden="true"></i>Vi kontakter dig<br>- Med eventuelt opfølgende spørgsmål</li>
-                    <li class="mt-3"><i class="fa-solid fa-3 me-3" aria-hidden="true"></i>Du modtager et tilbud<br>- Pris, leveringstid og detaljer</li>
+                    <li class="mt-3"><i class="fa-solid fa-1 me-3" aria-hidden="true"></i>Vi gennemgår din forespørgsel
+                    </li>
+                    <li class="mt-3"><i class="fa-solid fa-2 me-3" aria-hidden="true"></i>Vi kontakter dig<br>- Med
+                        eventuelt opfølgende spørgsmål
+                    </li>
+                    <li class="mt-3"><i class="fa-solid fa-3 me-3" aria-hidden="true"></i>Du modtager et tilbud<br>-
+                        Pris, leveringstid og detaljer
+                    </li>
                 </ul>
             </aside>
         </div>
@@ -316,6 +337,48 @@ require "settings/init.php";
 </section>
 
 <?php include("includes/footer.php") ?>
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function (e) {
+        e.preventDefault(); // Stop form submission for demo
+
+        const form = e.target;
+        let firstError = null;
+
+        // Navn validering
+        const name = form.name;
+        const nameErr = document.getElementById('nameErr');
+        if (!name.value.trim()) {
+            name.setAttribute('aria-invalid', 'true');
+            nameErr.classList.remove('visually-hidden');
+            if (!firstError) firstError = name;
+        } else {
+            name.setAttribute('aria-invalid', 'false');
+            nameErr.classList.add('visually-hidden');
+        }
+
+        // Email validering
+        const email = form.email;
+        const emailErr = document.getElementById('emailErr');
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!email.value.trim() || !emailPattern.test(email.value)) {
+            email.setAttribute('aria-invalid', 'true');
+            emailErr.classList.remove('visually-hidden');
+            if (!firstError) firstError = email;
+        } else {
+            email.setAttribute('aria-invalid', 'false');
+            emailErr.classList.add('visually-hidden');
+        }
+
+        // Sæt fokus på første fejl
+        if (firstError) {
+            firstError.focus();
+            return;
+        }
+
+        // Hvis ingen fejl, kan form sendes
+        form.submit();
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
