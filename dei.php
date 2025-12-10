@@ -155,15 +155,21 @@ require "settings/init.php";
 
 <!-- Den Sociale Handicapmodel -->
 <section class="container" aria-labelledby="handicapmodel-title">
-    <h2 id="handicapmodel-title">
+    <h2 id="handicapmodel-title" class="text-center">
         Vi anvender den Sociale Handicapmodel i vores arbejde
     </h2>
 
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <figure class="d-flex flex-column align-items-center mt-3">
-                <img src="img/Handicapmodellen.png" alt="Illustration af den Sociale Handicapmodel"
-                     class="img-fluid w-75 graphic mb-5">
+                <img src="img/Handicapmodel-Sort.png"
+                     alt="Illustration af den Sociale Handicapmodel"
+                     class="img-fluid dei-light">
+
+                <img src="img/Handicapmodel-Hvid.png"
+                     alt="Illustration af den Sociale Handicapmodel"
+                     class="img-fluid dei-dark">
+
                 <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
             </figure>
         </div>
@@ -287,9 +293,9 @@ require "settings/init.php";
             </section>
         </div>
     </div>
-</section>
 
-
+    <?php include("includes/footer.php") ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <?php include("includes/footer.php") ?>
 <script>
         const img = document.querySelector('.graphic'); // vælg via klasse

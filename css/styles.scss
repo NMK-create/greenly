@@ -273,7 +273,6 @@ h6 {
 }
 
 // Dark mode
-// Dark Mode Styles
 #theme-toggle {
   border-radius: 50%;
   width: 48px;
@@ -325,6 +324,18 @@ body.dark-mode .footer-card {
     color: #F5F7F6;
     box-shadow: 0 0.2rem 0.8rem rgb(5, 50, 55);
   }
+}
+
+.dei-dark {
+  display: none;
+}
+
+body.dark-mode .dei-light {
+  display: none;
+}
+
+body.dark-mode .dei-dark {
+  display: block;
 }
 
 
