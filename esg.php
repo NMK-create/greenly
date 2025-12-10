@@ -118,7 +118,7 @@ require "settings/init.php";
         <figure class="text-center">
             <img src="img/infografikwebp.webp" class="img-fluid rounded" loading="lazy"
                  alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
-            <figcaption class="text-muted small">
+            <figcaption class="small">
                 E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.
                 <br>S (sociale forhold) menneskelig kapital, diversitet, værdikæde og samfund.
                 <br>G (god selskabsledelse) risikostyring, virksomhedsledelse, anti-korruption, og transparens.
