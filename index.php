@@ -67,7 +67,6 @@ require "settings/init.php";
 
             <div class="row g-4">
 
-                <!-- Hjemmeside -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-desktop service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -77,7 +76,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- Webshop -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-store service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -87,7 +85,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- Markedsføring -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-chart-line service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -98,7 +95,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- SoMe -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-bullhorn service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -108,7 +104,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- SEO -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-magnifying-glass-chart service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -118,7 +113,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- Nyhedsbrev -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-envelope-open-text service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -128,7 +122,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- Klimakommunikation -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-earth-europe service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -138,7 +131,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- Tilgængelighed -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-universal-access service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
@@ -148,7 +140,6 @@ require "settings/init.php";
                     </div>
                 </div>
 
-                <!-- Grafisk Design -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-palette service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
