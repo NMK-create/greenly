@@ -33,7 +33,7 @@ require "settings/init.php";
 
 <header class="container mt-5">
     <h1>EAA - Den Europæiske Tilgængelighedslov</h1>
-    <p>Få overblik over krav, målgrupper og ansvar i den nye lov</p>
+    <p>Få overblik over krav og ansvar i den nye lov</p>
 </header>
 
 <main id="main" tabindex="-1" class="container">
@@ -61,7 +61,7 @@ require "settings/init.php";
                     <p>
                         Tilgængelighedsloven gælder for en lang række digitale produkter samt tjenesteydelser,
                         dette gælder især dem der retter sig mod forbruger.
-                        Dette indebær både private virksomheder og offentlige udbydere,
+                        Dette indebærer både private virksomheder og offentlige udbydere,
                         hvis de tilbyder følgende typer produkter og eller tjenester:
                     </p>
 
@@ -92,10 +92,9 @@ require "settings/init.php";
                     <ol>
                         <li>Opfatteligt</li>
                         <li>Anvendeligt</li>
-                        <li>Forståligt</li>
+                        <li>Forståeligt</li>
                         <li>Robust</li>
                     </ol>
-
                     <p>
                         Disse principper vurderes dernæst efter succeskriterier,
                         som er inddelt i tre niveauer A, AA og AAA.
@@ -105,16 +104,23 @@ require "settings/init.php";
                         mens AAA er det højeste niveau med de mest ambitiøse krav,
                         dette niveau inkludere alle A + AA krav samt yderligere avanceret tilgængelighedskriterier.
                     </p>
-
                     <p>
                         I praksis er niveau AA det typiske mål i lovgivningen samt den offentlige standard,
                         da AA niveauet balancere omfattende tilgængelighed men med en realistisk tilgang til
                         at virksomheder kan implementere kravene.
                     </p>
+
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="img/EAA11.png"
+                                 class="img-fluid rounded"
+                                 alt="Illustration af POUR-principperne på dansk">
+                        </figure>
+                    </div>
                 </article>
 
                 <article class="mb-5">
-                    <h3>Eksempler på niveau AA succeskriterier:</h3>
+                    <h2>Eksempler på niveau AA succeskriterier:</h2>
                     <ul>
                         <li>Undertekster:<br>
                             Tilføj undertekster på live lydindhold
@@ -142,6 +148,20 @@ require "settings/init.php";
                             Tastaturfokus er synligt for alle komponenter
                         </li>
                     </ul>
+
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="img/cirkler2.png"
+                                 class="img-fluid rounded"
+                                 style="border-radius: 20px"
+                                 alt="Eksempel på farvekontraster">
+                            <figcaption class="figure-caption">
+                                Cirkel 1: Lever op til AA succeskriterierne.<br>
+                                Cirkel 2: Lever ikke op til kriterierne.
+                            </figcaption>
+                        </figure>
+                    </div>
+
                 </article>
 
 
@@ -153,27 +173,11 @@ require "settings/init.php";
             <aside>
                 <figure class="my-5">
                     <img src="img/EAA.png" class="figure-img img-fluid rounded" style="border-radius: 1rem"
-                         alt="Deokrativt billede">
+                         alt="">
                     <figcaption class="figure-caption"></figcaption>
                 </figure>
             </aside>
 
-            <aside>
-                <figure class="POUR my-5">
-                    <img src="img/EAA11.png" class="figure-img img-fluid rounded" style="border-radius: 1rem"
-                         alt="Illustration af POUR-principperne på dansk">
-                    <figcaption class="figure-caption"></figcaption>
-                </figure>
-            </aside>
-
-            <aside>
-                <figure class="Cirkel2 my-5">
-                    <img src="img/cirkler2.png" class="figure-img img-fluid rounded" style="border-radius: 20px"
-                         alt="Eksempel på farvekontraster">
-                    <figcaption class="figure-caption">Cirkel 1: Lever op til AA succeskriterierne
-                        for god kontrast mellem brødtekst og baggrund.<br>Cirkel 2: Lever ikke op til kriterierierne.</figcaption>
-                </figure>
-            </aside>
         </div>
     </div>
 </main>
