@@ -46,21 +46,23 @@ require "settings/init.php";
                 <article class="mb-5" aria-labelledby="eaa-hvad">
                     <h2 id="eaa-hvad">Hvad er EAA</h2>
                     <p>
-                        Den nye tilgængelighedslov har til formål at sikre, at alt digitalt
-                        indhold og elektroniske tjenester gøres tilgængelige for alle borgere i EU.
-                        Loven understøtter personer med funktionsnedsættelser ved at gøre det lettere
-                        at handle online og benytte digitale tjenester.
-                        Lovgivningen trådte i kraft 28. juni 2025 og forventes at gavne en stor del
-                        af befolkningen, som i dag oplever udfordringer ved digitale løsninger.
+                        Den nye tilgængelighedslov har til formål at sikre at alt digitalt indhold
+                        samt elektroniske tjenester gøres tilgængelige for alle borgere i EU.
+                        Det skal altså være lettere for mennesker med funktionsnedsættelser at begå sig online,
+                        både hvad angår det at handle på diverse hjemmesider
+                        men i ligeså høj grad også tilgåelsen af digitale tjenester.
+                        Lovgivningen som trådte i kraft 28 juni 2025 og forventes at gavne en betydelig del af
+                        befolkningen som i dag har svært ved bruge digitale løsninger
                     </p>
                 </article>
 
                 <article class="mb-5" aria-labelledby="eaa-omfatter">
                     <h2 id="eaa-omfatter">Hvem omfatter loven</h2>
                     <p>
-                        Tilgængelighedsloven omfatter en lang række digitale produkter og tjenesteydelser,
-                        især dem der er rettet mod forbrugere. Dette gælder både private virksomheder og
-                        offentlige udbydere, der tilbyder:
+                        Tilgængelighedsloven gælder for en lang række digitale produkter samt tjenesteydelser,
+                        dette gælder især dem der retter sig mod forbruger.
+                        Dette indebær både private virksomheder og offentlige udbydere hvis de tilbyder følgende
+                        typer produkter og eller tjenester
                     </p>
 
                     <ul>
@@ -91,8 +93,8 @@ require "settings/init.php";
                     </ul>
 
                     <p>
-                        Loven omfatter også enkelte fysiske produkter med digital grænseflade,
-                        såsom smart-TV eller betalingsterminaler.
+                        Derudover opfatter loven også et mindre antal fysiske produkter med en digital grænseflade,
+                        dette indebær f.eks. Smart tv eller kortterminaler
                     </p>
                 </article>
 
@@ -102,10 +104,11 @@ require "settings/init.php";
                     <div class="row align-items-start">
                         <div class="col-md-8">
                             <p>
-                                For at opfylde tilgængelighedskravene skal WCAG 2.1-standarden følges.
-                                WCAG beskriver, hvordan webindhold og apps gøres tilgængelige for personer
-                                med forskellige udfordringer og funktionsnedsættelser. Standarden bygger på
-                                fire grundprincipper:
+                                Når det kommer til at opfylde tilgængelighedskravene
+                                handler det om at følge WCAG 2.1 standarden. WCAG er internationale retningslinjer
+                                for hvordan man gør webindhold samt apps tilgængelige for personer
+                                med forskellige typer af udfordringer og funktionsnedsættelser.
+                                WCAG bygger på fire grundprincipper, Indholdet skal være:
                             </p>
 
                             <ol>
@@ -116,10 +119,17 @@ require "settings/init.php";
                             </ol>
 
                             <p>
-                                Succeskriterierne vurderes efter tre niveauer: A, AA og AAA.
-                                Niveau AA er det mest anvendte i både lovgivning og offentlige standarder,
-                                da det balancerer praktiske krav med høj tilgængelighed.
+                                Disse principper vurderes dernæst efter succeskriterier,
+                                som er inddelt i tre niveauer A, AA og AAA. Niveau A, er det mest basale niveau
+                                af tilgængelighedskravene, AA omfatter alle A-krav + yderligere kriterier,
+                                som tilsammen anses for at give en høj grad af tilgængelighed,
+                                mens AAA er det højeste niveau med de mest ambitiøse krav,
+                                dette niveau inkludere alle A + AA krav samt yderligere avanceret tilgængelighedskriterier
                             </p>
+                            <br>
+                            <p>I praksis er niveau AA det typiske mål i lovgivningen samt den offentlige standard,
+                                da AA niveauet balancere omfattende tilgængelighed men med en realistisk tilgang til
+                                at virksomheder kan implementere kravene.</p>
                         </div>
 
                     </div>
@@ -137,7 +147,7 @@ require "settings/init.php";
                                 <li><strong>Orientering:</strong> Indhold må ikke låse skærmretningen</li>
                                 <li><strong>Ikke-tekstlig kontrast:</strong> Mindst 3:1</li>
                                 <li><strong>Tekstafstand:</strong> Må ikke give indholdstab</li>
-                                <li><strong>Flere måder:</strong> Brugere skal kunne finde sider via mere end én metode
+                                <li><strong>Flere måder:</strong> Undersider skal kunne findes på flere måder </li>
                                 </li>
                                 <li><strong>Synligt fokus:</strong> Fokusmarkering skal være tydelig</li>
                             </ul>
@@ -161,14 +171,23 @@ require "settings/init.php";
                 </figure>
             </aside>
 
-            <div class="container my-5">
-                <figure class="mb-5">
+            <br> <br> <br> <br> <br>
+            <br> <br> <br> <br>
+            <br> <br> <br> <br>
+            <br> <br> <br> <br>
+
+            <div>
+                <figure class="figure">
                     <img
                             src="img/EAA11.png"
                             class="img-fluid rounded"
                             alt="Illustration af WCAG’s fire principper: Opfatteligt, Anvendeligt, Forståeligt og Robust">
                 </figure>
             </div>
+
+            <br> <br> <br> <br>
+            <br> <br> <br> <br> <br>
+            <br>
 
             <div class="container my-5">
                 <figure>
@@ -177,7 +196,7 @@ require "settings/init.php";
                             class="img-fluid rounded"
                             alt="To farvecirkler. Den første opfylder tilgængelighedskravene for kontrast, den anden gør ikke.">
                     <figcaption class="figure-caption mt-3">
-                        Eksempel på korrekt og forkert farvekontrast i niveau AA.
+                        Eksempel på korrekt og forkert farvekontraster i niveau AA.
                     </figcaption>
                 </figure>
             </div>
