@@ -44,7 +44,7 @@ require "settings/init.php";
 <main id="main" tabindex="-1">
 
     <section>
-        <nav class="flex-wrap btn-group" aria-label="Services">
+        <nav class="flex-wrap btn-group test" aria-label="Services">
             <div class="bnc-icon icon-trio text-center">
                 <a href="#webtilgaengelighed" class="btn btn-BNCsec btntrio" aria-label="Gå til webtilgængelighed">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
