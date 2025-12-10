@@ -206,10 +206,6 @@ h6 {
   text-decoration: underline;
 }
 
-.navbar-brand img {
-  height: 5rem;
-}
-
 .navbar-toggler-icon {
   filter: invert(1);
 }
@@ -218,19 +214,31 @@ h6 {
   border-color: #ffffff;
 }
 
+.navbar-cta {
+  max-width: 12rem;
+  width: 100%;
+}
+
+.navbar-logo {
+  max-height: 3.5rem;
+  height: auto;
+  width: auto;
+}
+
+.navbar-collapse {
+  gap: 1rem;
+}
 // Footer
-// Footer
-/* Farver */
 .footer {
   color: white;
 }
 
 .footer-top {
-  background-color: #053b45; /* øverste del */
+  background-color: #053b45;
 }
 
 .footer-bottom {
-  background-color: #00282e; /* nederste mørke bar */
+  background-color: #00282e;
   font-size: 0.9rem;
 }
 
