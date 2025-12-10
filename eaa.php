@@ -26,14 +26,12 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<body>
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
-<body class="bg-white">
 <?php include("includes/navbar.php") ?>
 
 <main tabindex="-1">
-    <br>
-    <br>
-    <h1>EAA-Den Europæiske tilgængelighedlov</h1>
+    <h1 class="mt-5">EAA-Den Europæiske tilgængelighedlov</h1>
     <br>
     <div class="container">
         <div class="row">

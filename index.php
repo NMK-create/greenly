@@ -30,10 +30,10 @@ require "settings/init.php";
 
 <body>
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
-<?php include("includes/navbar.php") ?>
+<?php include("includes/navbar.php")?>
 
 <section class="hero-section position-relative">
-    <img src="img/Wallpaper-hero.jpg" class="hero-img" alt="" aria-hidden="true">
+    <img src="img/hero-stor.png" class="hero-img" alt="" aria-hidden="true">
 
     <div class="hero-overlay"></div>
 
@@ -50,8 +50,8 @@ require "settings/init.php";
         </p>
 
         <div class="mt-4">
-            <a href="kontakt.php" class="btn btn-BNCpri btn-lg me-2">Få et tilbud</a>
-            <a href="service.php" class="btn btn-BNCsec btn-lg">Se services</a>
+            <a href="kontakt.php" class="btn btn-BNCsec btn-lg me-2">Få et tilbud</a>
+            <a href="service.php" class="btn btn-BNCpri btn-lg">Se services</a>
         </div>
     </div>
 </section>
