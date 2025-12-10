@@ -32,7 +32,7 @@ require "settings/init.php";
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <?php include("includes/navbar.php") ?>
 
-<header class="container">
+<header class="container mt-5">
     <h1>DEI - Diversity, Equity & Inclusion</h1>
     <p>Diversitet, Lighed & Inklusion</p>
 </header>
@@ -128,20 +128,20 @@ require "settings/init.php";
         <div class="col-lg-4">
             <aside class="dei-aside" aria-label="DEI illustrationer">
                 <figure class="text-center mb-5">
-                    <img src="img/Diversity.png" alt="#" class="img-fluid"/>
+                    <img src="img/Diversity.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">DI • VER • SI • TY<br><small>Alle de måder, hvorpå mennesker er
                             forskellige</small></figcaption>
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Equity.png" alt="#" class="img-fluid"/>
+                    <img src="img/Equity.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">EQ • UI • TY<br><small>Retfærdig behandling, adgang og
                             muligheder for alle<br>
                             – uden at identitet bestemmer resultatet</small></figcaption>
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Inclusion.png" alt="#" class="img-fluid"/>
+                    <img src="img/Inclusion.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">IN • CLU • SION<br><small>Forskellige mennesker har
                             indflydelse,
                             stemme og beslutningskraft</small></figcaption>
