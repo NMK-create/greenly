@@ -56,7 +56,6 @@ require "settings/init.php";
     </div>
 </section>
 
-
 <main id="main" tabindex="-1">
     <section class="services-section py-5" aria-labelledby="services-heading">
         <div class="container">
@@ -67,93 +66,84 @@ require "settings/init.php";
 
             <div class="row g-4">
 
-                <!-- Hjemmeside -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-desktop service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Hjemmeside</h3>
-                        <p class="service-divider"></p>
+                        <h3>Hjemmeside</h3>
+                        <hr class="service-divider">
                         <p>Udvikling af brugervenlige og tilgængelige websites, custom kodet eller WordPress.</p>
                     </div>
                 </div>
 
-                <!-- Webshop -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-store service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Webshop</h3>
-                        <p class="service-divider"></p>
+                        <h3>Webshop</h3>
+                        <hr class="service-divider">
                         <p>Design og opsætning af skalerbare og konverteringsoptimerede webshops.</p>
                     </div>
                 </div>
 
-                <!-- Markedsføring -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-chart-line service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Markedsføring</h3>
-                        <p class="service-divider"></p>
+                        <h3>Markedsføring</h3>
+                        <hr class="service-divider">
                         <p>Datadrevet digital-markedsføring med fokus på synlighed, engagement og målbare
                             resultater.</p>
                     </div>
                 </div>
 
-                <!-- SoMe -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-bullhorn service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">SoMe Content</h3>
-                        <p class="service-divider"></p>
+                        <h3>SoMe Content</h3>
+                        <hr class="service-divider">
                         <p>Kreativt indhold til sociale medier, opslag og videoer.</p>
                     </div>
                 </div>
 
-                <!-- SEO -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-magnifying-glass-chart service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">SEO</h3>
-                        <p class="service-divider"></p>
+                        <h3>SEO</h3>
+                        <hr class="service-divider">
                         <p>Optimering der forbedrer organiske placeringer og øger trafikken.</p>
                     </div>
                 </div>
 
-                <!-- Nyhedsbrev -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-envelope-open-text service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Nyhedsbrev</h3>
-                        <p class="service-divider"></p>
+                        <h3>Nyhedsbrev</h3>
+                        <hr class="service-divider">
                         <p>Opsætning af professionelle nyhedsbreve, der styrker jeres relation til kunder.</p>
                     </div>
                 </div>
 
-                <!-- Klimakommunikation -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-earth-europe service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Klimakommunikation</h3>
-                        <p class="service-divider"></p>
+                        <h3>Klimakommunikation</h3>
+                        <hr class="service-divider">
                         <p>Fokus på grøn kommunikation baseret på fakta og dokumentation.</p>
                     </div>
                 </div>
 
-                <!-- Tilgængelighed -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-universal-access service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Tilgængelighed</h3>
-                        <p class="service-divider"></p>
+                        <h3>Tilgængelighed</h3>
+                        <hr class="service-divider">
                         <p>Implementering af WCAG- og EAA-standarder, så alle kan bruge jeres digitale løsninger.</p>
                     </div>
                 </div>
 
-                <!-- Grafisk Design -->
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-palette service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Grafisk Design</h3>
-                        <p class="service-divider"></p>
+                        <h3>Grafisk Design</h3>
+                        <hr class="service-divider">
                         <p>Visuel identitet, logo og grafiske materialer, der styrker jeres brand.</p>
                     </div>
                 </div>
@@ -167,130 +157,119 @@ require "settings/init.php";
 </div>
 
 <!--Nye regler om webtilgængelighed-->
-<section class="container py-5">
-    <h2 class="text-center py-2">Nye regler om webtilgængelighed</h2>
-    <p class="text-center">Webtilgængelighed blev et lovkrav i 2025, <br> derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.</p>
+<section class="py-5 bg-light">
+    <div class="container">
 
-    <div class="container py-5">
+        <h2 class="text-center py-2">Nye regler om webtilgængelighed</h2>
+        <p class="text-center mb-5">
+            Webtilgængelighed blev et lovkrav i 2025,<br>
+            derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.
+        </p>
 
         <div class="row g-4">
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start p-3">
-                    <div class="icon-wrap">
-                        <i class="fa-solid fa-scale-balanced fa-2x"></i>
-                    </div>
-                    <div class="ms-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                    <i class="fa-solid fa-scale-balanced fa-2x" aria-hidden="true"></i>
+                    <div>
                         <h3>Lovkrav</h3>
-                        <p>Mange virksomheder skal nu opfylde EAA og WCAG 2.1 AA for digitale løsninger. Kravene skærpes
-                            fra
-                            2025 og omfatter både offentlige og private aktører.</p>
+                        <p>Mange virksomheder skal nu opfylde EAA og WCAG 2.1 AA for digitale løsninger. Kravene skærpes fra 2025 og omfatter både offentlige og private aktører.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start p-3">
-                    <div class="icon-wrap">
-                        <i class="fa-solid fa-users-viewfinder fa-2x"></i>
-                    </div>
-                    <div class="ms-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                    <i class="fa-solid fa-users-viewfinder fa-2x" aria-hidden="true"></i>
+                    <div>
                         <h3>Målgruppe</h3>
-                        <p>Ca. 15-20% af befolkningen lever med en form for funktionsnedsættelse. Tilgængelighed
-                            betyder, at ingen kunder tabes.</p>
+                        <p>Ca. 15-20% af befolkningen lever med en form for funktionsnedsættelse. Tilgængelighed betyder, at ingen kunder tabes.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start p-3">
-                    <div class="icon-wrap">
-                        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
-                    </div>
-                    <div class="ms-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                    <i class="fa-solid fa-magnifying-glass fa-2x" aria-hidden="true"></i>
+                    <div>
                         <h3>SEO</h3>
-                        <p>God struktur, semantisk HTML og korrekt brug af alt-tekster forbedrer søgeplaceringer.
-                            Tilgængelighed
-                            og SEO går hånd i hånd og styrker synlighed</p>
+                        <p>God struktur, semantisk HTML og korrekt brug af alt-tekster forbedrer søgeplaceringer. Tilgængelighed og SEO går hånd i hånd og styrker synlighed.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start p-3">
-                    <div class="icon-wrap">
-                        <i class="fa-solid fa-heart fa-2x"></i>
-                    </div>
-                    <div class="ms-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                    <i class="fa-solid fa-heart fa-2x" aria-hidden="true"></i>
+                    <div>
                         <h3>Brandimage</h3>
-                        <p>Inkluderende virksomheder opfattes som ansvarlige, moderne og troværdige. Det styrker
-                            omdømmet og
-                            differentierer fra konkurrence.</p>
+                        <p>Inkluderende virksomheder opfattes som ansvarlige, moderne og troværdige. Det styrker omdømmet og differentierer fra konkurrence.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start p-3">
-                    <div class="icon-wrap">
-                        <i class="fa-solid fa-mobile-screen fa-2x"></i>
-                    </div>
-                    <div class="ms-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                    <i class="fa-solid fa-mobile-screen fa-2x" aria-hidden="true"></i>
+                    <div>
                         <h3>Brugeroplevelse</h3>
-                        <p>Tilgængelige websites er nemmere at navigere for alle - i alle situationer og på alle
-                            enheder. Det
-                            øger tilfredshed, engagement og konverteringer.</p>
+                        <p>Tilgængelige websites er nemmere at navigere for alle – i alle situationer og på alle enheder. Det øger tilfredshed, engagement og konverteringer.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start p-3">
-                    <div class="icon-wrap">
-                        <i class="fa-solid fa-circle-check fa-2x"></i>
-                    </div>
-                    <div class="ms-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                    <i class="fa-solid fa-circle-check fa-2x" aria-hidden="true"></i>
+                    <div>
                         <h3>Undgå bøder</h3>
-                        <p>Manglende overholdelse kan føre til klager, påbud og økonomiske sanktioner. At handle i tide
-                            er
-                            billigere end at rette bagud.</p>
+                        <p>Manglende overholdelse kan føre til klager, påbud og økonomiske sanktioner. At handle i tide er billigere end at rette bagud.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
         </div>
     </div>
 </section>
 
-<div class="divider">
-    <div class="divider-fade mb-5"></div>
-</div>
-
-<?php include_once 'includes/kundeudtalelser.php'; ?>
 
 <div class="divider">
     <div class="divider-fade mb-5"></div>
 </div>
 
-<section>
-    <div>
-        <h3 class="text-center">Få tips, guides og ny viden om digial udvikling</h3>
-        <p class="text-center">Tilmeld dig, og få nyttig viden om digital udvikling,
-            trends, cases og konkrete værktøjer, du kan bruge i dit arbejde</p>
-        <form class="row g-3 ">
-            <div class="col-auto">
-                <label for="staticEmail2" class="visually-hidden">Email</label>
+<?php include_once 'includes/kundeudtalelser.php' ?>
+
+<div class="divider">
+    <div class="divider-fade mb-5"></div>
+</div>
+<!-- Nyhedsbrev -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-4">
+            <h3>Få tips, guides og ny viden om digital udvikling</h3>
+            <p>Tilmeld dig, og få nyttig viden om digital udvikling, trends, cases og konkrete værktøjer, du kan bruge i dit arbejde.</p>
+        </div>
+
+        <form class="row g-3 justify-content-center align-items-center" novalidate>
+            <!-- Email input -->
+            <div class="col-md-6 col-sm-8">
+                <label for="inputEmail" class="visually-hidden">Email</label>
+                <input type="email"
+                       class="form-control"
+                       id="inputEmail"
+                       placeholder="Din Email"
+                       required
+                       aria-label="Email til nyhedsbrev">
             </div>
-            <div class="col-auto text-center">
-                <label for="inputPassword2" class="visually-hidden">Email</label>
-                <input type="password" class="form-control" id="inputPassword2" placeholder="Din Email">
-            </div>
+
+            <!-- Submit button -->
             <div class="col-auto">
-                <button type="submit" class="btn btn-BNCsec mb-3 text-BNCbg">Tilmeld</button>
+                <button type="submit" class="btn btn-BNCsec">Tilmeld</button>
             </div>
         </form>
     </div>
 </section>
+
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
