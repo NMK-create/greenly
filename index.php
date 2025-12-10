@@ -56,7 +56,6 @@ require "settings/init.php";
     </div>
 </section>
 
-
 <main id="main" tabindex="-1">
     <section class="services-section py-5" aria-labelledby="services-heading">
         <div class="container">
@@ -170,63 +169,63 @@ require "settings/init.php";
         <div class="row g-4">
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
                     <i class="fa-solid fa-scale-balanced fa-2x" aria-hidden="true"></i>
                     <div>
                         <h3>Lovkrav</h3>
                         <p>Mange virksomheder skal nu opfylde EAA og WCAG 2.1 AA for digitale løsninger. Kravene skærpes fra 2025 og omfatter både offentlige og private aktører.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
                     <i class="fa-solid fa-users-viewfinder fa-2x" aria-hidden="true"></i>
                     <div>
                         <h3>Målgruppe</h3>
                         <p>Ca. 15-20% af befolkningen lever med en form for funktionsnedsættelse. Tilgængelighed betyder, at ingen kunder tabes.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
                     <i class="fa-solid fa-magnifying-glass fa-2x" aria-hidden="true"></i>
                     <div>
                         <h3>SEO</h3>
                         <p>God struktur, semantisk HTML og korrekt brug af alt-tekster forbedrer søgeplaceringer. Tilgængelighed og SEO går hånd i hånd og styrker synlighed.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
                     <i class="fa-solid fa-heart fa-2x" aria-hidden="true"></i>
                     <div>
                         <h3>Brandimage</h3>
                         <p>Inkluderende virksomheder opfattes som ansvarlige, moderne og troværdige. Det styrker omdømmet og differentierer fra konkurrence.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
                     <i class="fa-solid fa-mobile-screen fa-2x" aria-hidden="true"></i>
                     <div>
                         <h3>Brugeroplevelse</h3>
                         <p>Tilgængelige websites er nemmere at navigere for alle – i alle situationer og på alle enheder. Det øger tilfredshed, engagement og konverteringer.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
             <div class="col-md-6">
-                <div class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
+                <article class="card card-custom h-100 d-flex align-items-start gap-3 p-3">
                     <i class="fa-solid fa-circle-check fa-2x" aria-hidden="true"></i>
                     <div>
                         <h3>Undgå bøder</h3>
                         <p>Manglende overholdelse kan føre til klager, påbud og økonomiske sanktioner. At handle i tide er billigere end at rette bagud.</p>
                     </div>
-                </div>
+                </article>
             </div>
 
         </div>
