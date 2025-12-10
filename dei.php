@@ -75,7 +75,9 @@ require "settings/init.php";
 
                     <h4>Tilgængelige digitale løsninger:</h4>
                     <ul>
-                        <li>Vi følger WCAG og EAA-standarder for at sikre, at vores websites og digitale service kan bruges af alle.</li>
+                        <li>Vi følger WCAG og EAA-standarder for at sikre, at vores websites og digitale service kan
+                            bruges af alle.
+                        </li>
                     </ul>
 
                     <h4>Inkluderende team- og organisationsdesign:</h4>
@@ -103,21 +105,25 @@ require "settings/init.php";
                     <h3>Hvad er målet med DEI i design?</h3>
                     <p>Målet er digitale løsninger, der er tilgængelige og brugbare for alle, uanset baggrund, erfaring
                         eller funktionsevne. Det inkluderer:</p>
-                        <ul>
-                            <li>Tilgængelige websites og apps i overensstemmelse med WCAG og EAA</li>
-                            <li>Inkluderende sprog og kommunikation</li>
-                            <li>Navigation og struktur, der fungerer for alle brugere</li>
-                        </ul>
+                    <ul>
+                        <li>Tilgængelige websites og apps i overensstemmelse med WCAG og EAA</li>
+                        <li>Inkluderende sprog og kommunikation</li>
+                        <li>Navigation og struktur, der fungerer for alle brugere</li>
+                    </ul>
                 </article>
 
                 <article class="mb-5">
                     <h3>Hvad begrænser DEI?</h3>
                     <p>DEI kan begrænses af:</p>
-                        <ul>
-                            <li>Bias:<br>Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af mennesker.</li>
-                            <li>Fastlåste strukturer og vaner:<br>Indgroede processer, der ekskluderer visse grupper.</li>
-                            <li>Manglende ressourcer eller ledelsesopbakning:<br>Uden engagement fra topledelsen kan indsatsen mislykkes.</li>
-                        </ul>
+                    <ul>
+                        <li>Bias:<br>Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af
+                            mennesker.
+                        </li>
+                        <li>Fastlåste strukturer og vaner:<br>Indgroede processer, der ekskluderer visse grupper.</li>
+                        <li>Manglende ressourcer eller ledelsesopbakning:<br>Uden engagement fra topledelsen kan
+                            indsatsen mislykkes.
+                        </li>
+                    </ul>
                 </article>
 
 
@@ -128,20 +134,23 @@ require "settings/init.php";
         <div class="col-lg-4">
             <aside class="dei-aside" aria-label="DEI illustrationer">
                 <figure class="text-center mb-5">
-                    <img src="img/Diversity.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
+                    <img src="img/Diversity.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                         class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">DI • VER • SI • TY<br><small>Alle de måder, hvorpå mennesker er
                             forskellige</small></figcaption>
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Equity.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
+                    <img src="img/Equity.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                         class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">EQ • UI • TY<br><small>Retfærdig behandling, adgang og
                             muligheder for alle<br>
                             – uden at identitet bestemmer resultatet</small></figcaption>
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Inclusion.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
+                    <img src="img/Inclusion.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                         class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">IN • CLU • SION<br><small>Forskellige mennesker har
                             indflydelse,
                             stemme og beslutningskraft</small></figcaption>
@@ -202,37 +211,35 @@ require "settings/init.php";
 
 <section class="container" aria-labelledby="model-info-title">
     <div class="row g-5">
-        <div class="col-lg-8">
-            <section aria-labelledby="model-info" class="model-info content-wrapper">
-                <h2 id="model-info" class="visually-hidden">Mere information om den Sociale Handicapmodel</h2>
+        <!-- Venstre kolonne -->
+        <div class="col-lg-6">
+            <section aria-labelledby="model-info-left" class="model-info content-wrapper">
+                <h2 id="model-info-left" class="visually-hidden">Mere information om den Sociale Handicapmodel</h2>
 
                 <article class="mb-5">
-                    <h3>Vi anvender den Sociale Handicapmodel, når vi udvikler digitale løsninger</h3>
+                    <h3>Vi anvender den Sociale Handicapmodel</h3>
                     <p>
                         Hos Greenly Digital Bureau skaber vi digitale løsninger uden barrierer.
-                        Den Sociale Handicapmodel er en central del af vores tilgang til tilgængelighed —
-                        fordi vi tror på, at godt digitalt design skal være inkluderende og brugbart for alle.
+                        Den Sociale Handicapmodel er en central del af vores tilgang til tilgængelighed — fordi vi tror
+                        på, at godt digitalt design skal være inkluderende og brugbart for alle.
                     </p>
                     <p>
-                        Modellen hjælper os med at forstå, at handicap ikke stammer fra personen selv, men
-                        fra de barrierer, som samfundet og omgivelserne skaber. Derfor fokuserer vi på at
-                        tilpasse omgivelser, systemer og teknologi — frem for at tilpasse mennesket.
+                        Modellen hjælper os med at forstå, at handicap ikke stammer fra personen selv, men fra de
+                        barrierer, som samfundet og omgivelserne skaber. Derfor fokuserer vi på at tilpasse omgivelser,
+                        systemer og teknologi — frem for at tilpasse mennesket.
                     </p>
                 </article>
 
                 <article class="mb-5">
                     <h3>Hvad er modellen?</h3>
                     <p>
-                        Den Sociale Handicapmodel forklarer, at handicap ikke skyldes en persons
-                        funktionsnedsættelse, men de barrierer, som omgivelser, holdninger og
-                        strukturer skaber:
+                        Den Sociale Handicapmodel forklarer, at handicap ikke skyldes en persons funktionsnedsættelse,
+                        men de barrierer, som omgivelser, holdninger og strukturer skaber:
                     </p>
 
                     <h4>Omgivelser</h4>
                     <ul>
-                        <li>Utilgængelig infrastruktur eller teknologi (fx trapper uden ramper, manglende
-                            skærmlæserstøtte)
-                        </li>
+                        <li>Utilgængelig infrastruktur eller teknologi</li>
                         <li>Manglende tjenester og ressourcer</li>
                         <li>Dårlig kommunikation eller uforståelig information</li>
                     </ul>
@@ -252,40 +259,37 @@ require "settings/init.php";
                     </ul>
 
                     <p>
-                        På den måde hjælper modellen os med at identificere, hvor barrierer opstår,
-                        og hvordan de kan fjernes.
+                        På den måde hjælper modellen os med at identificere, hvor barrierer opstår, og hvordan de kan
+                        fjernes.
                     </p>
                 </article>
+            </section>
+        </div>
+
+        <!-- Højre kolonne -->
+        <div class="col-lg-6">
+            <section aria-labelledby="model-info-right" class="model-info content-wrapper">
+                <h2 id="model-info-right" class="visually-hidden">Mere information om den Sociale Handicapmodel</h2>
 
                 <article class="mb-5">
-                    <h3 class="h3">Hvad bruges modellen til?</h3>
-                    <p>Modellen bruges til at:</p>
+                    <h3>Hvad bruges modellen til?</h3>
                     <ul>
                         <li>Identificere og fjerne barrierer, så alle kan deltage på lige vilkår</li>
                         <li>Udvikle digitale løsninger, der fungerer for alle brugere</li>
                         <li>Hjælpe virksomheder og organisationer med at arbejde inkluderende</li>
                         <li>Skabe bedre oplevelser for brugere, kunder og medarbejdere</li>
                     </ul>
-                    <p>
-                        Ved at arbejde med omgivelser, holdninger og strukturer sikrer vi, at løsningerne
-                        ikke udelukker nogen, men inkluderer alle.
-                    </p>
                 </article>
 
                 <article class="mb-5">
                     <h3>Hvordan bruger vi modellen hos Greenly Digital Bureau?</h3>
-                    <p>Vi designer digitale løsninger med fokus på at fjerne barrierer — ikke tilpasse mennesker til
-                        dem. Det betyder konkret, at vi arbejder med:</p>
-
                     <ul>
                         <li>Tilgængelige webdesigns baseret på WCAG og EAA-krav</li>
-                        <li>Brugervenlig struktur og navigation, der fungerer for alle</li>
-                        <li>Teknisk og visuel tilgængelighed (kontrast, tekststørrelser, alt-tekst, responsivt design)
-                        </li>
+                        <li>Brugervenlig struktur og navigation</li>
+                        <li>Teknisk og visuel tilgængelighed</li>
                         <li>Inkluderende sprog og kommunikation</li>
-                        <li>Test og feedback fra rigtige brugere for at opdage og fjerne barrierer</li>
+                        <li>Test og feedback fra rigtige brugere</li>
                     </ul>
-
                     <p>
                         Målet er digital ligestilling — hvor alle kan deltage, bidrage og navigere uden begrænsninger.
                     </p>
@@ -294,6 +298,7 @@ require "settings/init.php";
         </div>
     </div>
 </section>
+
 
 <?php include("includes/footer.php") ?>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
