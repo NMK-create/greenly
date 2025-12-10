@@ -36,148 +36,151 @@ require "settings/init.php";
     <p>Få overblik over krav og ansvar i den nye lov</p>
 </header>
 
-<main id="main" tabindex="-1" class="container">
+<main id="main" tabindex="-1" class="container" role="main">
 
     <div class="row g-5">
-        <!-- Venstre -->
+
         <div class="col-lg-8">
-            <section class="content-wrapper">
+            <section aria-labelledby="eaa-intro">
 
-                <article class="mb-5">
-                    <h2>Hvad er EAA</h2>
+                <article class="mb-5" aria-labelledby="eaa-hvad">
+                    <h2 id="eaa-hvad">Hvad er EAA</h2>
                     <p>
-                        Den nye tilgængelighedslov har til formål at sikre at alt digitalt indhold
-                        samt elektroniske tjenester gøres tilgængelige for alle borgere i EU.
-                        Det skal altså være lettere for mennesker med funktionsnedsættelser at begå sig online,
-                        både hvad angår det at handle på diverse hjemmesider, men i lige grad også tilgåelsen af
-                        digitale tjenester.
-                        Lovgivningen som trådte i kraft 28. juni 2025 og forventes at gavne en betydelig del af
-                        befolkningen som i dag har svært ved bruge digitale løsninger.
+                        Den nye tilgængelighedslov har til formål at sikre, at alt digitalt
+                        indhold og elektroniske tjenester gøres tilgængelige for alle borgere i EU.
+                        Loven understøtter personer med funktionsnedsættelser ved at gøre det lettere
+                        at handle online og benytte digitale tjenester.
+                        Lovgivningen trådte i kraft 28. juni 2025 og forventes at gavne en stor del
+                        af befolkningen, som i dag oplever udfordringer ved digitale løsninger.
                     </p>
                 </article>
 
-                <article class="mb-5">
-                    <h2>Hvem omfatter loven</h2>
+                <article class="mb-5" aria-labelledby="eaa-omfatter">
+                    <h2 id="eaa-omfatter">Hvem omfatter loven</h2>
                     <p>
-                        Tilgængelighedsloven gælder for en lang række digitale produkter samt tjenesteydelser,
-                        dette gælder især dem der retter sig mod forbruger.
-                        Dette indebærer både private virksomheder og offentlige udbydere,
-                        hvis de tilbyder følgende typer produkter og eller tjenester:
+                        Tilgængelighedsloven omfatter en lang række digitale produkter og tjenesteydelser,
+                        især dem der er rettet mod forbrugere. Dette gælder både private virksomheder og
+                        offentlige udbydere, der tilbyder:
                     </p>
 
                     <ul>
-                        <li>E-handel og websides<br>Webshops og online tjenester</li>
-                        <li>Transport og billetkøb<br>Rejsebooking, tog/fly billetter</li>
-                        <li>Selvbetjeningsautomater<br>Informationsskærme, hæveautomater</li>
-                        <li>Bank, betaling og forsikring<br>Net- og mobilbank</li>
-                        <li>E-bøger og medie indhold<br>Digitale bøger, e-læse-enheder mm.</li>
-                        <li>Computere, smartphones og OS<br>Forbruger-computerudstyr</li>
-                    </ul>
-
-                    <p>
-                        Derudover opfatter loven også et mindre antal fysiske produkter
-                        med en digital grænseflade, dette indebær f.eks. Smart tv eller kortterminaler
-                    </p>
-                </article>
-
-                <article class="mb-5">
-                    <h2>Retningslinjer - WCAG 2.1</h2>
-                    <p>
-                        Når det kommer til at opfylde tilgængelighedskravene handler det om
-                        at følge WCAG 2.1 standarden. WCAG er internationale retningslinjer for
-                        hvordan man gør webindhold samt apps tilgængelige for personer med forskellige
-                        typer af udfordringer og funktionsnedsættelser. WCAG bygger på fire grundprincipper,
-                        som er:
-                    </p>
-                    <ol>
-                        <li>Opfatteligt</li>
-                        <li>Anvendeligt</li>
-                        <li>Forståeligt</li>
-                        <li>Robust</li>
-                    </ol>
-                    <p>
-                        Disse principper vurderes dernæst efter succeskriterier,
-                        som er inddelt i tre niveauer A, AA og AAA.
-                        Niveau A, er det mest basale niveau af tilgængelighedskravene, hvor
-                        AA omfatter alle A-krav + yderligere kriterier,
-                        som tilsammen anses for at give en høj grad af tilgængelighed,
-                        mens AAA er det højeste niveau med de mest ambitiøse krav,
-                        dette niveau inkludere alle A + AA krav samt yderligere avanceret tilgængelighedskriterier.
-                    </p>
-                    <p>
-                        I praksis er niveau AA det typiske mål i lovgivningen samt den offentlige standard,
-                        da AA niveauet balancere omfattende tilgængelighed men med en realistisk tilgang til
-                        at virksomheder kan implementere kravene.
-                    </p>
-
-                    <div class="col-md-4">
-                        <figure>
-                            <img src="img/EAA11.png"
-                                 class="img-fluid rounded"
-                                 alt="Illustration af POUR-principperne på dansk">
-                        </figure>
-                    </div>
-                </article>
-
-                <article class="mb-5">
-                    <h2>Eksempler på niveau AA succeskriterier:</h2>
-                    <ul>
-                        <li>Undertekster:<br>
-                            Tilføj undertekster på live lydindhold
+                        <li>
+                            <strong>E-handel og websider:</strong>
+                            Webshops og digitale tjenester
                         </li>
-                        <li>Kontrast:<br>
-                            Tekst har et kontrastforhold på mindst 4,5:1
+                        <li>
+                            <strong>Transport og billetkøb:</strong>
+                            Rejsebooking, tog- og flybilletter
                         </li>
-                        <li>Tekstforstørrelse:<br>
-                            Teksten kan forstørres op til 200% uden tab af indhold eller
-                            funktionalitet
+                        <li>
+                            <strong>Selvbetjeningsautomater:</strong>
+                            Informationsskærme og hæveautomater
                         </li>
-                        <li>Orientering:<br>
-                            Indholdet er ikke begrænset til en bestemt visningsretning
+                        <li>
+                            <strong>Bank, betaling og forsikring:</strong>
+                            Netbank og mobilbank
                         </li>
-                        <li>Ikke-tekstkontrast:<br>
-                            Visuelle komponenter har et kontrastforhold på mindst 3:1
+                        <li>
+                            <strong>E-bøger og medieindhold:</strong>
+                            Digitale bøger og læseenheder
                         </li>
-                        <li>Tekst afstand:<br>
-                            Ingen tab af indhold eller funktionalitet ved ændring af tekstafstand
-                        </li>
-                        <li>Flere måder:<br>
-                            Der er mere end en måde at finde en side på et websted
-                        </li>
-                        <li>Synlig fokus:<br>
-                            Tastaturfokus er synligt for alle komponenter
+                        <li>
+                            <strong>Computere, smartphones og OS:</strong>
+                            Forbrugerrettet computerudstyr
                         </li>
                     </ul>
 
-                    <div class="col-md-4">
-                        <figure>
-                            <img src="img/cirkler2.png"
-                                 class="img-fluid rounded"
-                                 style="border-radius: 20px"
-                                 alt="Eksempel på farvekontraster">
-                            <figcaption class="figure-caption">
-                                Cirkel 1: Lever op til AA succeskriterierne.<br>
-                                Cirkel 2: Lever ikke op til kriterierne.
-                            </figcaption>
-                        </figure>
-                    </div>
+                    <p>
+                        Loven omfatter også enkelte fysiske produkter med digital grænseflade,
+                        såsom smart-TV eller betalingsterminaler.
+                    </p>
+                </article>
 
+                <article class="mb-5" aria-labelledby="wcag">
+                    <h2 id="wcag">Retningslinjer – WCAG 2.1</h2>
+
+                    <div class="row align-items-start">
+                        <div class="col-md-8">
+                            <p>
+                                For at opfylde tilgængelighedskravene skal WCAG 2.1-standarden følges.
+                                WCAG beskriver, hvordan webindhold og apps gøres tilgængelige for personer
+                                med forskellige udfordringer og funktionsnedsættelser. Standarden bygger på
+                                fire grundprincipper:
+                            </p>
+
+                            <ol>
+                                <li>Opfatteligt</li>
+                                <li>Anvendeligt</li>
+                                <li>Forståeligt</li>
+                                <li>Robust</li>
+                            </ol>
+
+                            <p>
+                                Succeskriterierne vurderes efter tre niveauer: A, AA og AAA.
+                                Niveau AA er det mest anvendte i både lovgivning og offentlige standarder,
+                                da det balancerer praktiske krav med høj tilgængelighed.
+                            </p>
+                        </div>
+
+                    </div>
+                </article>
+
+                <article class="mb-5" aria-labelledby="wcag-eksempler">
+                    <h2 id="wcag-eksempler">Eksempler på niveau AA succeskriterier</h2>
+
+                    <div class="row align-items-start">
+                        <div class="col-md-8">
+                            <ul>
+                                <li><strong>Undertekster:</strong> Live indhold skal have undertekster</li>
+                                <li><strong>Kontrast:</strong> Minimum 4,5:1 for brødtekst</li>
+                                <li><strong>Tekstforstørrelse:</strong> Op til 200% uden funktionstab</li>
+                                <li><strong>Orientering:</strong> Indhold må ikke låse skærmretningen</li>
+                                <li><strong>Ikke-tekstlig kontrast:</strong> Mindst 3:1</li>
+                                <li><strong>Tekstafstand:</strong> Må ikke give indholdstab</li>
+                                <li><strong>Flere måder:</strong> Brugere skal kunne finde sider via mere end én metode
+                                </li>
+                                <li><strong>Synligt fokus:</strong> Fokusmarkering skal være tydelig</li>
+                            </ul>
+                        </div>
+
+                    </div>
                 </article>
 
 
+            </section>
         </div>
 
-        <!-- Højre -->
         <div class="col-lg-4">
-
-            <aside>
+            <aside aria-label="Dekorativ illustration">
                 <figure class="my-5">
-                    <img src="img/EAA.png" class="figure-img img-fluid rounded" style="border-radius: 1rem"
-                         alt="">
-                    <figcaption class="figure-caption"></figcaption>
+                    <img
+                            src="img/EAA.png"
+                            class="figure-img img-fluid rounded"
+                            style="border-radius: 1rem"
+                            alt="">
                 </figure>
             </aside>
 
+            <div class="container my-5">
+                <figure class="mb-5">
+                    <img
+                            src="img/EAA11.png"
+                            class="img-fluid rounded"
+                            alt="Illustration af WCAG’s fire principper: Opfatteligt, Anvendeligt, Forståeligt og Robust">
+                </figure>
+            </div>
+
+            <div class="container my-5">
+                <figure>
+                    <img
+                            src="img/cirkler2.png"
+                            class="img-fluid rounded"
+                            alt="To farvecirkler. Den første opfylder tilgængelighedskravene for kontrast, den anden gør ikke.">
+                    <figcaption class="figure-caption mt-3">
+                        Eksempel på korrekt og forkert farvekontrast i niveau AA.
+                    </figcaption>
+                </figure>
+            </div>
         </div>
     </div>
 </main>
