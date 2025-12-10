@@ -36,7 +36,7 @@ require "settings/init.php";
         <div class="row">
             <div class="col">
                 <section>
-                    <h2>Hvem er vi</h2>
+                    <h1>Hvem er vi</h1>
                     <p>
                         Greenly er et nyopstartet digitalt bureau med fokus på <br>
                         at skabe en mere bæredygtig og inkluderende digital fremtid. <br>
