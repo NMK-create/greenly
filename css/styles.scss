@@ -206,10 +206,6 @@ h6 {
   text-decoration: underline;
 }
 
-.navbar-brand img {
-  height: 5rem;
-}
-
 .navbar-toggler-icon {
   filter: invert(1);
 }
@@ -218,40 +214,47 @@ h6 {
   border-color: #ffffff;
 }
 
+.navbar-cta {
+  max-width: 12rem;
+  width: 100%;
+}
+
+.navbar-logo {
+  max-height: 3.5rem;
+  height: auto;
+  width: auto;
+}
+
+.navbar-collapse {
+  gap: 1rem;
+}
 // Footer
-// Footer
-/* Farver */
 .footer {
   color: white;
 }
 
 .footer-top {
-  background-color: #053b45; /* øverste del */
+  background-color: #053b45;
 }
 
 .footer-bottom {
-  background-color: #00282e; /* nederste mørke bar */
+  background-color: #00282e;
   font-size: 0.9rem;
 }
 
-/* Titel */
 .footer-title {
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-/* Menu links */
 .footer-menu .nav-link {
   color: white;
-  padding-left: 0;
-  padding-right: 1.2rem;
 }
 
 .footer-menu .nav-link:hover {
   text-decoration: underline;
 }
 
-/* Ikoner */
 .social-icons a {
   font-size: 1.6rem;
   color: white;
@@ -262,7 +265,6 @@ h6 {
   opacity: 0.8;
 }
 
-/* Bundlinje links */
 .footer-bottom-link {
   color: white;
   text-decoration: none;
@@ -270,6 +272,11 @@ h6 {
 
 .footer-bottom-link:hover {
   text-decoration: underline;
+}
+
+.footer a:focus {
+  outline: 2px solid #ffffff;
+  outline-offset: 3px;
 }
 
 // Dark mode

@@ -1,10 +1,9 @@
-<nav class="navbar navbar-expand-lg d-flex justify-content-center py-3" role="navigation"
-     aria-label="Hovednavigation">
+<nav class="navbar navbar-expand-lg py-3" role="navigation" aria-label="Hovednavigation">
     <div class="container-fluid">
 
-
         <a class="navbar-brand" href="/index.php" aria-label="Til forsiden">
-            <img src="/img/greenlyhvid.png" alt="Logo som fører til forside" class="d-inline-block align-text-top">
+            <img src="/img/logo-k.png" alt="Logo som fører til forside"
+                 class="d-inline-block align-text-top navbar-logo">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -13,32 +12,24 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="/service.php">Service</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="/om-os.php">Om os</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link px-3" href="/kontakt.php">Kontakt</a>
-                </li>
+                <li class="nav-item"><a class="nav-link px-3" href="/service.php">Service</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="/om-os.php">Om os</a></li>
+                <li class="nav-item"><a class="nav-link px-3" href="/kontakt.php">Kontakt</a></li>
             </ul>
 
-            <a class="btn btn-BNCsec px-3 ms-3" href="/kontakt.php">Få tilbud</a>
+            <div class="d-flex align-items-center gap-3 mt-3 mt-lg-0">
+                <a class="btn btn-BNCsec px-3 navbar-cta" href="/kontakt.php">Få tilbud</a>
 
-            <button id="theme-toggle" class="btn btn-BNCsec px-3 ms-3" aria-label="Skift til mørk tilstand"
-                    data-bs-toggle="tooltip" data-bs-placement="left" title="Skift tema">
-                <i id="theme-icon" class="fa-sharp fa-solid fa-moon"></i>
-            </button>
+                <button id="theme-toggle" class="btn btn-BNCsec px-3"
+                        aria-label="Skift til mørk tilstand" data-bs-toggle="tooltip">
+                    <i id="theme-icon" class="fa-sharp fa-solid fa-moon"></i>
+                </button>
+            </div>
         </div>
     </div>
 </nav>
-
 
 <script>
     // Load stored theme
