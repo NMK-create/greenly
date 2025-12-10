@@ -168,16 +168,16 @@ require "settings/init.php";
         Vi anvender den Sociale Handicapmodel i vores arbejde
     </h2>
 
-    <div class="row">
+    <div class="row my-5">
         <div class="col-12 d-flex justify-content-center">
             <figure class="d-flex flex-column align-items-center mt-3">
                 <img src="img/Handicapmodel-Sort.png"
                      alt="Illustration af den Sociale Handicapmodel"
-                     class="img-fluid dei-light">
+                     class="img-fluid dei-light scaled-img">
 
                 <img src="img/Handicapmodel-Hvid.png"
                      alt="Illustration af den Sociale Handicapmodel"
-                     class="img-fluid dei-dark">
+                     class="img-fluid dei-dark scaled-img">
 
                 <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
             </figure>

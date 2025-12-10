@@ -114,8 +114,8 @@ require "settings/init.php";
 
         <!--infografik-->
         <div class="row justify-content-center my-5">
-            <div class="col-12 col-md-10 col-lg-8">
-                <figure class="text-center">
+            <div class="col-12 d-flex justify-content-center">
+                <figure class="d-flex flex-column align-items-center mt-3">
 
                     <img src="img/infografik_esg-light-mode.png"
                          class="img-fluid rounded dei-light"
