@@ -4,7 +4,7 @@
 
 
         <a class="navbar-brand" href="/index.php" aria-label="Til forsiden">
-            <img src="/img/websitelogo.png" alt="Logo som fører til forside" class="d-inline-block align-text-top">
+            <img src="/img/greenlyhvid.png" alt="Logo som fører til forside" class="d-inline-block align-text-top">
         </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

@@ -157,7 +157,7 @@ require "settings/init.php";
 </div>
 
 <!--Nye regler om webtilgængelighed-->
-<section class="py-5 bg-light">
+<section class="py-5">
     <div class="container">
 
         <h2 class="text-center py-2">Nye regler om webtilgængelighed</h2>
