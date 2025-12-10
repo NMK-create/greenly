@@ -163,7 +163,7 @@ require "settings/init.php";
         <div class="col-12 d-flex justify-content-center">
             <figure class="d-flex flex-column align-items-center mt-3">
                 <img src="img/Handicapmodel-Sort.png" alt="Illustration af den Sociale Handicapmodel"
-                     class="img-fluid"/>
+                     class="img-fluid graphic">
                 <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
             </figure>
         </div>
@@ -292,5 +292,17 @@ require "settings/init.php";
 
     <?php include("includes/footer.php") ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const img = document.querySelector('.graphic'); // vælg via klasse
+        const toggleBtn = document.getElementById('theme-toggle');
+
+        toggleBtn.addEventListener('click', () => {
+            if (document.body.classList.contains('dark-mode')) {
+                img.src = "img/Handicapmodel-Hvid.png";
+            } else {
+                img.src = "img/Handicapmodel-Sort.png";
+            }
+        });
+    </script>
 </body>
 </html>
