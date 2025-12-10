@@ -296,18 +296,6 @@ require "settings/init.php";
 </section>
 
 <?php include("includes/footer.php") ?>
-<script>
-        const img = document.querySelector('.graphic'); // vælg via klasse
-        const toggleBtn = document.getElementById('theme-toggle');
-
-        toggleBtn.addEventListener('click', () => {
-            if (document.body.classList.contains('dark-mode')) {
-                img.src = "img/Handicapmodel-Hvid.png";
-            } else {
-                img.src = "img/Handicapmodel-Sort.png";
-            }
-        });
-</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
