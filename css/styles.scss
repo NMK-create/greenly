@@ -76,7 +76,6 @@ h5 {
   font-weight: 500;
   line-height: 1.1rem;
 }
-
 h6 {
   font-size: 0.75rem;
   font-weight: 500;
@@ -176,7 +175,7 @@ h6 {
     height: 2rem;
   }
 
-  .icon-trio p {
+  .icon-trio p{
     font-size: 0.85rem;
   }
 
@@ -219,6 +218,7 @@ h6 {
   border-color: #ffffff;
 }
 
+// Footer
 // Footer
 /* Farver */
 .footer {
@@ -272,7 +272,6 @@ h6 {
   text-decoration: underline;
 }
 
-
 // Dark mode
 // Dark Mode Styles
 #theme-toggle {
@@ -288,63 +287,29 @@ h6 {
 body.dark-mode {
   background: #0A0A0A;
   color: #F5F7F6;
+}
 
-  .navbar {
-    background-color: #074047;
-    color: #F5F7F6;
-  }
 
-  .nav-link {
-    color: #F5F7F6;
-  }
+body.dark-mode .navbar {
+  background-color: #074047;
+  color: #F5F7F6;
+}
 
-  .footer {
-    background-color: #074047;
-    color: #F5F7F6;
-  }
 
-  .footer-card {
-    background-color: #032223;
-    color: #F5F7F6;
-  }
+body.dark-mode .nav-link {
+  color: #F5F7F6;
+}
 
-  figcaption {
-    color: #CCCCCC;
-  }
 
-  .testimonial-slide {
-    color: #F5F7F6;
-  }
+body.dark-mode .footer {
+  background-color: #074047;
+  color: #F5F7F6;
+}
 
-  .testimonial-slide img {
-    border: 2px solid #F5F7F6;
-  }
 
-  .carousel-control-prev-icon,
-  .carousel-control-next-icon {
-    filter: invert(100%);
-  }
-
-  .hero-content {
-    color: #0A0A0A;
-  }
-
-  .card-custom {
-    background-color: #232323;
-    color: #F5F7F6;
-    border: none;
-    border-radius: 0.8rem;
-    box-shadow: 0 0.3rem 0.8rem rgb(3, 34, 35);
-    padding: 2rem;
-  }
-
-  .icon-wrap {
-    color: #F5F7F6;
-  }
-
-  .service-icon {
-    color: #F5F7F6;
-  }
+body.dark-mode .footer-card {
+  background-color: #032223;
+  color: #F5F7F6;
 }
 
 // Service
@@ -377,7 +342,7 @@ body.dark-mode {
   margin: 0 1.5rem;
 }
 
-.service-list {
+.service-list{
   column-count: 2;
   column-gap: 3rem;
   list-style: none;
@@ -385,11 +350,6 @@ body.dark-mode {
   margin: 0 1rem;
 }
 
-figcaption {
-  color: #3c4043;
-}
-
-//kundeudtalelser
 #testimonialCarousel .carousel-item {
   min-height: 20rem;
 }
@@ -568,6 +528,6 @@ figcaption {
   margin-bottom: 1rem;
 }
 
-.icon-wrap i {
+.icon-wrap i{
   font-size: 1.3rem;
 }

@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-between">
 
-                <!-- Venstre kolonne -->
+                <!-- Venstre-->
                 <div class="col-lg-6 col-md-6 mb-4">
                     <h4 class="footer-title">Greenly – Digitalt Bureau</h4>
                     <p class="mb-1">Kommunikationsvej 123</p>
@@ -16,7 +16,7 @@
                     </ul>
                 </div>
 
-                <!-- Højre kolonne -->
+                <!-- Højre -->
                 <div class="col-lg-5 col-md-6 text-md-end">
                     <p class="mb-1">
                         <i class="fa-solid fa-phone"></i> Tlf: +45 52 52 44 35
