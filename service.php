@@ -72,8 +72,8 @@ require "settings/init.php";
         <div class="row gx-5">
             <figure class="col-md-6">
                 <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" loading="lazy">
-                <figcaption class="text-muted small mt-1">
-                    Billede: Kontor.
+                <figcaption class="small mt-1">
+                    Kontor <br>
                     Fotograf: Raj Rana.
                 </figcaption>
             </figure>
@@ -116,8 +116,8 @@ require "settings/init.php";
 
             <figure class="col-md-6">
                 <img src="img/webtilgaengelighed.png" class="img-fluid rounded" alt="Screenreader" loading="lazy">
-                <figcaption class="text-muted small mt-1">
-                    Billede: En person der sidder ved en screen reader.
+                <figcaption class="small mt-1">
+                    En person der sidder ved en screen reader <br>
                     Fotograf: Jonathan Richard.
                 </figcaption>
             </figure>
@@ -141,8 +141,8 @@ require "settings/init.php";
             </div>
             <figure class="col-md-6">
                 <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
-                <figcaption class="text-muted small mt-1">
-                    Billede: Vindmøller i landskabet. Fotograf: Vidar Nordii-Mathisen.
+                <figcaption class="small mt-1">
+                    Vindmøller i landskabet <br> Fotograf: Vidar Nordii-Mathisen.
                 </figcaption>
             </figure>
         </div>
@@ -162,8 +162,8 @@ require "settings/init.php";
 
             <figure class="col-md-6 order-md-1">
                 <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
-                <figcaption class="text-muted small mt-1">
-                    Billede: To kvinder, der sidder og snakker. Fotograf: Amy Hirschi.
+                <figcaption class="small mt-1">
+                    To kvinder, der sidder og snakker <br> Fotograf: Amy Hirschi.
                 </figcaption>
             </figure>
         </div>
