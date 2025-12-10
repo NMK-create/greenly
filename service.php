@@ -43,6 +43,7 @@ require "settings/init.php";
 
 <main id="main" tabindex="-1">
 
+    <section>
         <nav class="flex-wrap btn-group" aria-label="Services">
             <div class="bnc-icon icon-trio text-center">
                 <a href="#webtilgaengelighed" class="btn btn-BNCsec btntrio" aria-label="Gå til webtilgængelighed">

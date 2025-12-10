@@ -112,61 +112,72 @@ require "settings/init.php";
         </div>
 
 
-    <!--infografik-->
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-10 col-lg-8">
-        <figure class="text-center">
-            <img src="img/infografik_esg-light-mode.png"
-                 class="img-fluid rounded dei-light" loading="lazy"
-                 alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
-            <img src="img/infografik_esg-dark-mode.png"
-                 class="img-fluid rounded dei-dark" loading="lazy"
-                 alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
-            <figcaption class="small">
-                E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.
-                <br>S (sociale forhold) medarbejdere, diversitet, værdikæde og samfund.
-                <br>G (god selskabsledelse) risikostyring, virksomhedsledelse, anti-korruption, og transparens.
-            </figcaption>
-        </figure>
-        </div>
-    </div>
+        <!--infografik-->
+        <div class="row justify-content-center my-5">
+            <div class="col-12 col-md-10 col-lg-8">
+                <figure class="text-center">
 
-<div class="col-md-6">
-    <section aria-labelledby="sektion-esg">
-        <h2 id="sektion-esg">ESG-strategi</h2>
-        <p>
-            ESG og ESG-rapportering giver omverdenen en mulighed for at se et mere nuanceret billede af organisationen,
-            et billede der viser at man tager ansvar. Uanset hvad, så kommer man som virksomhed eller organisation til
-            at påvirker miljø og omgivelser i mindre grad, så derfor er nul-påvirkning af miljø og omgivelser ikke en
-            nul-påvirkning. Det handler om at være bevidste og ærlige omkring virksomhedens eller
-            organisationens negative påvirkninger og positive værdiskabelse og fortsættende arbejde på at forbedre den.
-        </p>
+                    <img src="img/infografik_esg-light-mode.png"
+                         class="img-fluid rounded dei-light"
+                         alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
+
+                    <img src="img/infografik_esg-dark-mode.png"
+                         class="img-fluid rounded dei-dark"
+                         alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
+
+                    <figcaption class="small">
+                        E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.
+                        <br>S (sociale forhold) medarbejdere, diversitet, værdikæde og samfund.
+                        <br>G (god selskabsledelse) risikostyring, virksomhedsledelse, anti-korruption, og transparens.
+                    </figcaption>
+                </figure>
+            </div>
         </div>
 
-    <div class="col-md-6">
-        <h3>ESG-strategi: Prioriter bæredygtighed</h3>
-        <p>
-            For at have en proaktiv ESG-strategi, så skal der fokuseres på at integrere bæredygtighed i alle aspekter af
-            virksomhedens drift, hvilket demonstrerer over for omverdenen, at man gør en ærlig indsats for at opfylde
-            miljømæssige standarder, fremme social adfærd og opretholde etisk ledelse og gennemsigtighed. Strategien er
-            ikke kun en del af virksomhedens daglige operationer, men også et signal til interessenter om, at
-            virksomheden er dedikeret til at handle ansvarligt og bæredygtigt på lang sigt.
-        </p>
-        <p> EU-reguleringen, <strong>Corporate Sustainability Reporting Directive (CSRD)</strong> kræver, at mange
-            virksomheder rapporter pm deres bæredygtighedspræsentationer. Dette er for at understrege, hvor vigtigt det
-            er at arbejde bæredygtigt og dets betydning for forretningsdriften og investeringerne for mange større
-            virksomheder.
-            Udover de større virksomheder, så er det også de mindre virksomheder, som det kommer til at spille en
-            afgørende rolle for. Som en del af værdikæden for virksomheder, der skal overholde visse krav og
-            reguleringer, så er det vigtigt for mindre virksomheder at undersøge, hvordan deres forretning bliver
-            påvirket. Selv hvis de ikke er direkte omfattet af de juridiske krav, så kan de stadig blive påvirket af
-            krav fra deres kunder, der efterspørger bæredygtige leverandører.
-        </p>
-        <p>
-            Derfor er det vigtigt for virksomheder at have en proaktiv ESG-strategi og kontinuerligt sikre at deres
-            ESG-strategi er optimeret.
-        </p>
-    </div>
+        <div class="col-md-6 my-5">
+            <section aria-labelledby="sektion-esg">
+                <h2 id="sektion-esg">ESG-strategi</h2>
+                <p>
+                    ESG og ESG-rapportering giver omverdenen en mulighed for at se et mere nuanceret billede af
+                    organisationen,
+                    et billede der viser at man tager ansvar. Uanset hvad, så kommer man som virksomhed eller
+                    organisation til
+                    at påvirker miljø og omgivelser i mindre grad, så derfor er nul-påvirkning af miljø og omgivelser
+                    ikke en
+                    nul-påvirkning. Det handler om at være bevidste og ærlige omkring virksomhedens eller
+                    organisationens negative påvirkninger og positive værdiskabelse og fortsættende arbejde på at
+                    forbedre den.
+                </p>
+        </div>
+
+        <div class="col-md-6">
+            <h3>ESG-strategi: Prioriter bæredygtighed</h3>
+            <p>
+                For at have en proaktiv ESG-strategi, så skal der fokuseres på at integrere bæredygtighed i alle
+                aspekter af
+                virksomhedens drift, hvilket demonstrerer over for omverdenen, at man gør en ærlig indsats for at
+                opfylde
+                miljømæssige standarder, fremme social adfærd og opretholde etisk ledelse og gennemsigtighed. Strategien
+                er
+                ikke kun en del af virksomhedens daglige operationer, men også et signal til interessenter om, at
+                virksomheden er dedikeret til at handle ansvarligt og bæredygtigt på lang sigt.
+            </p>
+            <p> EU-reguleringen, <strong>Corporate Sustainability Reporting Directive (CSRD)</strong> kræver, at mange
+                virksomheder rapporter pm deres bæredygtighedspræsentationer. Dette er for at understrege, hvor vigtigt
+                det
+                er at arbejde bæredygtigt og dets betydning for forretningsdriften og investeringerne for mange større
+                virksomheder.
+                Udover de større virksomheder, så er det også de mindre virksomheder, som det kommer til at spille en
+                afgørende rolle for. Som en del af værdikæden for virksomheder, der skal overholde visse krav og
+                reguleringer, så er det vigtigt for mindre virksomheder at undersøge, hvordan deres forretning bliver
+                påvirket. Selv hvis de ikke er direkte omfattet af de juridiske krav, så kan de stadig blive påvirket af
+                krav fra deres kunder, der efterspørger bæredygtige leverandører.
+            </p>
+            <p>
+                Derfor er det vigtigt for virksomheder at have en proaktiv ESG-strategi og kontinuerligt sikre at deres
+                ESG-strategi er optimeret.
+            </p>
+        </div>
     </section>
 
 </main>
