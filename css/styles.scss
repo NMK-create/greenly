@@ -31,7 +31,7 @@ body {
   color: #0A0A0A;
   font-size: 1rem;
   font-family: "Noto Sans", sans-serif;
-  line-height: 1.5;
+  line-height: 1.5rem;
 }
 
 main {
@@ -50,36 +50,36 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 2.625;
+  line-height: 2.625rem;
 }
 
 h2 {
   font-size: 1.5rem;
   font-weight: 600;
-  line-height: 1.875;
+  line-height: 1.875rem;
 }
 
 h3 {
   font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.425;
+  line-height: 1.425rem;
 }
 
 h4 {
   font-size: 1rem;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.2rem;
 }
 
 h5 {
   font-size: 0.875rem;
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.1rem;
 }
 h6 {
   font-size: 0.75rem;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1rem;
 }
 
 @media (max-width: 62rem) {
@@ -88,7 +88,7 @@ h6 {
   }
   h1 {
     font-size: 2.25rem;
-    line-height: 2.5;
+    line-height: 2.5rem;
   }
   h2 {
     font-size: 1.35rem;
@@ -114,7 +114,7 @@ h6 {
 
   h1 {
     font-size: 2rem;
-    line-height: 2.25;
+    line-height: 2.25rem;
   }
   h2 {
     font-size: 1.2rem;
@@ -152,7 +152,7 @@ h6 {
   }
   h1 {
     font-size: 1.5rem;
-    line-height: 1.75;
+    line-height: 1.75rem;
   }
   h2 {
     font-size: 1rem;
