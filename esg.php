@@ -116,11 +116,15 @@ require "settings/init.php";
     <div class="row justify-content-center">
         <div class="col-12 col-md-10 col-lg-8">
         <figure class="text-center">
-            <img src="img/infografikwebp.webp" class="img-fluid rounded" loading="lazy"
+            <img src="img/infografik_esg-light-mode.png"
+                 class="img-fluid rounded dei-light" loading="lazy"
+                 alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
+            <img src="img/infografik_esg-dark-mode.png"
+                 class="img-fluid rounded dei-dark" loading="lazy"
                  alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
             <figcaption class="small">
                 E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.
-                <br>S (sociale forhold) menneskelig kapital, diversitet, værdikæde og samfund.
+                <br>S (sociale forhold) medarbejdere, diversitet, værdikæde og samfund.
                 <br>G (god selskabsledelse) risikostyring, virksomhedsledelse, anti-korruption, og transparens.
             </figcaption>
         </figure>

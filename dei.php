@@ -75,7 +75,9 @@ require "settings/init.php";
 
                     <h4>Tilgængelige digitale løsninger:</h4>
                     <ul>
-                        <li>Vi følger WCAG og EAA-standarder for at sikre, at vores websites og digitale service kan bruges af alle.</li>
+                        <li>Vi følger WCAG og EAA-standarder for at sikre, at vores websites og digitale service kan
+                            bruges af alle.
+                        </li>
                     </ul>
 
                     <h4>Inkluderende team- og organisationsdesign:</h4>
@@ -103,21 +105,25 @@ require "settings/init.php";
                     <h3>Hvad er målet med DEI i design?</h3>
                     <p>Målet er digitale løsninger, der er tilgængelige og brugbare for alle, uanset baggrund, erfaring
                         eller funktionsevne. Det inkluderer:</p>
-                        <ul>
-                            <li>Tilgængelige websites og apps i overensstemmelse med WCAG og EAA</li>
-                            <li>Inkluderende sprog og kommunikation</li>
-                            <li>Navigation og struktur, der fungerer for alle brugere</li>
-                        </ul>
+                    <ul>
+                        <li>Tilgængelige websites og apps i overensstemmelse med WCAG og EAA</li>
+                        <li>Inkluderende sprog og kommunikation</li>
+                        <li>Navigation og struktur, der fungerer for alle brugere</li>
+                    </ul>
                 </article>
 
                 <article class="mb-5">
                     <h3>Hvad begrænser DEI?</h3>
                     <p>DEI kan begrænses af:</p>
-                        <ul>
-                            <li>Bias:<br>Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af mennesker.</li>
-                            <li>Fastlåste strukturer og vaner:<br>Indgroede processer, der ekskluderer visse grupper.</li>
-                            <li>Manglende ressourcer eller ledelsesopbakning:<br>Uden engagement fra topledelsen kan indsatsen mislykkes.</li>
-                        </ul>
+                    <ul>
+                        <li>Bias:<br>Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af
+                            mennesker.
+                        </li>
+                        <li>Fastlåste strukturer og vaner:<br>Indgroede processer, der ekskluderer visse grupper.</li>
+                        <li>Manglende ressourcer eller ledelsesopbakning:<br>Uden engagement fra topledelsen kan
+                            indsatsen mislykkes.
+                        </li>
+                    </ul>
                 </article>
 
 
@@ -128,20 +134,23 @@ require "settings/init.php";
         <div class="col-lg-4">
             <aside class="dei-aside" aria-label="DEI illustrationer">
                 <figure class="text-center mb-5">
-                    <img src="img/Diversity.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
+                    <img src="img/Diversity.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                         class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">DI • VER • SI • TY<br><small>Alle de måder, hvorpå mennesker er
                             forskellige</small></figcaption>
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Equity.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
+                    <img src="img/Equity.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                         class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">EQ • UI • TY<br><small>Retfærdig behandling, adgang og
                             muligheder for alle<br>
                             – uden at identitet bestemmer resultatet</small></figcaption>
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Inclusion.png" alt="Illustration af diversitet med forskellige farver af små cirkler" class="img-fluid"/>
+                    <img src="img/Inclusion.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                         class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">IN • CLU • SION<br><small>Forskellige mennesker har
                             indflydelse,
                             stemme og beslutningskraft</small></figcaption>
@@ -162,8 +171,14 @@ require "settings/init.php";
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <figure class="d-flex flex-column align-items-center mt-3">
-                <img src="img/Handicapmodel-Sort.png" alt="Illustration af den Sociale Handicapmodel"
-                     class="img-fluid graphic">
+                <img src="img/Handicapmodel-Sort.png"
+                     alt="Illustration af den Sociale Handicapmodel"
+                     class="img-fluid dei-light">
+
+                <img src="img/Handicapmodel-Hvid.png"
+                     alt="Illustration af den Sociale Handicapmodel"
+                     class="img-fluid dei-dark">
+
                 <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
             </figure>
         </div>
@@ -287,22 +302,8 @@ require "settings/init.php";
             </section>
         </div>
     </div>
-</section>
-
 
     <?php include("includes/footer.php") ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        const img = document.querySelector('.graphic'); // vælg via klasse
-        const toggleBtn = document.getElementById('theme-toggle');
-
-        toggleBtn.addEventListener('click', () => {
-            if (document.body.classList.contains('dark-mode')) {
-                img.src = "img/Handicapmodel-Hvid.png";
-            } else {
-                img.src = "img/Handicapmodel-Sort.png";
-            }
-        });
-    </script>
 </body>
 </html>
