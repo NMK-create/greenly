@@ -463,9 +463,6 @@ body.dark-mode .footer-card {
   padding: 2rem;
 }
 
-.card-custom > .ms-3 {
-  color: #074047;
-}
 
 .icon-wrap {
   display: flex;
@@ -475,10 +472,11 @@ body.dark-mode .footer-card {
   color: #fff;
   width: 2.8rem;
   height: 2.8rem;
-  border-radius: 0.4rem;
+  border-radius: 50%;
   flex-shrink: 0;
   font-size: 1.6rem;
   line-height: 1;
+  margin-bottom: 1rem;
 }
 
 .icon-wrap i{
