@@ -93,7 +93,8 @@ require "settings/init.php";
                     <div class="ms-3">
                         <h3 class="h5 fw-bold">Markedsføring</h3>
                         <p class="service-divider"></p>
-                        <p>Datadrevet digital-markedsføring med fokus på synlighed, engagement og målbare resultater.</p>
+                        <p>Datadrevet digital-markedsføring med fokus på synlighed, engagement og målbare
+                            resultater.</p>
                     </div>
                 </div>
 
@@ -171,60 +172,79 @@ require "settings/init.php";
     <p class="text-center">Webtilgængelighed blev et lovkrav i 2025,</p>
     <p class="text-center">Derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.</p>
 
-    <div class="container row">
+    <div class="container">
 
-        <div class="col-md-6 d-flex align-items-start">
-            <i class="fa-solid fa-scale-balanced"></i>
-            <div class="ms-3">
-                <h3>Lovkrav</h3>
-                <p>Mange virksomheder skal nu opfylde EAA og WCAG 2.1 AA for digitale løsninger. Kravene skærpes fra
-                    2025 og omfatter både offentlige og private aktører.</p>
+        <div class="row g-4">
+
+            <div class="col-md-6">
+                <div class="card h-100 d-flex align-items-start p-3">
+                    <i class="fa-solid fa-scale-balanced fa-2x"></i>
+                    <div class="ms-3">
+                        <h3>Lovkrav</h3>
+                        <p>Mange virksomheder skal nu opfylde EAA og WCAG 2.1 AA for digitale løsninger. Kravene skærpes
+                            fra
+                            2025 og omfatter både offentlige og private aktører.</p>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-6 d-flex align-items-start">
-            <i class="fa-solid fa-users-viewfinder"></i>
-            <div class="ms-3">
-                <h3>Målgruppe</h3>
-                <p>Ca. 15-20% af befolkningen lever med en form for funktionsnedsættelse. Tilgængelighed betyder, at
-                    ingen kunder tabes.</p>
+            <div class="col-md-6">
+                <div class="card h-100 d-flex align-items-start p-3">
+                    <i class="fa-solid fa-users-viewfinder fa-2x"></i>
+                    <div class="ms-3">
+                        <h3>Målgruppe</h3>
+                        <p>Ca. 15-20% af befolkningen lever med en form for funktionsnedsættelse. Tilgængelighed
+                            betyder, at ingen kunder tabes.</p>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-6 d-flex align-items-start">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <div class="ms-3">
-                <h3>SEO</h3>
-                <p>God struktur, semantisk HTML og korrekt brug af alt-tekster forbedrer søgeplaceringer. Tilgængelighed
-                    og SEO går hånd i hånd og styrker synlighed</p>
+            <div class="col-md-6">
+                <div class="card h-100 d-flex align-items-start p-3">
+                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                    <div class="ms-3">
+                        <h3>SEO</h3>
+                        <p>God struktur, semantisk HTML og korrekt brug af alt-tekster forbedrer søgeplaceringer.
+                            Tilgængelighed
+                            og SEO går hånd i hånd og styrker synlighed</p>
+                    </div>
+                </div>
             </div>
-        </div>
 
-
-        <div class="col-md-6 d-flex align-items-start">
-            <i class="fa-solid fa-heart"></i>
-            <div class="ms-3">
-                <h3>Brandimage</h3>
-                <p>Inkluderende virksomheder opfattes som ansvarlige, moderne og troværdige. Det styrker omdømmet og
-                    differentierer fra konkurrence.</p>
+            <div class="col-md-6">
+                <div class="card h-100 d-flex align-items-start p-3">
+                    <i class="fa-solid fa-heart fa-2x"></i>
+                    <div class="ms-3">
+                        <h3>Brandimage</h3>
+                        <p>Inkluderende virksomheder opfattes som ansvarlige, moderne og troværdige. Det styrker
+                            omdømmet og
+                            differentierer fra konkurrence.</p>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-6 d-flex align-items-start">
-            <i class="fa-solid fa-mobile-screen"></i>
-            <div class="ms-3">
-                <h3>Brugeroplevelse</h3>
-                <p>Tilgængelige websites er nemmere at navigere for alle - i alle situationer og på alle enheder. Det
-                    øger tilfredshed, engagement og konverteringer.</p>
+            <div class="col-md-6">
+                <div class="card h-100 d-flex align-items-start p-3">
+                    <i class="fa-solid fa-mobile-screen fa-2x"></i>
+                    <div class="ms-3">
+                        <h3>Brugeroplevelse</h3>
+                        <p>Tilgængelige websites er nemmere at navigere for alle - i alle situationer og på alle
+                            enheder. Det
+                            øger tilfredshed, engagement og konverteringer.</p>
+                    </div>
+                </div>
             </div>
-        </div>
 
-        <div class="col-md-6 d-flex align-items-start">
-            <i class="fa-solid fa-circle-check"></i>
-            <div class="ms-3">
-                <h3>Undgå bøder</h3>
-                <p>Manglende overholdelse kan føre til klager, påbud og økonomiske sanktioner. At handle i tide er
-                    billigere end at rette bagud.</p>
+            <div class="col-md-6">
+                <div class="card h-100 d-flex align-items-start p-3">
+                    <i class="fa-solid fa-circle-check fa-2x"></i>
+                    <div class="ms-3">
+                        <h3>Undgå bøder</h3>
+                        <p>Manglende overholdelse kan føre til klager, påbud og økonomiske sanktioner. At handle i tide
+                            er
+                            billigere end at rette bagud.</p>
+                    </div>
+                </div>
             </div>
         </div>
 
