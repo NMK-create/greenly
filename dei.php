@@ -155,15 +155,15 @@ require "settings/init.php";
 
 <!-- Den Sociale Handicapmodel -->
 <section class="container" aria-labelledby="handicapmodel-title">
-    <h2 id="handicapmodel-title" class="text-center">
+    <h2 id="handicapmodel-title">
         Vi anvender den Sociale Handicapmodel i vores arbejde
     </h2>
 
     <div class="row">
         <div class="col-12 d-flex justify-content-center">
             <figure class="d-flex flex-column align-items-center mt-3">
-                <img src="img/Handicapmodel-Sort.png" alt="Illustration af den Sociale Handicapmodel"
-                     class="img-fluid graphic">
+                <img src="img/Handicapmodellen.png" alt="Illustration af den Sociale Handicapmodel"
+                     class="img-fluid w-75 graphic mb-5">
                 <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
             </figure>
         </div>
@@ -290,9 +290,8 @@ require "settings/init.php";
 </section>
 
 
-    <?php include("includes/footer.php") ?>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
+<?php include("includes/footer.php") ?>
+<script>
         const img = document.querySelector('.graphic'); // vælg via klasse
         const toggleBtn = document.getElementById('theme-toggle');
 
@@ -303,6 +302,7 @@ require "settings/init.php";
                 img.src = "img/Handicapmodel-Sort.png";
             }
         });
-    </script>
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
