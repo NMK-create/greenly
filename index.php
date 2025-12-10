@@ -70,8 +70,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-desktop service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Hjemmeside</h3>
-                        <p class="service-divider"></p>
+                        <h3>Hjemmeside</h3>
+                        <hr class="service-divider">
                         <p>Udvikling af brugervenlige og tilgængelige websites, custom kodet eller WordPress.</p>
                     </div>
                 </div>
@@ -79,8 +79,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-store service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Webshop</h3>
-                        <p class="service-divider"></p>
+                        <h3>Webshop</h3>
+                        <hr class="service-divider">
                         <p>Design og opsætning af skalerbare og konverteringsoptimerede webshops.</p>
                     </div>
                 </div>
@@ -88,8 +88,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-chart-line service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Markedsføring</h3>
-                        <p class="service-divider"></p>
+                        <h3>Markedsføring</h3>
+                        <hr class="service-divider">
                         <p>Datadrevet digital-markedsføring med fokus på synlighed, engagement og målbare
                             resultater.</p>
                     </div>
@@ -98,8 +98,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-bullhorn service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">SoMe Content</h3>
-                        <p class="service-divider"></p>
+                        <h3>SoMe Content</h3>
+                        <hr class="service-divider">
                         <p>Kreativt indhold til sociale medier, opslag og videoer.</p>
                     </div>
                 </div>
@@ -107,8 +107,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-magnifying-glass-chart service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">SEO</h3>
-                        <p class="service-divider"></p>
+                        <h3>SEO</h3>
+                        <hr class="service-divider">
                         <p>Optimering der forbedrer organiske placeringer og øger trafikken.</p>
                     </div>
                 </div>
@@ -116,8 +116,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-envelope-open-text service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Nyhedsbrev</h3>
-                        <p class="service-divider"></p>
+                        <h3>Nyhedsbrev</h3>
+                        <hr class="service-divider">
                         <p>Opsætning af professionelle nyhedsbreve, der styrker jeres relation til kunder.</p>
                     </div>
                 </div>
@@ -125,8 +125,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-earth-europe service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Klimakommunikation</h3>
-                        <p class="service-divider"></p>
+                        <h3>Klimakommunikation</h3>
+                        <hr class="service-divider">
                         <p>Fokus på grøn kommunikation baseret på fakta og dokumentation.</p>
                     </div>
                 </div>
@@ -134,8 +134,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-universal-access service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Tilgængelighed</h3>
-                        <p class="service-divider"></p>
+                        <h3>Tilgængelighed</h3>
+                        <hr class="service-divider">
                         <p>Implementering af WCAG- og EAA-standarder, så alle kan bruge jeres digitale løsninger.</p>
                     </div>
                 </div>
@@ -143,8 +143,8 @@ require "settings/init.php";
                 <div class="col-md-4 d-flex align-items-start">
                     <i class="fa-solid fa-palette service-icon" aria-hidden="true"></i>
                     <div class="ms-3">
-                        <h3 class="h5 fw-bold">Grafisk Design</h3>
-                        <p class="service-divider"></p>
+                        <h3>Grafisk Design</h3>
+                        <hr class="service-divider">
                         <p>Visuel identitet, logo og grafiske materialer, der styrker jeres brand.</p>
                     </div>
                 </div>
