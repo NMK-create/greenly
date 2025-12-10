@@ -287,7 +287,7 @@ h6 {
 body.dark-mode {
   background: #0A0A0A;
   color: #F5F7F6;
-}
+
 
 
 body.dark-mode .navbar {
@@ -311,6 +311,22 @@ body.dark-mode .footer-card {
   background-color: #032223;
   color: #F5F7F6;
 }
+
+  .hero-section {
+    color: #0A0A0A;
+  }
+
+  .service-icon {
+    color: #F5F7F6;
+  }
+
+  .card-custom {
+    background-color: #131313;
+    color: #F5F7F6;
+    box-shadow: 0 0.2rem 0.8rem rgb(5, 50, 55);
+  }
+}
+
 
 // Service
 .btntrio {
@@ -505,7 +521,7 @@ body.dark-mode .footer-card {
 
 //nye regler om webtilgængelighed
 .card-custom {
-  background-color: #f7f7f7;
+  background-color: #F5F7F6;
   border: none;
   border-radius: 0.8rem;
   box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.08);
@@ -518,7 +534,7 @@ body.dark-mode .footer-card {
   align-items: center;
   justify-content: center;
   background-color: #074047;
-  color: #fff;
+  color: #F5F7F6;
   width: 2.8rem;
   height: 2.8rem;
   border-radius: 50%;
