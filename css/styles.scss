@@ -531,7 +531,7 @@ body.dark-mode #testimonialCarousel .carousel-control-next-icon {
   max-width: 42rem;
 }
 
-.content-wrapper article { // Afstand mellem artiklerne //
+.content-wrapper article {
   margin-bottom: 3rem;
 }
 
@@ -541,7 +541,6 @@ body.dark-mode #testimonialCarousel .carousel-control-next-icon {
 }
 
 // Landing page - Forside //
-/* Grundlæggende hero layout */
 .hero-section {
   position: relative;
   height: 65vh;
@@ -552,7 +551,6 @@ body.dark-mode #testimonialCarousel .carousel-control-next-icon {
   justify-content: center;
 }
 
-/* Billede */
 .hero-img {
   position: absolute;
   inset: 0;
@@ -564,7 +562,6 @@ body.dark-mode #testimonialCarousel .carousel-control-next-icon {
   transform: scale(1.1);
 }
 
-/* Overlay / opacitet */
 .hero-overlay {
   position: absolute;
   inset: 0;
@@ -572,13 +569,11 @@ body.dark-mode #testimonialCarousel .carousel-control-next-icon {
   z-index: -1;
 }
 
-/* Tekst på billedet */
 .hero-content {
   position: relative;
   max-width: 50rem;
 }
 
-/* Mobiljustering */
 @media (max-width: 48rem) {
   .hero-section {
     height: 55vh;
@@ -617,7 +612,7 @@ body.dark-mode #testimonialCarousel .carousel-control-next-icon {
   background: linear-gradient(to right, transparent, #074047, transparent);
 }
 
-//nye regler om webtilgængelighed
+// Nye regler om webtilgængelighed //
 .card-custom {
   background-color: #F5F7F6;
   border: none;
