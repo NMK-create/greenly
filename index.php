@@ -167,18 +167,19 @@ require "settings/init.php";
 </div>
 
 <!--Nye regler om webtilgængelighed-->
-<section class="container">
-    <h2 class="text-center">Nye regler om webtilgængelighed</h2>
-    <p class="text-center">Webtilgængelighed blev et lovkrav i 2025,</p>
-    <p class="text-center">Derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.</p>
+<section class="container py-5">
+    <h2 class="text-center py-2">Nye regler om webtilgængelighed</h2>
+    <p class="text-center">Webtilgængelighed blev et lovkrav i 2025, <br> derfor skal alle hjemmesider og digitale services leve op til kravene i EAA og WCAG.</p>
 
-    <div class="container">
+    <div class="container py-5">
 
         <div class="row g-4">
 
             <div class="col-md-6">
-                <div class="card h-100 d-flex align-items-start p-3">
-                    <i class="fa-solid fa-scale-balanced fa-2x"></i>
+                <div class="card card-custom h-100 d-flex align-items-start p-3">
+                    <div class="icon-wrap">
+                        <i class="fa-solid fa-scale-balanced fa-2x"></i>
+                    </div>
                     <div class="ms-3">
                         <h3>Lovkrav</h3>
                         <p>Mange virksomheder skal nu opfylde EAA og WCAG 2.1 AA for digitale løsninger. Kravene skærpes
@@ -189,8 +190,10 @@ require "settings/init.php";
             </div>
 
             <div class="col-md-6">
-                <div class="card h-100 d-flex align-items-start p-3">
-                    <i class="fa-solid fa-users-viewfinder fa-2x"></i>
+                <div class="card card-custom h-100 d-flex align-items-start p-3">
+                    <div class="icon-wrap">
+                        <i class="fa-solid fa-users-viewfinder fa-2x"></i>
+                    </div>
                     <div class="ms-3">
                         <h3>Målgruppe</h3>
                         <p>Ca. 15-20% af befolkningen lever med en form for funktionsnedsættelse. Tilgængelighed
@@ -200,8 +203,10 @@ require "settings/init.php";
             </div>
 
             <div class="col-md-6">
-                <div class="card h-100 d-flex align-items-start p-3">
-                    <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                <div class="card card-custom h-100 d-flex align-items-start p-3">
+                    <div class="icon-wrap">
+                        <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+                    </div>
                     <div class="ms-3">
                         <h3>SEO</h3>
                         <p>God struktur, semantisk HTML og korrekt brug af alt-tekster forbedrer søgeplaceringer.
@@ -212,8 +217,10 @@ require "settings/init.php";
             </div>
 
             <div class="col-md-6">
-                <div class="card h-100 d-flex align-items-start p-3">
-                    <i class="fa-solid fa-heart fa-2x"></i>
+                <div class="card card-custom h-100 d-flex align-items-start p-3">
+                    <div class="icon-wrap">
+                        <i class="fa-solid fa-heart fa-2x"></i>
+                    </div>
                     <div class="ms-3">
                         <h3>Brandimage</h3>
                         <p>Inkluderende virksomheder opfattes som ansvarlige, moderne og troværdige. Det styrker
@@ -224,8 +231,10 @@ require "settings/init.php";
             </div>
 
             <div class="col-md-6">
-                <div class="card h-100 d-flex align-items-start p-3">
-                    <i class="fa-solid fa-mobile-screen fa-2x"></i>
+                <div class="card card-custom h-100 d-flex align-items-start p-3">
+                    <div class="icon-wrap">
+                        <i class="fa-solid fa-mobile-screen fa-2x"></i>
+                    </div>
                     <div class="ms-3">
                         <h3>Brugeroplevelse</h3>
                         <p>Tilgængelige websites er nemmere at navigere for alle - i alle situationer og på alle
@@ -236,8 +245,10 @@ require "settings/init.php";
             </div>
 
             <div class="col-md-6">
-                <div class="card h-100 d-flex align-items-start p-3">
-                    <i class="fa-solid fa-circle-check fa-2x"></i>
+                <div class="card card-custom h-100 d-flex align-items-start p-3">
+                    <div class="icon-wrap">
+                        <i class="fa-solid fa-circle-check fa-2x"></i>
+                    </div>
                     <div class="ms-3">
                         <h3>Undgå bøder</h3>
                         <p>Manglende overholdelse kan føre til klager, påbud og økonomiske sanktioner. At handle i tide
@@ -246,8 +257,8 @@ require "settings/init.php";
                     </div>
                 </div>
             </div>
-        </div>
 
+        </div>
     </div>
 </section>
 

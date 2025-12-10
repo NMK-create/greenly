@@ -460,3 +460,32 @@ body.dark-mode .footer-card {
 }
 
 .Cirkel2
+
+//nye regler om webtilgængelighed
+.card-custom {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 0.8rem;
+  box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+}
+
+
+.icon-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #074047;
+  color: #fff;
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  flex-shrink: 0;
+  font-size: 1.6rem;
+  line-height: 1;
+  margin-bottom: 1rem;
+}
+
+.icon-wrap i{
+  font-size: 1.3rem;
+}

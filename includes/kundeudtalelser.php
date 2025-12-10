@@ -1,5 +1,5 @@
 <!--Kundeudtalelser-->
-<section id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+<section id="testimonialCarousel" class="carousel slide py-5" data-bs-ride="carousel">
     <h4 class="h3 text-center">Det siger vores kunder</h4>
     <div class="carousel-inner" role="region" aria-label="Kundeudtalelser">
 
