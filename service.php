@@ -33,14 +33,15 @@ require "settings/init.php";
 <a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <?php include("includes/navbar.php") ?>
 
+<header class="container mt-5" aria-labelledby="service-intro">
+    <h1 id="service-intro">Services</h1>
+    <p>Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
+        og virksomheder, som gerne vil følge med tiden og sørger for at der bliver designet og redesignet
+        hjemmesider,
+        som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
+</header>
+
 <main id="main" tabindex="-1">
-    <!--hero H1 med tekst vedr service-->
-    <section class="container g-5 py-3 my-3" aria-labelledby="service-intro">
-        <h1 id="service-intro">Services</h1>
-        <p class="col-md-6">Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
-            og virksomheder, som gerne vil følge med tiden og sørger for at der bliver designet og redesignet
-            hjemmesider,
-            som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
 
         <nav class="flex-wrap btn-group" aria-label="Services">
             <div class="bnc-icon icon-trio text-center">
