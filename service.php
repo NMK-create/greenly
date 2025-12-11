@@ -77,7 +77,7 @@ require "settings/init.php";
         <div class="row gx-5">
             <figure class="col-md-6">
                 <img src="img/hvorfor.png" class="img-fluid rounded" alt="Billede af kontor" loading="lazy">
-                <figcaption class="small mt-1">
+                <figcaption class="small mt-1 text-muted">
                     Kontor <br>
                     Fotograf: Raj Rana.
                 </figcaption>
@@ -121,7 +121,7 @@ require "settings/init.php";
 
             <figure class="col-md-6">
                 <img src="img/webtilgaengelighed.png" class="img-fluid rounded" alt="Screenreader" loading="lazy">
-                <figcaption class="small mt-1">
+                <figcaption class="small mt-1 text-muted">
                     En person der sidder ved en screen reader <br>
                     Fotograf: Jonathan Richard.
                 </figcaption>
@@ -146,7 +146,7 @@ require "settings/init.php";
             </div>
             <figure class="col-md-6">
                 <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
-                <figcaption class="small mt-1">
+                <figcaption class="small mt-1 text-muted">
                     Vindmøller i landskabet <br> Fotograf: Vidar Nordii-Mathisen.
                 </figcaption>
             </figure>
@@ -167,7 +167,7 @@ require "settings/init.php";
 
             <figure class="col-md-6 order-md-1">
                 <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
-                <figcaption class="small mt-1  text-muted">
+                <figcaption class="small mt-1 text-muted">
                     To kvinder, der sidder og snakker <br> Fotograf: Amy Hirschi.
                 </figcaption>
             </figure>
