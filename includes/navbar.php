@@ -2,7 +2,7 @@
     <div class="container-fluid">
 
         <a class="navbar-brand" href="/index.php" aria-label="Til forsiden">
-            <img src="/img/logo-k.png" alt="Logo som fører til forside"
+            <img src="/img/greenlyhvid.png" alt="Logo som fører til forside"
                  class="d-inline-block align-text-top navbar-logo">
         </a>
 
