@@ -27,8 +27,8 @@ require "settings/init.php";
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <body>
+<a href="#main" class="skip-link visually-hidden-focusable">Spring til hovedindhold</a>
 <?php include("includes/navbar.php") ?>
 
 <header class="container mt-5">
@@ -52,13 +52,13 @@ require "settings/init.php";
                         at omsætte deres klimaambitioner til konkrete digitale tiltag
                         og samtidig sikre, at de løsninger vi udvikler kan benyttes af alle.
                         <br><br>
-                        Bag Greenly, står et team som kombinere kreativ tænkning,
+                        Bag Greenly står et team, som kombinerer kreativ tænkning,
                         teknisk indsigt og faglig viden. Og vi tror på, at det grønne
                         digitale tilvalg ikke behøver at være kompliceret,
                         derfor arbejder vi også tæt sammen med vores kunder for at
-                        forbedre vores processer og skabe de bedst mulige løsninger.
-                        Vi tager ansvar både for de mennesker der bruger vores løsninger,
-                        og det aftryk vores digitale løsninger efterlader
+                        forbedre deres processer og skabe de bedst mulige løsninger.
+                        Vi tager ansvar både for de mennesker, der bruger vores løsninger,
+                        og det aftryk vores digitale løsninger efterlader.
                     </p>
                 </article>
 
@@ -79,22 +79,20 @@ require "settings/init.php";
                     <h2>Visioner og værdier</h2>
                     <p>
                         Hos Greenly tager vi ansvar for klima og inklusion, og arbejder målrettet efter at gøre
-                        bæredygtige og
-                        tilgængelige digitale løsninger til standarden, og ikke undtagelsen,
+                        bæredygtige og tilgængelige digitale løsninger til standarden og ikke undtagelsen,
                         vi levere altid løsninger som er brugervenlige og opdateret efter de nyeste lovkrav og derfor er
-                        inklusion allerede nu
-                        et integreret del af alt hvad vi laver.
+                        inklusion allerede nu er et integreret del af alt hvad vi laver.
                         <br><br>
                         Vi ønsker at arbejde åbent og ærligt, både internt og overfor vores kunder
-                        og sikrer at de bæredygtige beslutninger kan følges op og dokumenteres.
-                        Men vigtigt af alt arbejder vi fra mottoet om at <br>
+                        og sikrer, at de bæredygtige beslutninger kan følges op og dokumenteres.
+                        Men vigtigst af alt arbejder vi fra mottoet om at <br>
                         — alle skal kunne være med, både nu og i fremtiden.
                     </p>
+                </article>
             </section>
         </div>
         <!-- Højre -->
         <div class="col-lg-4">
-
             <aside>
                 <figure class="mt-5">
                     <img src="img/om%20os.png" alt="Billede af en dame hjælper en anden dame"
@@ -106,7 +104,7 @@ require "settings/init.php";
             <aside>
                     <figure class="mt-5">
                         <img src="img/cirkler.png" class="figure-img img-fluid rounded" style="border-radius: 1rem"
-                             alt="Dekorativt billede med cirkler">
+                             alt="">
                         <figcaption class="figure-caption"></figcaption>
                     </figure>
             </aside>
