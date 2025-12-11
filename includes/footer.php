@@ -9,9 +9,9 @@
                     <address class="mb-3">Kommunikationsvej 123<br>4200 Slagelse</address>
 
                     <ul class="nav footer-menu" aria-label="Footer menu">
-                        <li class="nav-item"><a class="nav-link" href="/greenly/eaa.php">EAA</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/greenly/esg.php">ESG</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/greenly/dei.php">DEI</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/eaa.php">EAA</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/esg.php">ESG</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/dei.php">DEI</a></li>
                     </ul>
                 </div>
 
