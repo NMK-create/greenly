@@ -76,9 +76,9 @@ require "settings/init.php";
                                class="form-control" placeholder="Dit firmanavn">
                     </div>
 
-                    <fieldset class="col-12 mt-3">
+                    <fieldset class="col-12 mt-3" aria-describedby="serviceHelp">
                         <small id="serviceHelp" class="visually-hidden">Vælg en eller flere typer af assistance.</small>
-                        <legend class="form-label">Hvad ønsker du hjælp til?</legend>
+                        <legend id="serviceLegend" class="form-label">Hvad ønsker du hjælp til?</legend>
 
                         <div class="d-flex flex-column gap-2">
                             <div class="form-check">
@@ -117,7 +117,7 @@ require "settings/init.php";
                         <label for="message" class="form-label">Beskriv projekt</label>
                         <textarea id="message" name="message" rows="7"
                                   class="form-control"
-                                  placeholder="Fortæl om dit projekt, mål og eventuelle specifikke behov.."></textarea>
+                                  placeholder="Fortæl om dit projekt, mål og eventuelle specifikke behov."></textarea>
                     </div>
 
                     <div class="col-12">
@@ -136,15 +136,12 @@ require "settings/init.php";
                 <h2 id="contact-info-title" class="visually-hidden">Kontaktinformation</h2>
 
                 <ul class="list-unstyled">
-                    <li class="mt-4"><strong><i class="fa-solid fa-envelope me-3"
-                                                aria-hidden="true"></i>Email</strong><br>info@greenly.dk
-                    </li>
-                    <li class="mt-4"><strong><i class="fa-solid fa-phone me-3"
-                                                aria-hidden="true"></i>Telefon</strong><br> +45 52 52 44 35<br>Man–Fre
-                        08:00 – 18:00
-                    </li>
-                    <li class="mt-4"><strong><i class="fa-solid fa-location-dot me-3"
-                                                aria-hidden="true"></i>Adresse</strong><br>Kommunikationsvej 123<br>4200
+                    <li class="mt-4">
+                       <i class="fa-solid fa-envelope me-3" aria-hidden="true"></i><strong>Email</strong><br>info@greenly.dk</li>
+                    <li class="mt-4">
+                        <i class="fa-solid fa-phone me-3" aria-hidden="true"></i><strong>Telefon</strong><br> +45 52 52 44 35<br>Man–Fre 08:00 – 18:00</li>
+                    <li class="mt-4">
+                        <i class="fa-solid fa-location-dot me-3" aria-hidden="true"></i><strong>Adresse</strong><br>Kommunikationsvej 123<br>4200
                         Slagelse
                     </li>
                 </ul>
