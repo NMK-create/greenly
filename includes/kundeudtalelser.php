@@ -1,12 +1,12 @@
 <!--Kundeudtalelser-->
-<section id="testimonialCarousel" class="carousel slide py-5" data-bs-ride="carousel">
-    <h4 class="h2 text-center mb-4">Det siger vores kunder</h4>
+<section id="testimonialCarousel" class="carousel slide mt-5" data-bs-ride="carousel">
+    <h4 class="h2 text-center mb-3">Det siger vores kunder</h4>
 
-    <div class="carousel-inner my-3" role="region" aria-label="Kundeudtalelser">
+    <div class="carousel-inner" role="region" aria-label="Kundeudtalelser">
 
         <div class="carousel-item active">
             <div class="testimonial-slide text-center p-4">
-                <img src="img/mianygaard.png" alt="Mia Nygaard" class="img-fluid rounded-circle testimonial-img">
+                <img src="/img/mianygaard.png" alt="Mia Nygaard" class="img-fluid rounded-circle testimonial-img">
                 <div class="stars mt-3 mb-2">★★★★★</div>
                 <p class="lead">Fra første møde mærkede vi en ægte interesse i at forstå vores behov og mål.</p>
                 <p class="lead">Resultatet blev en ny hjemmeside og kommunikationen omkring vores bæredygtighedsarbejde, der har løftet vores brand markant.</p>
@@ -17,7 +17,7 @@
 
         <div class="carousel-item">
             <div class="testimonial-slide text-center p-4">
-                <img src="img/martinlykke.png" alt="Martin Lykke" class="img-fluid rounded-circle testimonial-img">
+                <img src="/img/martinlykke.png" alt="Martin Lykke" class="img-fluid rounded-circle testimonial-img">
                 <div class="stars mt-3 mb-2">★★★★★</div>
                 <p class="lead">Greenly formåede at kombinere kreativt design med en skarp teknisk løsning, og samtidig sikre fuld tilgængelighed og SEO-optimering.</p>
                 <p class="lead">Vi har allerede oplevet en tydelig vækst i trafik og henvendelser.</p>
@@ -28,7 +28,7 @@
 
         <div class="carousel-item">
             <div class="testimonial-slide text-center p-4">
-                <img src="img/yasminflint.png" alt="Yasmin Flint" class="img-fluid rounded-circle testimonial-img">
+                <img src="/img/yasminflint.png" alt="Yasmin Flint" class="img-fluid rounded-circle testimonial-img">
                 <div class="stars mt-3 mb-2">★★★★★</div>
                 <p class="lead">Greenly har hjulpet os med webshops, SoMe-indhold og en samlet digital strategi.</p>
                 <p class="lead">De arbejder effektivt, er nemme at kommunikere med og formår altid at omsætte komplekse idéer til konkrete resultater.</p>
