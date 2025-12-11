@@ -102,11 +102,7 @@ require "settings/init.php";
                         sikre god transparent rapportering og revision, og overholde lovgivning og regulering.
                     </p>
 
-                    <div class="divider">
-                        <div class="divider-fade my-5"></div>
-                    </div>
-
-                    <p>
+                    <p class="my-5">
                         ESG og ESG-rapportering giver omverdenen en mulighed for at se et mere nuanceret billede af
                         organisationen, et billede der viser at man tager ansvar. Uanset hvad, så kommer man som
                         virksomhed eller organisation til at påvirker miljø og omgivelser i mindre grad, så derfor er
@@ -126,20 +122,16 @@ require "settings/init.php";
             <div class="col-12 d-flex justify-content-center">
                 <figure class="d-flex flex-column align-items-center mt-3">
 
-                    <img src="img/infografik_esg-light-mode.png"
+                    <img src="img/esgmodel4.png"
                          class="img-fluid rounded dei-light"
                          alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
 
-                    <figcaption class="small">
+                    <figcaption class="small text-muted">
                         E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.
-                        <br>S (sociale forhold) medarbejdere, diversitet, værdikæde og samfund.
+                        <br>S (sociale forhold) menneskelig kapital, diversitet, værdikæde og samfund.
                         <br>G (god selskabsledelse) risikostyring, virksomhedsledelse, anti-korruption, og transparens.
                     </figcaption>
 
-                    <figure class="align-items-center width-50 mt-3">
-                        <img src="img/infografikesg2.1.png" alt="alternative">
-                    </figure>
-                    <figcaption>alternativ</figcaption>
                 </figure>
             </div>
         </div>
