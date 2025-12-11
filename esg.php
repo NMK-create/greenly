@@ -37,7 +37,7 @@ require "settings/init.php";
     <?php include("includes/navbar.php") ?>
 </header>
 
-<main tabindex="-1">
+<main id="main" tabindex="-1" class="container" role="main">
     <!--H1 med tekst vedr ESG-->
     <section class="container my-5">
         <div>
@@ -46,10 +46,10 @@ require "settings/init.php";
                 ESG står for <strong>Environmental (miljø)</strong>, <strong>Social (sociale forhold)</strong> og
                 <strong>Governance (god selskabsledelse)</strong>.
                 ESG er et sæt kriterier, der skaber en ramme for virksomheder, som egner sig til at blive en del af
-                virksomheders strategi. Det måler hvordan en virksomhed skaber værdi for alle organisatoriske interessenter,
+                virksomheders strategi. Det måler, hvordan en virksomhed skaber værdi for alle organisatoriske interessenter,
                 som medarbejdere, kunder, leverandører og finansfolk.
                 Det er derfor vigtigt for virksomheder at få lavet en ESG-rapport, da det giver fremtidige samarbejdspartnere
-                og investorer et indblik i hvordan man fungere som en virksomhed.
+                og investorer et indblik i hvordan man fungerer som en virksomhed.
             </p>
         </div>
     </section>
@@ -63,17 +63,17 @@ require "settings/init.php";
         <div class="g-5 row">
 
             <div class="col-md-6">
-                <section aria-labelledby="sektion-enviromental-miljø">
-                    <h2 id="sektion-enviromental-miljø">Environmental / Miljø</h2>
+                <section aria-labelledby="sektion-environmental-miljø">
+                    <h2 id="sektion-environmental-miljø">Environmental / Miljø</h2>
                     <p>
                         Her bliver der kigget på hvordan virksomheden eller organisationen påvirker og beskytter
                         miljøet,
                         f.eks. ved at reducere udledningen af drivhusgasser, spare på energi og vand, genbrug og
-                        affaldshåndtere, og fremme biodiversitet og økosystemer.
+                        affaldshåndtering, og fremme biodiversitet og økosystemer.
                     </p>
                     <p>
                         Der bliver stillet krav til virksomheden og dem der bliver arbejdet med,
-                        skal være grønne og i tråd med EUs anbefalinger og i tråd med værdikæden i virksomheden.
+                        skal være grønne og i tråd med EU's anbefalinger og i tråd med værdikæden i virksomheden.
                     </p>
                 </section>
             </div>
@@ -83,7 +83,7 @@ require "settings/init.php";
                     <h2 id="sektion-social-sociale-forhold">Social / Sociale forhold</h2>
                     <p>
                         Her kigger man på, hvordan virksomheden eller organisationen behandler sine medarbejdere og
-                        engagere sig med sine kunder, leverandører og lokalsamfund, f.eks. ved at sikre fair løn og
+                        engagerer sig med sine kunder, leverandører og lokalsamfund, f.eks. ved at sikre fair løn og
                         arbejdsforhold, fremme diversitet og inklusion samt respektere menneskerettigheder.
                     </p>
                     <p>
@@ -105,52 +105,55 @@ require "settings/init.php";
                     <p class="my-5">
                         ESG og ESG-rapportering giver omverdenen en mulighed for at se et mere nuanceret billede af
                         organisationen, et billede der viser at man tager ansvar. Uanset hvad, så kommer man som
-                        virksomhed eller organisation til at påvirker miljø og omgivelser i mindre grad, så derfor er
+                        virksomhed eller organisation til at påvirke miljø og omgivelser i mindre grad, så derfor er
                         nul-påvirkning af miljø og omgivelser ikke en nul-påvirkning. Det handler om at være bevidste og
                         ærlige omkring virksomhedens eller
-                        organisationens negative påvirkninger og positive værdiskabelse og fortsættende arbejde på at
+                        organisationens negative påvirkninger og positive værdiskabelse og fortsat arbejde på at
                         forbedre den.
                     </p>
                 </section>
             </div>
-
         </div>
+    </section>
 
 
         <!--infografik-->
-        <div class="row justify-content-center my-5">
-            <div class="col-12 d-flex justify-content-center">
-                <figure class="d-flex flex-column align-items-center mt-3">
+    <div class="row justify-content-center my-5">
+        <div class="col-12 d-flex justify-content-center">
+            <figure class="d-flex flex-column align-items-center mt-3">
 
-                    <img src="img/esgmodel4.png"
-                         class="img-fluid rounded dei-light"
-                         alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
+                <img src="img/esgmodel4.png"
+                     class="img-fluid rounded dei-light"
+                     alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
 
-                    <figcaption class="small text-muted">
-                        E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.
-                        <br>S (sociale forhold) menneskelig kapital, diversitet, værdikæde og samfund.
-                        <br>G (god selskabsledelse) risikostyring, virksomhedsledelse, anti-korruption, og transparens.
-                    </figcaption>
+                <figcaption class="small text-muted">
+                    <ul>
+                        <li>E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.</li>
+                        <li>S (sociale forhold): menneskelig kapital, diversitet, værdikæde og samfund.</li>
+                        <li>G (god selskabsledelse): risikostyring, virksomhedsledelse, anti-korruption og transparens.</li>
+                    </ul>
+                </figcaption>
 
-                </figure>
-            </div>
+            </figure>
         </div>
+    </div>
 
-        <div class="col-md-6 my-5">
-            <section aria-labelledby="sektion-esg">
-                <h2 id="sektion-esg">ESG-strategi</h2>
-                <p>
-                    ESG og ESG-rapportering giver omverdenen en mulighed for at se et mere nuanceret billede af
-                    organisationen,
-                    et billede der viser at man tager ansvar. Uanset hvad, så kommer man som virksomhed eller
-                    organisation til
-                    at påvirker miljø og omgivelser i mindre grad, så derfor er nul-påvirkning af miljø og omgivelser
-                    ikke en
-                    nul-påvirkning. Det handler om at være bevidste og ærlige omkring virksomhedens eller
-                    organisationens negative påvirkninger og positive værdiskabelse og fortsættende arbejde på at
-                    forbedre den.
-                </p>
-        </div>
+    <div class="col-md-6 my-5">
+        <section aria-labelledby="sektion-esg">
+            <h2 id="sektion-esg">ESG-strategi</h2>
+            <p>
+                ESG og ESG-rapportering giver omverdenen en mulighed for at se et mere nuanceret billede af
+                organisationen,
+                et billede der viser at man tager ansvar. Uanset hvad, så kommer man som virksomhed eller
+                organisation til
+                at påvirke miljø og omgivelser i mindre grad, så derfor er nul-påvirkning af miljø og omgivelser
+                ikke en
+                nul-påvirkning. Det handler om at være bevidste og ærlige omkring virksomhedens eller
+                organisationens negative påvirkninger og positive værdiskabelse og fortsat arbejde på at
+                forbedre den.
+            </p>
+        </section>
+    </div>
 
         <div class="col-md-6">
             <h3>ESG-strategi: Prioriter bæredygtighed</h3>
@@ -165,7 +168,7 @@ require "settings/init.php";
                 virksomheden er dedikeret til at handle ansvarligt og bæredygtigt på lang sigt.
             </p>
             <p> EU-reguleringen, <strong>Corporate Sustainability Reporting Directive (CSRD)</strong> kræver, at mange
-                virksomheder rapporter pm deres bæredygtighedspræsentationer. Dette er for at understrege, hvor vigtigt
+                virksomheder rapporter på deres bæredygtighedspræsentationer. Dette er for at understrege, hvor vigtigt
                 det
                 er at arbejde bæredygtigt og dets betydning for forretningsdriften og investeringerne for mange større
                 virksomheder.
@@ -180,8 +183,6 @@ require "settings/init.php";
                 ESG-strategi er optimeret.
             </p>
         </div>
-    </section>
-
 </main>
 
 <?php include("includes/footer.php") ?>
