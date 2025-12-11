@@ -24,7 +24,7 @@
 
                 <button id="theme-toggle" class="btn btn-BNCsec px-3"
                         aria-label="Skift til mørk tilstand" data-bs-toggle="tooltip">
-                    <i id="theme-icon" class="fa-sharp fa-solid fa-moon"></i>
+                    <i id="theme-icon" class="fa-sharp fa-solid fa-moon" aria-hidden="true"></i>
                 </button>
             </div>
         </div>

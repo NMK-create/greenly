@@ -46,27 +46,31 @@ require "settings/init.php";
     <section>
         <nav class="flex-wrap btn-group" aria-label="Services">
             <div class="bnc-icon icon-trio text-center">
-                <a href="#webtilgaengelighed" class="btn btn-BNCsec btntrio" aria-label="Gå til webtilgængelighed">
+                <a href="#webtilgaengelighed" class="btn btn-BNCsec btntrio" role="button" aria-label="Gå til webtilgængelighed" data-bs-toggle="tooltip" title="Gå til webtilgængelighed">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
                 </a>
                 <p id="label-webtilgaengelighed" class="fw-bolder">Webtilgængelighed</p>
             </div>
 
             <div class="bnc-icon icon-trio text-center">
-                <a href="#baeredygtig-kommunikation" class="btn btntrio btn-BNCsec" aria-label="Gå til bæredygtig kommunikation">
+                <a href="#baeredygtig-kommunikation" class="btn btntrio btn-BNCsec" role="button" aria-label="Gå til bæredygtig kommunikation" data-bs-toggle="tooltip" title="Gå til bæredygtig kommunikation">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
                 </a>
                 <p id="label-baeredygtig-kommunikation" class="fw-bolder">Bæredygtig kommunikation</p>
             </div>
 
             <div class="bnc-icon icon-trio text-center">
-                <a href="#raadgivning" class="btn btntrio btn-BNCsec" aria-label="Gå til rådgivning">
+                <a href="#raadgivning" class="btn btntrio btn-BNCsec" role="button" aria-label="Gå til rådgivning" data-bs-toggle="tooltip" title="Gå til rådgivning">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
                 </a>
                 <p id="label-raadgivning" class="fw-bolder">Rådgivning</p>
             </div>
         </nav>
     </section>
+
+    <div class="divider">
+        <div class="divider-fade my-5"></div>
+    </div>
 
     <!--hvorfor sektion-->
     <section class="container g-5 py-5 my-5" aria-label="hvorfor-sektion">
@@ -112,7 +116,7 @@ require "settings/init.php";
                 </div>
                 <p>Derfor hjælper vi dig i gang med at optimere din hjemmesider, så den bliver mere tilgængelig og
                     brugervenlig for dine brugere og kunder.</p>
-                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</a>
+                <button href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</button>
             </div>
 
             <figure class="col-md-6">
@@ -138,7 +142,7 @@ require "settings/init.php";
                     ansvar,
                     for de påstande, der bliver lavet.</p>
                 <p>Hos Greenly hjælper vi dig på vej ved at guide dig igennem processen om at blive mere bæredygtig.</p>
-                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</a>
+                <button href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</button>
             </div>
             <figure class="col-md-6">
                 <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
@@ -158,7 +162,7 @@ require "settings/init.php";
                     De vil hjælpe dig med dataindsamling, markedsanalyse og hjælpe dig med at lave en målrettet digital
                     strategi, så du kan finde det næste skridt for din virksomhed.</p>
                 <p>Book en tid hos os og hør nærmere om hvad vi kan gøre for dig.</p>
-                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</a>
+                <button href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</button>
             </div>
 
             <figure class="col-md-6 order-md-1">
@@ -169,6 +173,10 @@ require "settings/init.php";
             </figure>
         </div>
     </section>
+
+    <div class="divider">
+        <div class="divider-fade my-5"></div>
+    </div>
 
     <?php include_once 'includes/kundeudtalelser.php'; ?>
 </main>

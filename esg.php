@@ -46,13 +46,17 @@ require "settings/init.php";
                 ESG står for <strong>Environmental (miljø)</strong>, <strong>Social (sociale forhold)</strong> og
                 <strong>Governance (god selskabsledelse)</strong>.
                 ESG er et sæt kriterier, der skaber en ramme for virksomheder, som egner sig til at blive en del af
-                virksomheders strategi. Det måler hvordan en virksomhed skaber værdi for alle organisatoriske
-                interessenter, som medarbejdere, kunder, leverandører og finansfolk. Samarbejdspartnere og investorer
-                kan vurdere jeres virksomhed ud fra en ESG-optik.
-                Mange steder, så har ESG taget over efter CSR samt suppleret eller erstatter SDG.
+                virksomheders strategi. Det måler hvordan en virksomhed skaber værdi for alle organisatoriske interessenter,
+                som medarbejdere, kunder, leverandører og finansfolk.
+                Det er derfor vigtigt for virksomheder at få lavet en ESG-rapport, da det giver fremtidige samarbejdspartnere
+                og investorer et indblik i hvordan man fungere som en virksomhed.
             </p>
         </div>
     </section>
+
+    <div class="divider">
+        <div class="divider-fade mb-5"></div>
+    </div>
 
     <!--ESG og infografik-->
     <section class="container">
@@ -97,6 +101,11 @@ require "settings/init.php";
                         en klar og etisk vision og mission,
                         sikre god transparent rapportering og revision, og overholde lovgivning og regulering.
                     </p>
+
+                    <div class="divider">
+                        <div class="divider-fade my-5"></div>
+                    </div>
+
                     <p>
                         ESG og ESG-rapportering giver omverdenen en mulighed for at se et mere nuanceret billede af
                         organisationen, et billede der viser at man tager ansvar. Uanset hvad, så kommer man som
@@ -130,6 +139,11 @@ require "settings/init.php";
                         <br>S (sociale forhold) medarbejdere, diversitet, værdikæde og samfund.
                         <br>G (god selskabsledelse) risikostyring, virksomhedsledelse, anti-korruption, og transparens.
                     </figcaption>
+
+                    <figure class="align-items-center width-50 mt-3">
+                        <img src="img/infografikesg2.png" alt="alternative">
+                    </figure>
+                    <figcaption>alternativ</figcaption>
                 </figure>
             </div>
         </div>
