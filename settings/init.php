@@ -32,7 +32,7 @@ $DB_USER = "root";
 $DB_PASS = "";
 */
 
-define("CONFIG_LIVE", "0"); // 0: Test enviroment || 1: Live enviroment
+define("CONFIG_LIVE", "1"); // 0: Test enviroment || 1: Live enviroment
 
 if(CONFIG_LIVE == 0) {
     $DB_SERVER = "mariadb";
