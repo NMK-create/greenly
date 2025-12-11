@@ -279,77 +279,6 @@ h6 {
   outline-offset: 3px;
 }
 
-// Dark mode
-#theme-toggle {
-  border-radius: 50%;
-  width: 48px;
-  height: 48px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0;
-}
-
-body.dark-mode {
-  background: #0A0A0A;
-  color: #F5F7F6;
-
-
-
-body.dark-mode .navbar {
-  background-color: #074047;
-  color: #F5F7F6;
-}
-
-
-body.dark-mode .nav-link {
-  color: #F5F7F6;
-}
-
-
-body.dark-mode .footer {
-  background-color: #074047;
-  color: #F5F7F6;
-}
-
-
-body.dark-mode .footer-card {
-  background-color: #032223;
-  color: #F5F7F6;
-}
-
-  .hero-section {
-    color: #0A0A0A;
-  }
-
-  .service-icon {
-    color: #F5F7F6;
-  }
-
-  .card-custom {
-    background-color: #131313;
-    color: #F5F7F6;
-    box-shadow: 0 0.2rem 0.8rem rgb(5, 50, 55);
-  }
-}
-
-.dei-dark {
-  display: none;
-}
-
-body.dark-mode .dei-light {
-  display: none;
-}
-
-body.dark-mode .dei-dark {
-  display: block;
-}
-
-body.dark-mode #testimonialCarousel .carousel-control-prev-icon,
-body.dark-mode #testimonialCarousel .carousel-control-next-icon {
-  filter: invert(1) brightness(2);
-}
-
 // Service
 .btntrio {
   border-radius: 50%;
@@ -620,7 +549,6 @@ body.dark-mode #testimonialCarousel .carousel-control-next-icon {
   box-shadow: 0 0.3rem 0.8rem rgba(0, 0, 0, 0.08);
   padding: 2rem;
 }
-
 
 .icon-wrap {
   display: flex;

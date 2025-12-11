@@ -130,10 +130,6 @@ require "settings/init.php";
                          class="img-fluid rounded dei-light"
                          alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
 
-                    <img src="img/infografik_esg-dark-mode.png"
-                         class="img-fluid rounded dei-dark"
-                         alt="Et diagram der viser hvilke dele af ESG de fokuserer på.">
-
                     <figcaption class="small">
                         E (miljø): klima stabilitet, naturresourcer, affaldshåndtering og innovation.
                         <br>S (sociale forhold) medarbejdere, diversitet, værdikæde og samfund.
