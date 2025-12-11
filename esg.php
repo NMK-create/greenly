@@ -141,7 +141,7 @@ require "settings/init.php";
                     </figcaption>
 
                     <figure class="align-items-center width-50 mt-3">
-                        <img src="img/infografikesg2.png" alt="alternative">
+                        <img src="img/infografikesg2.1.png" alt="alternative">
                     </figure>
                     <figcaption>alternativ</figcaption>
                 </figure>
