@@ -6,7 +6,7 @@
 
         <div class="carousel-item active">
             <div class="testimonial-slide text-center p-4">
-                <img src="/img/mianygaard.png" alt="Mia Nygaard" class="img-fluid rounded-circle testimonial-img">
+                <img src="/greenly/img/mianygaard.png" alt="Mia Nygaard" class="img-fluid rounded-circle testimonial-img">
                 <div class="stars mt-3 mb-2">★★★★★</div>
                 <p class="lead">Fra første møde mærkede vi en ægte interesse i at forstå vores behov og mål.</p>
                 <p class="lead">Resultatet blev en ny hjemmeside og kommunikationen omkring vores bæredygtighedsarbejde, der har løftet vores brand markant.</p>
@@ -17,7 +17,7 @@
 
         <div class="carousel-item">
             <div class="testimonial-slide text-center p-4">
-                <img src="/img/martinlykke.png" alt="Martin Lykke" class="img-fluid rounded-circle testimonial-img">
+                <img src="/greenly/img/martinlykke.png" alt="Martin Lykke" class="img-fluid rounded-circle testimonial-img">
                 <div class="stars mt-3 mb-2">★★★★★</div>
                 <p class="lead">Greenly formåede at kombinere kreativt design med en skarp teknisk løsning, og samtidig sikre fuld tilgængelighed og SEO-optimering.</p>
                 <p class="lead">Vi har allerede oplevet en tydelig vækst i trafik og henvendelser.</p>
@@ -28,7 +28,7 @@
 
         <div class="carousel-item">
             <div class="testimonial-slide text-center p-4">
-                <img src="/img/yasminflint.png" alt="Yasmin Flint" class="img-fluid rounded-circle testimonial-img">
+                <img src="/greenly/img/yasminflint.png" alt="Yasmin Flint" class="img-fluid rounded-circle testimonial-img">
                 <div class="stars mt-3 mb-2">★★★★★</div>
                 <p class="lead">Greenly har hjulpet os med webshops, SoMe-indhold og en samlet digital strategi.</p>
                 <p class="lead">De arbejder effektivt, er nemme at kommunikere med og formår altid at omsætte komplekse idéer til konkrete resultater.</p>
