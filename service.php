@@ -36,36 +36,35 @@ require "settings/init.php";
 <header class="container mt-5" aria-labelledby="service-intro">
     <h1 id="service-intro">Services</h1>
     <p>Greenly er et digitalt bureau, der stræber efter at forbedre weboplevelser for både privatkunder
-        og virksomheder, som gerne vil følge med tiden og sørger for at der bliver designet og redesignet
-        hjemmesider,
-        som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
+        og virksomheder, som gerne vil følge med tiden og sørger for, at der bliver designet og redesignet
+        hjemmesider, som I stolt kan vise frem og kommunikere de værdipunkter, som I står inde for.</p>
 </header>
 
 <main id="main" tabindex="-1">
 
     <section>
-        <nav class="flex-wrap btn-group" aria-label="Services">
+        <div class="flex-wrap btn-group" aria-label="Services">
             <div class="bnc-icon icon-trio text-center">
-                <a href="#webtilgaengelighed" class="btn btn-BNCsec btntrio" role="button" aria-label="Gå til webtilgængelighed" data-bs-toggle="tooltip" title="Gå til webtilgængelighed">
+                <a href="#webtilgaengelighed" class="btn btn-BNCsec btntrio" aria-labelledby="label-webtilgaengelighed" data-bs-toggle="tooltip" title="Gå til webtilgængelighed">
                     <i class="fa-solid fa-wheelchair" aria-hidden="true"></i>
                 </a>
                 <p id="label-webtilgaengelighed" class="fw-bolder">Webtilgængelighed</p>
             </div>
 
             <div class="bnc-icon icon-trio text-center">
-                <a href="#baeredygtig-kommunikation" class="btn btntrio btn-BNCsec" role="button" aria-label="Gå til bæredygtig kommunikation" data-bs-toggle="tooltip" title="Gå til bæredygtig kommunikation">
+                <a href="#baeredygtig-kommunikation" class="btn btntrio btn-BNCsec" aria-labelledby="label-baeredygtig-kommunikation" data-bs-toggle="tooltip" title="Gå til bæredygtig kommunikation">
                     <i class="fa-solid fa-leaf" aria-hidden="true"></i>
                 </a>
                 <p id="label-baeredygtig-kommunikation" class="fw-bolder">Bæredygtig kommunikation</p>
             </div>
 
             <div class="bnc-icon icon-trio text-center">
-                <a href="#raadgivning" class="btn btntrio btn-BNCsec" role="button" aria-label="Gå til rådgivning" data-bs-toggle="tooltip" title="Gå til rådgivning">
+                <a href="#raadgivning" class="btn btntrio btn-BNCsec" aria-labelledby="label-raadgivning" data-bs-toggle="tooltip" title="Gå til rådgivning">
                     <i class="fa-solid fa-user-tie" aria-hidden="true"></i>
                 </a>
                 <p id="label-raadgivning" class="fw-bolder">Rådgivning</p>
             </div>
-        </nav>
+        </div>
     </section>
 
     <div class="divider">
@@ -99,8 +98,8 @@ require "settings/init.php";
                 <h3 id="webtilgaengelighed-heading">Webtilgængelighed</h3>
                 <p>
                     D. 28. juni 2025 trådte de nye regler fra EU i kraft vedrørende digital tilgængelighed og gælder
-                    digitale produkter og tjenesteydelse.
-                    Loven kommer til at påvirker både private virksomheder og offentlige udbydere, hvis de bruger
+                    digitale produkter og tjenesteydelser.
+                    Loven kommer til at påvirke både private virksomheder og offentlige udbydere, hvis de bruger
                     følgende
                     produkter eller tjenester:
                 </p>
@@ -114,16 +113,16 @@ require "settings/init.php";
                         <li class="my-2">Computere, smartphones og OS</li>
                     </ul>
                 </div>
-                <p>Derfor hjælper vi dig i gang med at optimere din hjemmesider, så den bliver mere tilgængelig og
+                <p>Derfor hjælper vi dig i gang med at optimere din hjemmeside, så den bliver mere tilgængelig og
                     brugervenlig for dine brugere og kunder.</p>
-                <button href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</button>
+                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4">Book tid for at høre mere</a>
             </div>
 
             <figure class="col-md-6">
                 <img src="img/webtilgaengelighed.png" class="img-fluid rounded" alt="Screenreader" loading="lazy">
                 <figcaption class="small mt-1">
-                    En person der sidder ved en screen reader <br>
-                    Fotograf: Jonathan Richard.
+                    En person der sidder ved en screen reader
+                    <p>Fotograf: Jonathan Richard</p>
                 </figcaption>
             </figure>
         </div>
@@ -133,16 +132,15 @@ require "settings/init.php";
         <div class="row gx-5">
             <div id="baeredygtig-kommunikation" class="col-md-6">
                 <h3 id="baeredygtig-kommunikation-heading">Bæredygtig kommunikation</h3>
-                <p>Når vi snakker bæredygtig kommunikation, så handler det om at sørger for at man som virksomhed har
-                    styr
-                    hvor man står henne, når det kommer til bæredygtighed.</p>
-                <p>Det hjælper ikke længere at skrive ”Vi er bæredygtige” eller ”Vi er CO2-neutrale”. Når vi leverer et
-                    produkt i dag, så skal vi også have papirerne og dokumentationen
-                    på, at der bliver gjort det vi siger, der bliver gjort. Det gælder i bund og grund om at tage
+                <p>Når vi snakker bæredygtig kommunikation, så handler det om at sørge for at man som virksomhed har
+                    styr på hvor man står henne, når det kommer til bæredygtighed.</p>
+                <p>Det hjælper ikke længere at skrive ”Vi er bæredygtige” eller ”Vi er CO2-neutrale”.
+                    Når vi leverer et produkt i dag, så skal vi også have papirerne og dokumentationen på, at det, vi
+                    siger, bliver gjort. Det gælder i bund og grund om at tage
                     ansvar,
                     for de påstande, der bliver lavet.</p>
                 <p>Hos Greenly hjælper vi dig på vej ved at guide dig igennem processen om at blive mere bæredygtig.</p>
-                <button href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</button>
+                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4">Book tid for at høre mere</a>
             </div>
             <figure class="col-md-6">
                 <img src="img/vindmoller.png" class="img-fluid rounded" alt="Vindmøller" loading="lazy">
@@ -157,16 +155,17 @@ require "settings/init.php";
         <div id="raadgivning" class="row gx-5">
             <div class="col-md-6">
                 <h3 id="raadgivning-heading">Rådgivning</h3>
-                <p>Hos Greenly sidder der dygtige designere og marketingsfolk, som har en masse erfaring med at designe,
-                    redesigne og rådgive privat- og offentlige virksomheder.
+                <p>Hos Greenly sidder der dygtige designere og marketingfolk, som har en masse erfaring med at designe,
+                    redesigne og rådgive private og offentlige virksomheder.
                     De vil hjælpe dig med dataindsamling, markedsanalyse og hjælpe dig med at lave en målrettet digital
                     strategi, så du kan finde det næste skridt for din virksomhed.</p>
                 <p>Book en tid hos os og hør nærmere om hvad vi kan gøre for dig.</p>
-                <button href="kontakt.php" class="btn btn-BNCsec p-3 my-4" aria-label="Book tid for at høre mere">Book tid for at høre mere</button>
+                <a href="kontakt.php" class="btn btn-BNCsec p-3 my-4">Book tid for at høre mere</a>
             </div>
 
             <figure class="col-md-6 order-md-1">
-                <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy" class="img-fluid rounded">
+                <img src="img/radgivning.png" alt="To kvinder, der sidder og snakker." loading="lazy"
+                     class="img-fluid rounded">
                 <figcaption class="small mt-1">
                     To kvinder, der sidder og snakker <br> Fotograf: Amy Hirschi.
                 </figcaption>
