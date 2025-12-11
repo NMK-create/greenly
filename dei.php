@@ -33,7 +33,7 @@ require "settings/init.php";
 <?php include("includes/navbar.php") ?>
 
 <header class="container mt-5">
-    <h1>DEI - Diversity, Equity & Inclusion</h1>
+    <h1><span lang="en">DEI - Diversity, Equity & Inclusion</span></h1>
     <p>Diversitet, Lighed & Inklusion</p>
 </header>
 
@@ -49,7 +49,7 @@ require "settings/init.php";
                 <article class="mb-5">
                     <h3>Hvad er DEI?</h3>
                     <p>DEI handler om at skabe miljøer, hvor alle mennesker – uanset baggrund, erfaring eller
-                        funktionsevne føler sig set, respekteret og har lige mulighed for at deltage og udvikle sig.
+                        funktionsevne, føler sig set respekteret og har lige mulighed for at deltage og udvikle sig.
                         Det er en strategisk tilgang, hvor organisationer aktivt anerkender forskelligheder og fjerner
                         barrierer, så alle kan bidrage på lige vilkår.</p>
                 </article>
@@ -64,30 +64,30 @@ require "settings/init.php";
                 <article class="mb-5">
                     <h3>Hvorfor er DEI vigtigt?</h3>
                     <p>Organisationer fungerer bedre, når alle føler sig hørt og respekteret. Mangfoldige teams træffer
-                        bedre beslutninger, performer bedre og bidrager til mere innovative løsninger. Samtidig
+                        bedre beslutninger, præsterer bedre og bidrager til mere innovative løsninger. Samtidig
                         forventer kunder, samarbejdspartnere og samfundet ansvarlighed og etik, og DEI sikrer, at disse
                         forventninger imødekommes på en meningsfuld måde.</p>
                 </article>
 
                 <article class="mb-5">
                     <h3>Hvordan implementerer vi DEI i vores virksomhed og hos vores kunder?</h3>
-                    <p>Vi arbejder med at integrere DEI-principper i både design, processer og kultur:
+                    <p>Vi arbejder med at integrere DEI-principper i både design, processer og kultur:</p>
 
                     <h4>Tilgængelige digitale løsninger:</h4>
                     <ul>
-                        <li>Vi følger WCAG og EAA-standarder for at sikre, at vores websites og digitale service kan
+                        <li>Vi følger WCAG og EAA-standarder for at sikre, at vores websites og digitale services kan
                             bruges af alle.
                         </li>
                     </ul>
 
                     <h4>Inkluderende team- og organisationsdesign:</h4>
                     <ul>
-                        <li>Vi sikrer diversitet og repræsentation på tværs af teams og projekter.</li>
+                        <li>Vi sikrer diversitet, og repræsentation på tværs af teams og projekter.</li>
                     </ul>
 
                     <h4>Proces- og kulturvurdering:</h4>
                     <ul>
-                        <li>Vi analyserer og justerer procedurer, praksisser og kultur for at fjerne barrierer.</li>
+                        <li>Vi analyserer og justerer procedurer, praksisser og kultur, for at fjerne barrierer.</li>
                     </ul>
                 </article>
 
@@ -116,11 +116,11 @@ require "settings/init.php";
                     <h3>Hvad begrænser DEI?</h3>
                     <p>DEI kan begrænses af:</p>
                     <ul>
-                        <li>Bias:<br>Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af
+                        <li><strong>Bias:</strong> Bevidste og ubevidste fordomme, der påvirker beslutninger og behandling af
                             mennesker.
                         </li>
-                        <li>Fastlåste strukturer og vaner:<br>Indgroede processer, der ekskluderer visse grupper.</li>
-                        <li>Manglende ressourcer eller ledelsesopbakning:<br>Uden engagement fra topledelsen kan
+                        <li><strong>Fastlåste strukturer og vaner:</strong> Processer, der ekskluderer visse grupper.</li>
+                        <li><strong>Manglende ressourcer eller ledelsesopbakning:</strong> Uden engagement fra topledelsen kan
                             indsatsen mislykkes.
                         </li>
                     </ul>
@@ -134,14 +134,14 @@ require "settings/init.php";
         <div class="col-lg-4">
             <aside class="dei-aside" aria-label="DEI illustrationer">
                 <figure class="text-center mb-5">
-                    <img src="img/Diversity.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                    <img src="img/Diversity.png" alt="Illustration af diversitet med farverige små cirkler"
                          class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">DI • VER • SI • TY<br><small>Alle de måder, hvorpå mennesker er
                             forskellige</small></figcaption>
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Equity.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                    <img src="img/Equity.png" alt="Illustration af lighed med farverige små cirkler"
                          class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">EQ • UI • TY<br><small>Retfærdig behandling, adgang og
                             muligheder for alle<br>
@@ -149,7 +149,7 @@ require "settings/init.php";
                 </figure>
 
                 <figure class="text-center mb-5">
-                    <img src="img/Inclusion.png" alt="Illustration af diversitet med forskellige farver af små cirkler"
+                    <img src="img/Inclusion.png" alt="Illustration af inklusion med farverige små cirkler"
                          class="img-fluid"/>
                     <figcaption class="mt-2 fw-semibold">IN • CLU • SION<br><small>Forskellige mennesker har
                             indflydelse,
@@ -172,7 +172,7 @@ require "settings/init.php";
         <div class="col-12 d-flex justify-content-center">
             <figure class="d-flex flex-column align-items-center mt-3">
                 <img src="img/Handicapmodel-Sort.png"
-                     alt="Illustration af den Sociale Handicapmodel"
+                     alt="Illustration af den sociale handicapmodel"
                      class="img-fluid dei-light scaled-img">
 
                 <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
