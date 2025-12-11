@@ -175,10 +175,6 @@ require "settings/init.php";
                      alt="Illustration af den Sociale Handicapmodel"
                      class="img-fluid dei-light scaled-img">
 
-                <img src="img/Handicapmodel-Hvid.png"
-                     alt="Illustration af den Sociale Handicapmodel"
-                     class="img-fluid dei-dark scaled-img">
-
                 <figcaption class="visually-hidden">Diagram over den Sociale Handicapmodel</figcaption>
             </figure>
         </div>
